@@ -1,3 +1,10 @@
+<? php
+  require('languages.php')
+    $lang = null;
+    if ( isset($_GET['lang']) ){
+      $lang = $_GET['lang'];
+    }
+?>
 <!DOCTYPE HTML>
 <html lang="es">
 <head>
@@ -13,7 +20,7 @@
 <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-<title>Proyectos, reformas y construcciones en Fuerteventura - Node Gestión</title>
+<title></title>
 
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
@@ -33,15 +40,15 @@
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="" class="active">Esp</a>
-        <a href="">Eng</a>
+        <a href="index.php?lang=es" class="active">Esp</a>
+        <a href="index.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
-          <a  href="/index.html">Inicio</a>
+          <a  href="/index.html"><?php echo __('Inicio', $lang)?></a>
         </li>
         <li>
-          <a href="/works.html">Trabajos</a>
+          <a href="/works.html"><?php echo __('Trabajos', $lang)?></a>
         </li>
       </ul>
       <div class="menu-footer right-boxed">
