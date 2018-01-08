@@ -110,7 +110,7 @@ include_once 'common.php';
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_A']; ?></span></div>
+                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_1']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
@@ -134,7 +134,7 @@ include_once 'common.php';
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title text-dark hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_B']; ?></span></div>
+                <div class="vertical-title text-dark hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_2']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
@@ -169,13 +169,13 @@ include_once 'common.php';
           </div>
         </div>
       </div>
-      <div class="pp-scrollable text-white section section-4">
+      <div class="pp-scrollable text-white section section-3">
         <div class="scroll-wrap">
           <div class="section-bg" style="background-image:url(images/bg/bg2-2-min.jpg);"></div>
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_C']; ?></span></div>
+                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
@@ -208,29 +208,29 @@ include_once 'common.php';
         </div>
       </div>
 
-      <div class="pp-scrollable section section-3">
+      <div class="pp-scrollable section section-4">
         <div class="scroll-wrap">
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title hidden-xs hidden-sm"><span>Nuestros trabajos</span></div>
+                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_4']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-12">
-                          <h2 class="title-uppercase">Ultimos proyectos</h2>
+                          <h2 class="title-uppercase"><?php echo $lang['TITLE_SECTION_4_1']; ?></h2>
                           <div class="row-project-box row">
                             <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
                               <div class="project-item item-shadow">
                                 <img alt="" class="img-responsive" src="proyectos/reforma-duplex/muro-pergola-reparado-min.JPG">
                                 <div class="project-hover">
                                   <div class="project-hover-content">
-                                    <h3 class="project-title">Reparaciones en duplex</h3>
-                                    <p class="project-description">Rehabilitación</p>
+                                    <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1']; ?></h3>
+                                    <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_1']; ?></p>
                                   </div>
                                 </div>
-                                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                                <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                               </div>
                             </div>
                             <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
@@ -238,11 +238,11 @@ include_once 'common.php';
                                 <img alt="" class="img-responsive" src="proyectos/fachada-piedra/fachada-piedra-min.JPG">
                                 <div class="project-hover">
                                   <div class="project-hover-content">
-                                    <h3 class="project-title">Revestimiento fachada</h3>
-                                    <p class="project-description">Rehabilitación</p>
+                                    <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_2']; ?></h3>
+                                    <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_2']; ?></p>
                                   </div>
                                 </div>
-                                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                                <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                               </div>
                             </div>
                             <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
@@ -250,11 +250,11 @@ include_once 'common.php';
                                 <img alt="" class="img-responsive" src="proyectos/cuarto-apero/cuarto-apero-min.JPG">
                                 <div class="project-hover">
                                   <div class="project-hover-content">
-                                    <h3 class="project-title">Cuatro Apero</h3>
-                                    <p class="project-description">Construcción</p>
+                                    <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_3']; ?></h3>
+                                    <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_3']; ?></p>
                                   </div>
                                 </div>
-                                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                                <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                               </div>
                             </div>
                             <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
@@ -262,11 +262,11 @@ include_once 'common.php';
                                 <img alt="" class="img-responsive" src="proyectos/reforma-baño/baño-min.jpg">
                                 <div class="project-hover">
                                   <div class="project-hover-content">
-                                    <h3 class="project-title">Renovación de baño</h3>
-                                    <p class="project-description">Reforma</p>
+                                    <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_4']; ?></h3>
+                                    <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_4']; ?></p>
                                   </div>
                                 </div>
-                                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                                <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                               </div>
                             </div>
                           </div>

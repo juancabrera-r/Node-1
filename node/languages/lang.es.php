@@ -22,13 +22,13 @@ $lang['ADDRESS_CONTACT'] = 'Contacto: ';
 $lang['ADDRESS_CONTACT_PHONE'] = '828 908 650';
 
 // SECTION-1
-$lang['VERTICAL_MENU_A'] = 'Introducción';
+$lang['VERTICAL_MENU_1'] = 'Introducción';
 $lang['SUBTITLE'] = 'Bienvenido a';
 $lang['LEMA_1'] = 'Su estudio y constructora de ';
 $lang['LEMA_2'] = 'confianza';
 
 // SECTION-2
-$lang['VERTICAL_MENU_B'] = 'Lo que hacemos';
+$lang['VERTICAL_MENU_2'] = 'Lo que hacemos';
 $lang['TITLE_SECTION_2_1'] = 'Nuestros servicios';
 $lang['TITLE_SECTION_2_2'] = ' proyectos & ejecución';
 $lang['TITLE_SECTION_2_3'] = ' de obras e instalaciones';
@@ -43,7 +43,7 @@ $lang['LEMA_SECTION_2_2'] = 'por sus ';
 $lang['LEMA_SECTION_2_3'] = 'intereses';
 
 // SECTION-3
-$lang['VERTICAL_MENU_C'] = 'Producto especial';
+$lang['VERTICAL_MENU_3'] = 'Producto especial';
 $lang['TITLE_SECTION_3_1'] = 'Tratamiento contra';
 $lang['TITLE_SECTION_3_2'] = ' humedades';
 $lang['TITLE_SECTION_3_3'] = ' ocasionadas por:';
@@ -54,4 +54,16 @@ $lang['LEMA_SECTION_3_1'] = 'Años';
 $lang['LEMA_SECTION_3_2'] = 'de ';
 $lang['LEMA_SECTION_3_3'] = 'garantía';
 
+// SECTION-4
+$lang['VERTICAL_MENU_4'] = 'Nuestros trabajos';
+$lang['LINK_ARROW'] = 'Ver proyecto';
+$lang['TITLE_SECTION_4_1'] = 'Ultimos proyectos';
+$lang['PROJECT_TITLE_1'] = 'Reparaciones en duplex';
+$lang['PROJECT_DESCRIPTION_1'] = 'Rehabilitación';
+$lang['PROJECT_TITLE_2'] = 'Revestimiento fachada';
+$lang['PROJECT_DESCRIPTION_2'] = 'Rehabilitación';
+$lang['PROJECT_TITLE_3'] = 'Cuatro Apero';
+$lang['PROJECT_DESCRIPTION_3'] = 'Construcción';
+$lang['PROJECT_TITLE_4'] = 'Renovación de baño';
+$lang['PROJECT_DESCRIPTION_4'] = 'Reforma';
 ?>
