@@ -1,16 +1,13 @@
-<? php
-  require('languages.php')
-    $lang = null;
-    if ( isset($_GET['lang']) ){
-      $lang = $_GET['lang'];
-    }
+<?php
+include_once 'common.php';
 ?>
+
 <!DOCTYPE HTML>
 <html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Realizamos proyectos, reformas y construcciones en Fuerteventura. Gestionamos todo el proceso para reducir los costes." />
+<meta name="description" content="<?php echo $lang['META_DESCRIPTION']; ?>" />
 <meta  charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,7 +17,7 @@
 <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-<title></title>
+<title>Node</title>
 
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
@@ -40,22 +37,21 @@
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="index.php?lang=es" class="active">Esp</a>
+        <a href="index.php?lang=es">Esp</a>
         <a href="index.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
-          <a  href="/index.html"><?php echo __('Inicio', $lang)?></a>
         </li>
         <li>
-          <a href="/works.html"><?php echo __('Trabajos', $lang)?></a>
+
         </li>
       </ul>
       <div class="menu-footer right-boxed">
         <div class="social-list">
           <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
         </div>
-        <div class="copy">© COGESA S.L. 2017. Todos los derechos reservados</div>
+        <div class="copy"><?php echo $lang['MENU_FOOTER']; ?></div>
       </div>
     </div>
 
@@ -120,7 +116,7 @@
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-8 col-lg-6">
-                          <p class="subtitle-top">Bienvenido a<br>NODE GESTIÓN</p>
+                          <p class="subtitle-top"> <?php echo $lang['SUBTITLE']; ?></p>
                           <h1 class="display-2 text-white">Su estudio y constructora de <span class="text-primary">confianza</span></h1>
                           <div class="hr-bottom"></div>
                         </div>
