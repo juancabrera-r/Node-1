@@ -13,6 +13,8 @@ $lang['META_DESCRIPTION'] = 'Realizamos proyectos, reformas y construcciones en 
 // Menu
 
 $lang['MENU_FOOTER'] = '© COGESA S.L. 2017. Todos los derechos reservados';
+$lang['MENU_INDEX'] = 'Inicio';
+$lang['MENU_WORKS'] = 'Trabajos';
 
 // Navbar
 $lang['MENU_BRAND_TEXT'] = 'CONSTRUCCIÓN, ARQUITECTURA E INGENIERÍA';
@@ -92,6 +94,6 @@ $lang['WE_ARE'] = 'Donde nos encontramos';
 $lang['ADMINISTRATION_NAME'] = 'Administración';
 $lang['OBRAS_NAME'] = 'Obras';
 $lang['OFFICE'] = 'Oficina';
-$lang['ADDRESS_FOOTER'] = 'Contacto';
+$lang['ADDRESS_FOOTER'] = 'Dirección';
 
 ?>
