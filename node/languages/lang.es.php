@@ -86,4 +86,12 @@ $lang['TESTIMONIO_3_NAME'] = 'Silvana';
 $lang['TESTIMONIO_3_DESCRIPTION_WORK'] = 'Reparación en duplex.';
 $lang['TESTIMONIO_3_FUENTE'] = ' Post en Facebook';
 
+// SECTION-6
+$lang['VERTICAL_MENU_6'] = 'Contacto';
+$lang['WE_ARE'] = 'Donde nos encontramos';
+$lang['ADMINISTRATION_NAME'] = 'Administración';
+$lang['OBRAS_NAME'] = 'Obras';
+$lang['OFFICE'] = 'Oficina';
+$lang['ADDRESS_FOOTER'] = 'Contacto';
+
 ?>

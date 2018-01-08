@@ -349,7 +349,7 @@ include_once 'common.php';
                     <div class="intro overflow-hidden">
                       <div class="row">
                         <div class="col-md-12">
-                          <h2 class="title-uppercase">Donde nos encontramos</h2>
+                          <h2 class="title-uppercase"><?php echo $lang['WE_ARE']; ?></h2>
                           <div id="map" class="map-2"></div>
                           <div class="contact-info">
                             <div class="row-contact-info row">
@@ -358,11 +358,11 @@ include_once 'common.php';
                                   <h3 class="col-sm-3 col-md-4">Email</h3>
                                   <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
-                                      <strong class="text-dark">Administración</strong><br>
+                                      <strong class="text-dark"><?php echo $lang['ADMINISTRATION_NAME']; ?></strong><br>
                                       info@nodegestion.es
                                     </div>
                                     <div class="contact-info-row col-sm-6 col-md-12 ">
-                                      <strong class="text-dark">Obras</strong><br>
+                                      <strong class="text-dark"><?php echo $lang['OBRAS_NAME']; ?></strong><br>
                                       obras@nodegestion.es
                                     </div>
                                   </div>
@@ -373,7 +373,7 @@ include_once 'common.php';
                                   <h3 class="col-sm-3 col-md-4">Tlf.</h3>
                                   <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
-                                      <strong class="text-dark">Oficina</strong><br>
+                                      <strong class="text-dark"><?php echo $lang['OFFICE']; ?></strong><br>
                                       828 908 650
                                     </div>
                                   </div>
