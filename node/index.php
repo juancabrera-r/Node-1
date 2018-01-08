@@ -175,18 +175,18 @@ include_once 'common.php';
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title hidden-xs hidden-sm"><span>Producto especial</span></div>
+                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_C']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-5 col-lg-5">
                           <!--  <p class="subtitle-top text-dark">Nuestro producto especial</p>-->
-                          <h2 class="title-uppercase text-white">Tratamiento contra<br> <span class="text-primary"> humedades</span> ocasionadas por:</h2>
+                          <h2 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_1']; ?><br> <span class="text-primary"><?php echo $lang['TITLE_SECTION_3_2']; ?></span><?php echo $lang['TITLE_SECTION_3_3']; ?></h2>
                           <ul class="service-list">
-                            <li><a href="">01.  Capilaridad</a></li>
-                            <li><a href="">02.  Filtración</a></li>
-                            <li><a href="">03.  Condensación</a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_SECTION_3_1']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_SECTION_3_2']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_SECTION_3_3']; ?></a></li>
                           </ul>
                         </div>
                         <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
@@ -194,7 +194,7 @@ include_once 'common.php';
                             <div class="dots"></div>
                             <div class="experience-info">
                               <div class="number text-white">10</div>
-                              <div class="text text-white ">Años <br>de<br> garantía</div>
+                              <div class="text text-white "><?php echo $lang['LEMA_SECTION_3_1']; ?><br><?php echo $lang['LEMA_SECTION_3_2']; ?><br><?php echo $lang['LEMA_SECTION_3_3']; ?></div>
                             </div>
                           </div>
                         </div>

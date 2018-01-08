@@ -21,13 +21,13 @@ $lang['MENU_BRAND_TEXT'] = 'CONSTRUCCIÓN, ARQUITECTURA E INGENIERÍA';
 $lang['ADDRESS_CONTACT'] = 'Contacto: ';
 $lang['ADDRESS_CONTACT_PHONE'] = '828 908 650';
 
-// FIRST PAGE
+// SECTION-1
 $lang['VERTICAL_MENU_A'] = 'Introducción';
 $lang['SUBTITLE'] = 'Bienvenido a';
 $lang['LEMA_1'] = 'Su estudio y constructora de ';
 $lang['LEMA_2'] = 'confianza';
 
-// SECON PAGE
+// SECTION-2
 $lang['VERTICAL_MENU_B'] = 'Lo que hacemos';
 $lang['TITLE_SECTION_2_1'] = 'Nuestros servicios';
 $lang['TITLE_SECTION_2_2'] = ' proyectos & ejecución';
@@ -42,5 +42,16 @@ $lang['LEMA_SECTION_2_1'] = 'Trabajamos ';
 $lang['LEMA_SECTION_2_2'] = 'por sus ';
 $lang['LEMA_SECTION_2_3'] = 'intereses';
 
+// SECTION-3
+$lang['VERTICAL_MENU_C'] = 'Producto especial';
+$lang['TITLE_SECTION_3_1'] = 'Tratamiento contra';
+$lang['TITLE_SECTION_3_2'] = ' humedades';
+$lang['TITLE_SECTION_3_3'] = ' ocasionadas por:';
+$lang['SERVICE_SECTION_3_1'] = '01.  Capilaridad';
+$lang['SERVICE_SECTION_3_2'] = '02.  Filtración';
+$lang['SERVICE_SECTION_3_3'] = '03.  Condensación';
+$lang['LEMA_SECTION_3_1'] = 'Años';
+$lang['LEMA_SECTION_3_2'] = 'de ';
+$lang['LEMA_SECTION_3_3'] = 'garantía';
 
 ?>
