@@ -66,4 +66,24 @@ $lang['PROJECT_TITLE_3'] = 'Cuatro Apero';
 $lang['PROJECT_DESCRIPTION_3'] = 'Construcción';
 $lang['PROJECT_TITLE_4'] = 'Renovación de baño';
 $lang['PROJECT_DESCRIPTION_4'] = 'Reforma';
+
+// SECTION-5
+$lang['VERTICAL_MENU_5'] = 'Testimonios';
+$lang['LEMA_SECTION_5'] = 'Confianza y calidad son las palabras que nos definen ';
+$lang['TESTIMONIO_1_TEXT_1'] = '“ Muy buen trabajo realizado por NODE GESTION. Serios, puntuales, respetuosos, rápidos, eficientes y limpios.';
+$lang['TESTIMONIO_1_TEXT_2'] = ' Muy recomendables a todas aquellas personas que estén pensando en hacer obras en su casa. Se puede comprobar que les gusta su trabajo y se esmeran por hacerlo muy bien."';
+$lang['TESTIMONIO_1_NAME'] = 'Silvana';
+$lang['TESTIMONIO_1_DESCRIPTION_WORK'] = 'Reparación en duplex.';
+$lang['TESTIMONIO_1_FUENTE'] = ' Post en Facebook';
+$lang['TESTIMONIO_2_TEXT_1'] = '“ Muy buen trabajo realizado por NODE GESTION. Serios, puntuales, respetuosos, rápidos, eficientes y limpios.';
+$lang['TESTIMONIO_2_TEXT_2'] = ' Muy recomendables a todas aquellas personas que estén pensando en hacer obras en su casa. Se puede comprobar que les gusta su trabajo y se esmeran por hacerlo muy bien."';
+$lang['TESTIMONIO_2_NAME'] = 'Silvana';
+$lang['TESTIMONIO_2_DESCRIPTION_WORK'] = 'Reparación en duplex.';
+$lang['TESTIMONIO_2_FUENTE'] = ' Post en Facebook';
+$lang['TESTIMONIO_3_TEXT_1'] = '“ Muy buen trabajo realizado por NODE GESTION. Serios, puntuales, respetuosos, rápidos, eficientes y limpios.';
+$lang['TESTIMONIO_3_TEXT_2'] = ' Muy recomendables a todas aquellas personas que estén pensando en hacer obras en su casa. Se puede comprobar que les gusta su trabajo y se esmeran por hacerlo muy bien."';
+$lang['TESTIMONIO_3_NAME'] = 'Silvana';
+$lang['TESTIMONIO_3_DESCRIPTION_WORK'] = 'Reparación en duplex.';
+$lang['TESTIMONIO_3_FUENTE'] = ' Post en Facebook';
+
 ?>

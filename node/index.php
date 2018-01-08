@@ -287,45 +287,44 @@ include_once 'common.php';
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title hidden-xs hidden-sm"><span>Testimonios</span></div>
+                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_5']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-6 col-lg-5">
                           <span class="icon-quote ion-quote"></span>
-                          <h2 class="title-uppercase-2">Confianza y calidad son las palabras que nos definen</h2>
+                          <h2 class="title-uppercase-2"><?php echo $lang['LEMA_SECTION_5']; ?></h2>
                         </div>
                         <div class="col-md-5 col-lg-5  col-md-offset-1 col-lg-offset-2">
                           <div class="review-carousel owl-carousel">
                             <div class="review-carousel-item">
                               <div class="text">
-                              <p>“ Muy buen trabajo realizado por NODE GESTION. Serios, puntuales, respetuosos, rápidos, eficientes y limpios.</p>
-                              <p> Muy recomendables a todas aquellas personas que estén pensando en hacer obras en su casa. Se puede comprobar que les gusta su trabajo y se esmeran por hacerlo muy bien."</p>
+                              <p><?php echo $lang['TESTIMONIO_1_TEXT_1']; ?></p>
+                              <p><?php echo $lang['TESTIMONIO_1_TEXT_2']; ?></p>
                               </div>
                               <div class="review-author">
-                                <div class="author-name">Silvana</div>
-                                <i>Reparación en duplex.<br> Post en Facebook</i>
+                                <div class="author-name"><?php echo $lang['TESTIMONIO_1_NAME']; ?></div>
+                                <i><?php echo $lang['TESTIMONIO_1_DESCRIPTION_WORK']; ?><br><?php echo $lang['TESTIMONIO_1_FUENTE']; ?></i>
                               </div>
                             </div>
                             <div class="review-carousel-item">
                               <div class="text">
-                              <p>“  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptates officia molestias fugit ipsum, blanditiis minima voluptatibus sit in laudantium doloribus, illum, reiciendis similique distinctio asperiores earum dolore eveniet eius."</p>
-                              <p> Thank you so much for all your design and expertise."</p>
+                              <p><?php echo $lang['TESTIMONIO_2_TEXT_1']; ?></p>
+                              <p><?php echo $lang['TESTIMONIO_2_TEXT_2']; ?></p>
                               </div>
                               <div class="review-author">
-                                <div class="author-name">Amanda</div>
-                                <i>Apartment view lake at Brooklyn</i>
+                                <div class="author-name"><?php echo $lang['TESTIMONIO_2_NAME']; ?></div>
+                                <i><?php echo $lang['TESTIMONIO_2_DESCRIPTION_WORK']; ?><br><?php echo $lang['TESTIMONIO_2_FUENTE']; ?></i>
                               </div>
                             </div>
                             <div class="review-carousel-item">
                               <div class="text">
-                              <p>“ If you are seeking an Interior designer that will understand exactly your needs, and someone who will utilise their creative and technical skills in parity with your taste, then Suzanne at The Bauhaus Studio is perfect.</p>
-                              <p> Thank you so much for all your design and expertise."</p>
-                              </div>
+                                <p><?php echo $lang['TESTIMONIO_3_TEXT_1']; ?></p>
+                                <p><?php echo $lang['TESTIMONIO_3_TEXT_2']; ?></p>                              </div>
                               <div class="review-author">
-                                <div class="author-name">John</div>
-                                <i>Apartment view lake at Brooklyn</i>
+                                <div class="author-name"><?php echo $lang['TESTIMONIO_3_NAME']; ?></div>
+                                <i><?php echo $lang['TESTIMONIO_3_DESCRIPTION_WORK']; ?><br><?php echo $lang['TESTIMONIO_3_FUENTE']; ?></i>
                               </div>
                             </div>
                           </div>
@@ -344,7 +343,7 @@ include_once 'common.php';
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title text-dark hidden-xs hidden-sm contact-span"><span>Contacto</span></div>
+                <div class="vertical-title text-dark hidden-xs hidden-sm contact-span"><span><?php echo $lang['VERTICAL_MENU_6']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro overflow-hidden">
