@@ -70,10 +70,10 @@ include_once 'common.php';
         <img id="logo" class="brand-img-white" alt="" src="images/brand-white-2.png">
         <div class="brand-info">
           <!--<div class="brand-name">NODE GESTIÓN</div>-->
-          <div class="brand-text">CONSTRUCCIÓN, ARQUITECTURA E INGENIERÍA</div>
+          <div class="brand-text"><?php echo $lang['MENU_BRAND_TEXT']; ?></div>
         </div>
       </a>
-      <address class="navbar-address visible-lg">Contacto: <span class="text-dark">828 908 650</span></address>
+      <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark"><?php echo $lang['ADDRESS_CONTACT_PHONE']; ?></span></address>
       <div class="social-list hidden-xs">
         <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
       </div>
@@ -81,8 +81,8 @@ include_once 'common.php';
     <div class="copy-bottom white boxed">© COGESA S.L. 2017.</div>
     <div class="lang-bottom white boxed">
       <div class="menu-lang">
-        <a href="" class="active">Esp</a>
-        <a href="">Eng</a>
+        <a href="index.php?lang=es">Esp</a>
+        <a href="index.php?lang=en">Eng</a>
       </div>
     </div>
     <div class="pagepiling">
@@ -110,14 +110,14 @@ include_once 'common.php';
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title hidden-xs hidden-sm"><span>Introducción</span></div>
+                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_A']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-8 col-lg-6">
-                          <p class="subtitle-top"> <?php echo $lang['SUBTITLE']; ?></p>
-                          <h1 class="display-2 text-white">Su estudio y constructora de <span class="text-primary">confianza</span></h1>
+                          <p class="subtitle-top"> <?php echo $lang['SUBTITLE']; ?><br>NODE GESTIÓN</p>
+                          <h1 class="display-2 text-white"><?php echo $lang['LEMA_1']; ?><span class="text-primary"><?php echo $lang['LEMA_2']; ?></span></h1>
                           <div class="hr-bottom"></div>
                         </div>
                       </div>
@@ -134,20 +134,20 @@ include_once 'common.php';
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title text-dark hidden-xs hidden-sm"><span>Lo que hacemos</span></div>
+                <div class="vertical-title text-dark hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_B']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-5 col-lg-5">
-                          <h2 class="title-uppercase">Nuestros servicios<br> <span class="text-primary"> proyectos & ejecución</span> de obras e instalaciones</h2>
+                          <h2 class="title-uppercase"><?php echo $lang['TITLE_SECTION_2_1']; ?><br> <span class="text-primary"><?php echo $lang['TITLE_SECTION_2_2']; ?></span><?php echo $lang['TITLE_SECTION_2_3']; ?></h2>
                           <ul class="service-list">
-                            <li><a href="">01.  Proyectos de arquitectura</a></li>
-                            <li><a href="">02.  Proyectos de ingeniería</a></li>
-                            <li><a href="">03.  Construcción</a></li>
-                            <li><a href="">04.  Reformas & Rehabilitación</a></li>
-                            <li><a href="">05.  Tratamiento contra humedades</a></li>
-                            <li><a href="">06.  Consultoría técnica</a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_1']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_2']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_3']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_4']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_5']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_6']; ?></a></li>
                           </ul>
                         </div>
                         <div class="col-md-4 col-lg-5 col-md-offset-2 col-lg-offset-2">
@@ -156,7 +156,7 @@ include_once 'common.php';
                             <div class="dots"></div>
                             <div class="experience-info">
                               <!--<div class="number">24</div>-->
-                              <div class="text">Trabajamos <br>por sus<br> intereses</div>
+                              <div class="text"><?php echo $lang['LEMA_SECTION_2_1']; ?><br><?php echo $lang['LEMA_SECTION_2_2']; ?><br><?php echo $lang['LEMA_SECTION_2_3']; ?></div>
                             </div>
                           </div>
                         </div>
