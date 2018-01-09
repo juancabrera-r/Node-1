@@ -118,6 +118,7 @@ include_once 'common.php';
                 </div>
               </div>
           </div>
+
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
@@ -140,7 +141,8 @@ include_once 'common.php';
           </div>
         </div>
       </div>
-      <div class="pp-scrollable section section-2">
+
+      <div class="pp-scrollable section section-1">
         <div class="scroll-wrap">
           <div class="scrollable-content">
             <div class="vertical-centred">
@@ -180,10 +182,11 @@ include_once 'common.php';
           </div>
         </div>
       </div>
-      <div class="pp-scrollable text-white section section-3">
+
+      <div class="pp-scrollable text-white section section-1">
         <div class="scroll-wrap">
           <div class="section-bg" style="background-image:url(images/bg/bg2-2-min.jpg);"></div>
-          <div class="scrollable-content">
+          <div class="scrollable-content ">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
                 <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
@@ -219,7 +222,7 @@ include_once 'common.php';
         </div>
       </div>
 
-      <div class="pp-scrollable section section-4">
+      <div class="pp-scrollable section section-1">
         <div class="scroll-wrap">
           <div class="scrollable-content">
             <div class="vertical-centred">
@@ -292,7 +295,8 @@ include_once 'common.php';
           </div>
         </div>
       </div>
-      <div class="pp-scrollable section section-4">
+
+      <div class="pp-scrollable text-white section section-4">
         <div class="scroll-wrap">
           <div class="section-bg" style="background-image:url(images/bg/bg3.png);"></div>
           <div class="scrollable-content">
@@ -349,8 +353,8 @@ include_once 'common.php';
           </div>
         </div>
       </div>
-      <div class="pp-scrollable section section-5">
-        <div class="scroll-wrap">
+      <div class="pp-scrollable section section-1">
+        <div class="scroll-wrap bg-dots">
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
