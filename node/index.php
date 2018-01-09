@@ -45,7 +45,7 @@ include_once 'common.php';
           <a  href="./index.php"><?php echo $lang['MENU_INDEX']; ?></a>
         </li>
         <li>
-          <a  href="./works.html"><?php echo $lang['MENU_WORKS']; ?></a>
+          <a  href="./works.php"><?php echo $lang['MENU_WORKS']; ?></a>
         </li>
       </ul>
       <div class="menu-footer right-boxed">

@@ -734,6 +734,13 @@ a.brand:focus{
   margin-top: -0.3rem;
 }
 
+.brand-text-black{
+  color: black;
+  font-size: 0.857rem;
+  font-weight: 300;
+  margin-top: -0.3rem;
+
+}
 .navbar-toggle{
   display: block;
   margin:0;
@@ -792,6 +799,12 @@ a.brand:focus{
   text-transform: uppercase;
 }
 
+.navbar-address-black{
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
 
 
 /* 2.2 Navbar affix */
@@ -2624,10 +2637,10 @@ a.brand:focus{
   position: absolute;
   bottom: 2.71rem;
   color: #000;
-  -webkit-transform: translateX(-2rem);
-  -ms-transform: translateX(-2rem);
-  -o-transform: translateX(-2rem);
-  transform: translateX(-2rem);
+  -webkit-transform: translateX(-1rem);
+  -ms-transform: translateX(-1rem);
+  -o-transform: translateX(-1rem);
+  transform: translateX(-1rem);
   -webkit-transition: 0.3s ease;
   -o-transition: 0.3s ease;
   transition: 0.3s ease;
@@ -3634,6 +3647,8 @@ a.brand:focus{
 
 .footer-flex{
   margin-top: -4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3647,7 +3662,7 @@ a.brand:focus{
 }
 
 .footer-flex .flex-item{
-  margin-top: 4rem;
+  margin-top: 1rem;
   -webkit-flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
@@ -3879,7 +3894,7 @@ a.brand:focus{
 
 
   .page-header{
-    margin:12.8rem 0 10.8rem;
+    margin:12.8rem 0 5.8rem;
   }
 
   .page-header-2{
@@ -4098,4 +4113,5 @@ a.brand:focus{
 
 .contact-span{
   top:14.45rem;
+}
 }

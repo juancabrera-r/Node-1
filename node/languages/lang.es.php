@@ -6,6 +6,7 @@ Language: Spanish
 */
 $lang = array();
 
+//INDEX
 // Meta
 
 $lang['META_DESCRIPTION'] = 'Realizamos proyectos, reformas y construcciones en Fuerteventura. Gestionamos todo el proceso para reducir los costes.';
@@ -95,5 +96,42 @@ $lang['ADMINISTRATION_NAME'] = 'Administración';
 $lang['OBRAS_NAME'] = 'Obras';
 $lang['OFFICE'] = 'Oficina';
 $lang['ADDRESS_FOOTER'] = 'Dirección';
+
+
+//WORKS
+
+$lang['WORKS_MAIN_TITLE'] = 'NUESTROS TRABAJOS';
+$lang['WORKS_CATEGORY_0'] = 'Todos';
+$lang['WORKS_CATEGORY_1'] = 'Proyectos';
+$lang['WORKS_CATEGORY_2'] = 'Construcción';
+$lang['WORKS_CATEGORY_3'] = 'Reformas';
+$lang['WORKS_CATEGORY_4'] = 'Rehabilitaciones';
+$lang['WORKS_CATEGORY_5'] = 'Instalaciones/Domótica';
+
+//Projects
+$lang['PROJECT_TITLE_1_1'] = 'Triangle';
+$lang['PROJECT_TITLE_1_2'] = 'Concrete House';
+$lang['PROJECT_TITLE_1_3'] = 'On Lake';
+$lang['PROJECT_DESCRIPTION_1'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
+
+$lang['PROJECT_TITLE_2_1'] = 'Triangle';
+$lang['PROJECT_TITLE_2_2'] = 'Concrete House';
+$lang['PROJECT_TITLE_2_3'] = 'On Lake';
+$lang['PROJECT_DESCRIPTION_2'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
+
+$lang['PROJECT_TITLE_3_1'] = 'Triangle';
+$lang['PROJECT_TITLE_3_2'] = 'Concrete House';
+$lang['PROJECT_TITLE_3_3'] = 'On Lake';
+$lang['PROJECT_DESCRIPTION_3'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
+
+$lang['PROJECT_TITLE_4_1'] = 'Triangle';
+$lang['PROJECT_TITLE_4_2'] = 'Concrete House';
+$lang['PROJECT_TITLE_4_3'] = 'On Lake';
+$lang['PROJECT_DESCRIPTION_4'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
+
+$lang['PROJECT_TITLE_5_1'] = 'Triangle';
+$lang['PROJECT_TITLE_5_2'] = 'Concrete House';
+$lang['PROJECT_TITLE_5_3'] = 'On Lake';
+$lang['PROJECT_DESCRIPTION_5'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
 
 ?>
