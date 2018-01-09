@@ -16,6 +16,7 @@ $lang['META_DESCRIPTION'] = 'Realizamos proyectos, reformas y construcciones en 
 $lang['MENU_FOOTER'] = '© COGESA S.L. 2017. Todos los derechos reservados';
 $lang['MENU_INDEX'] = 'Inicio';
 $lang['MENU_WORKS'] = 'Trabajos';
+$lang['MENU_CONTACT'] = 'Contacto';
 
 // Navbar
 $lang['MENU_BRAND_TEXT'] = 'CONSTRUCCIÓN, ARQUITECTURA E INGENIERÍA';
@@ -153,5 +154,25 @@ $lang['PROJECT_DESCRIPTION_8'] = 'Lorem ipsum dolor sit amet, consectetur adipil
 //PROJECT_1
 $lang['PROJECT_1_TITLE'] = 'architecture & interior';
 $lang['PROJECT_1_SUBTITLE'] = 'Small House Near Wroclaw';
+
+
+
+//CONTACTO
+$lang['CONTACT_TITLE'] = 'Te invitamos a un café';
+$lang['CONTACT_COUNTRY'] = 'España';
+$lang['CONTACT_CALL'] = 'Llamada directa:';
+$lang['CONTACT_HOURS'] = 'Horario  atención al público:';
+$lang['CONTACT_DAYS'] = 'Lunes - Viernes:';
+$lang['CONTACT_FOLLOW'] = 'Siganos:';
+$lang['CONTACT_HELP'] = '¿Necesitas ayuda?:';
+$lang['CONTACT_EMAIL_NAME'] = 'Nombre*';
+$lang['CONTACT_EMAIL_EMAIL'] = 'Email*';
+$lang['CONTACT_EMAIL_SUBJECT'] = 'Asunto';
+$lang['CONTACT_EMAIL_MESSAGE'] = 'Mensaje*';
+$lang['CONTACT_EMAIL_SEND'] = 'Enviar';
+$lang['CONTACT_EMAIL_OK'] = 'Gracias!. Su mensaje ha sido enviado correctamente.';
+$lang['CONTACT_EMAIL_FAIL'] = 'Lo siento, su mensaje no se ha podido enviar correctamente.';
+
+
 
 ?>

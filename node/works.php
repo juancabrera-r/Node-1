@@ -47,10 +47,14 @@ include_once 'common.php';
         <li>
           <a  href="./works.php"><?php echo $lang['MENU_WORKS']; ?></a>
         </li>
+        <li>
+          <a  href="./contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
+        </li>
       </ul>
       <div class="menu-footer right-boxed">
         <div class="social-list">
           <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
+          <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
         </div>
         <div class="copy"><?php echo $lang['MENU_FOOTER']; ?></div>
       </div>
@@ -77,6 +81,8 @@ include_once 'common.php';
       <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark"><?php echo $lang['ADDRESS_CONTACT_PHONE']; ?></span></address>
       <div class="social-list hidden-xs">
         <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target=""></a>
+        <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
+
       </div>
     </header>
 
