@@ -134,4 +134,24 @@ $lang['PROJECT_TITLE_5_2'] = 'Concrete House';
 $lang['PROJECT_TITLE_5_3'] = 'On Lake';
 $lang['PROJECT_DESCRIPTION_5'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
 
+$lang['PROJECT_TITLE_6_1'] = 'Triangle';
+$lang['PROJECT_TITLE_6_2'] = 'Concrete House';
+$lang['PROJECT_TITLE_6_3'] = 'On Lake';
+$lang['PROJECT_DESCRIPTION_6'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
+
+$lang['PROJECT_TITLE_7_1'] = 'Triangle';
+$lang['PROJECT_TITLE_7_2'] = 'Concrete House';
+$lang['PROJECT_TITLE_7_3'] = 'On Lake';
+$lang['PROJECT_DESCRIPTION_7'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
+
+$lang['PROJECT_TITLE_8_1'] = 'Triangle';
+$lang['PROJECT_TITLE_8_2'] = 'Concrete House';
+$lang['PROJECT_TITLE_8_3'] = 'On Lake';
+$lang['PROJECT_DESCRIPTION_8'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
+
+
+//PROJECT_1
+$lang['PROJECT_1_TITLE'] = 'architecture & interior';
+$lang['PROJECT_1_SUBTITLE'] = 'Small House Near Wroclaw';
+
 ?>

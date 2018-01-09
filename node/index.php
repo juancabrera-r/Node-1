@@ -231,7 +231,7 @@ include_once 'common.php';
                                     <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_1']; ?></p>
                                   </div>
                                 </div>
-                                <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                                <a href="works.php" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                               </div>
                             </div>
                             <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
@@ -243,7 +243,7 @@ include_once 'common.php';
                                     <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_2']; ?></p>
                                   </div>
                                 </div>
-                                <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                                <a href="works.php" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                               </div>
                             </div>
                             <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
@@ -255,7 +255,7 @@ include_once 'common.php';
                                     <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_3']; ?></p>
                                   </div>
                                 </div>
-                                <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                                <a href="works.php" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                               </div>
                             </div>
                             <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
@@ -267,7 +267,7 @@ include_once 'common.php';
                                     <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_4']; ?></p>
                                   </div>
                                 </div>
-                                <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                                <a href="works.php" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                               </div>
                             </div>
                           </div>

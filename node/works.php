@@ -100,6 +100,7 @@ include_once 'common.php';
             </ul>
           </div>
         </div>
+
         <!-- PROYECTO 1 -->
         <div class="grid-items js-isotope js-grid-items">
           <div class="grid-item proyecto js-isotope-item js-grid-item">
@@ -111,9 +112,10 @@ include_once 'common.php';
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_1']; ?></p>
                 </div>
               </div>
-              <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
             </div>
           </div>
+
           <!-- PROYECTO 2 -->
           <div class="grid-item proyecto js-isotope-item js-grid-item">
             <div class="project-item item-shadow">
@@ -124,9 +126,10 @@ include_once 'common.php';
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_2']; ?></p>
                 </div>
               </div>
-              <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+            <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
             </div>
           </div>
+
           <!-- PROYECTO 3 -->
           <div class="grid-item construcciones js-isotope-item js-grid-item">
             <div class="project-item item-shadow">
@@ -137,9 +140,10 @@ include_once 'common.php';
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_3']; ?></p>
                 </div>
               </div>
-              <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
             </div>
           </div>
+
           <!-- PROYECTO 4 -->
           <div class="grid-item construcciones js-isotope-item js-grid-item">
             <div class="project-item item-shadow">
@@ -150,7 +154,7 @@ include_once 'common.php';
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_4']; ?></p>
                 </div>
               </div>
-              <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
             </div>
           </div>
 
@@ -164,7 +168,7 @@ include_once 'common.php';
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_5']; ?></p>
                 </div>
               </div>
-              <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
             </div>
           </div>
 
@@ -178,34 +182,35 @@ include_once 'common.php';
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_1']; ?></p>
                 </div>
               </div>
-              <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
             </div>
           </div>
 
-          <!-- PROYECTO 6 -->
+          <!-- PROYECTO 7 -->
           <div class="grid-item rehabilitaciones js-isotope-item js-grid-item">
             <div class="project-item item-shadow">
               <img alt="" class="img-responsive" src="images/projects/7-426x574.jpg">
               <div class="project-hover">
                 <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_1']; ?><br><?php echo $lang['PROJECT_TITLE_1_2']; ?><br><?php echo $lang['PROJECT_TITLE_1_3']; ?></h3>
-                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_1']; ?></p>
+                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_7_1']; ?><br><?php echo $lang['PROJECT_TITLE_7_2']; ?><br><?php echo $lang['PROJECT_TITLE_7_3']; ?></h3>
+                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_7']; ?></p>
                 </div>
               </div>
-              <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
             </div>
           </div>
 
+          <!-- PROJECT 8 -->
           <div class="grid-item rehabilitaciones js-isotope-item js-grid-item">
             <div class="project-item item-shadow">
               <img alt="" class="img-responsive" src="images/projects/8-426x574.jpg">
               <div class="project-hover">
                 <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_1']; ?><br><?php echo $lang['PROJECT_TITLE_1_2']; ?><br><?php echo $lang['PROJECT_TITLE_1_3']; ?></h3>
-                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_1']; ?></p>
+                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_8_1']; ?><br><?php echo $lang['PROJECT_TITLE_8_2']; ?><br><?php echo $lang['PROJECT_TITLE_8_3']; ?></h3>
+                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_8']; ?></p>
                 </div>
               </div>
-              <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
+              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
             </div>
           </div>
         </div>
