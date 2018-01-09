@@ -6243,7 +6243,7 @@ button.close {
   overflow: hidden;
 }
 .carousel-inner > .item {
-  position: fixed;
+  /*position: fixed;*/
   display: none;
   -webkit-transition: .6s ease-in-out left;
        -o-transition: .6s ease-in-out left;

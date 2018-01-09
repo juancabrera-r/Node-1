@@ -3672,7 +3672,11 @@ a.brand:focus{
   .pull-sm-right{
     float: right;
   }
-
+  .carousel img{
+    width: auto;
+    height: 100vh;
+  }
+}
 /* 8.1 Min width 768px */
 
 
