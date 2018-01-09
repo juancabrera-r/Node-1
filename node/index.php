@@ -45,6 +45,9 @@ include_once 'common.php';
           <a  href="./index.php"><?php echo $lang['MENU_INDEX']; ?></a>
         </li>
         <li>
+          <a  href="./about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+        </li>
+        <li>
           <a  href="./works.php"><?php echo $lang['MENU_WORKS']; ?></a>
         </li>
         <li>
@@ -148,7 +151,7 @@ include_once 'common.php';
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-5 col-lg-5">
-                          <h2 class="title-uppercase"><?php echo $lang['TITLE_SECTION_2_1']; ?><br> <span class="text-primary"><?php echo $lang['TITLE_SECTION_2_2']; ?></span><?php echo $lang['TITLE_SECTION_2_3']; ?></h2>
+                          <h2 class="title-uppercase text-primary"><?php echo $lang['TITLE_SECTION_2_1']; ?></h2>
                           <ul class="service-list">
                             <li><a href=""><?php echo $lang['SERVICE_SECTION_2_1']; ?></a></li>
                             <li><a href=""><?php echo $lang['SERVICE_SECTION_2_2']; ?></a></li>

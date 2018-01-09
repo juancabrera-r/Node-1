@@ -15,6 +15,7 @@ $lang['META_DESCRIPTION'] = 'Realizamos proyectos, reformas y construcciones en 
 
 $lang['MENU_FOOTER'] = '© COGESA S.L. 2017. Todos los derechos reservados';
 $lang['MENU_INDEX'] = 'Inicio';
+$lang['MENU_ABOUT'] = 'Sobre nosotros';
 $lang['MENU_WORKS'] = 'Trabajos';
 $lang['MENU_CONTACT'] = 'Contacto';
 
@@ -34,14 +35,12 @@ $lang['LEMA_2'] = 'confianza';
 // SECTION-2
 $lang['VERTICAL_MENU_2'] = 'Lo que hacemos';
 $lang['TITLE_SECTION_2_1'] = 'Nuestros servicios';
-$lang['TITLE_SECTION_2_2'] = ' proyectos & ejecución';
-$lang['TITLE_SECTION_2_3'] = ' de obras e instalaciones';
-$lang['SERVICE_SECTION_2_1'] = '01.  Proyectos de arquitectura';
-$lang['SERVICE_SECTION_2_2'] = '02.  Proyectos de ingeniería';
-$lang['SERVICE_SECTION_2_3'] = '03.  Construcción';
-$lang['SERVICE_SECTION_2_4'] = '04.  Reformas & Rehabilitación';
-$lang['SERVICE_SECTION_2_5'] = '05.  Tratamiento contra humedades';
-$lang['SERVICE_SECTION_2_6'] = '06.  Consultoría técnica';
+$lang['SERVICE_SECTION_2_1'] = '01.  Proyectos de viviendas';
+$lang['SERVICE_SECTION_2_2'] = '02.  Proyectos de instalaciones';
+$lang['SERVICE_SECTION_2_3'] = '03.  Construcciones';
+$lang['SERVICE_SECTION_2_4'] = '04.  Reformas & Rehabilitacires';
+$lang['SERVICE_SECTION_2_5'] = '05.  Instalaciones eléctricas y domóticas';
+$lang['SERVICE_SECTION_2_6'] = '06.  Licencias de apertura';
 $lang['LEMA_SECTION_2_1'] = 'Trabajamos ';
 $lang['LEMA_SECTION_2_2'] = 'por sus ';
 $lang['LEMA_SECTION_2_3'] = 'intereses';
@@ -173,6 +172,19 @@ $lang['CONTACT_EMAIL_SEND'] = 'Enviar';
 $lang['CONTACT_EMAIL_OK'] = 'Gracias!. Su mensaje ha sido enviado correctamente.';
 $lang['CONTACT_EMAIL_FAIL'] = 'Lo siento, su mensaje no se ha podido enviar correctamente.';
 
+//ABOUT US
+$lang['ABOUT_TITLE'] = 'Nuestra historia.';
+$lang['ABOUT_ABOUT'] = 'Quienes somos';
+$lang['ABOUT_WHO_WE_ARE'] = '<strong>NODE Gestión</strong> es una empresa PROJECT MANAGEMENT especializada en construcción integral. Rompe con la tradicinal separación entre servicio técnico y empresa de construcción.
+Desde NODE confiamos en el valor añadido de nuestros servicios.';
+$lang['ABOUT_WHY'] = '¿Por qué elegirnos?';
+$lang['ABOUT_WHY_US'] = 'Porque nuestro pricipal objetivo es la satisfacción del cliente.';
+$lang['ABOUT_GUARANTEE_TITLE'] = 'Nuestras garantías';
+$lang['ABOUT_GUARANTEE'] = 'En <strong>NODE Gestión</strong> contamos con todas las garantías económicas y jurídicas';
+$lang['ABOUT_GUARANTEE_1'] = 'RC (Póliza de Responsabilidad Civil de la empresa)';
+$lang['ABOUT_GUARANTEE_2'] = 'Contratación de servicio de prevención';
+$lang['ABOUT_GUARANTEE_3'] = 'Inscripción en el registro de empresas acreditadas (REA). Nº 05/35/0010624';
+$lang['ABOUT_GUARANTEE_4'] = 'Inscripción en el registro de empresas instaladora autorizada en baja tensión';
 
 
 ?>

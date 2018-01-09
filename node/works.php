@@ -45,6 +45,9 @@ include_once 'common.php';
           <a  href="./index.php"><?php echo $lang['MENU_INDEX']; ?></a>
         </li>
         <li>
+          <a  href="./about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+        </li>
+        <li>
           <a  href="./works.php"><?php echo $lang['MENU_WORKS']; ?></a>
         </li>
         <li>
