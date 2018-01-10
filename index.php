@@ -158,9 +158,9 @@ include_once 'common.php';
                         <div class="col-md-5 col-lg-5">
                           <h2 class="title-uppercase text-primary"><?php echo $lang['TITLE_SECTION_2_1']; ?></h2>
                           <ul class="service-list">
-                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_1']; ?></a></li>
-                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_2']; ?></a></li>
-                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_3']; ?></a></li>
+                            <li><a href="proyectos.php"><?php echo $lang['SERVICE_SECTION_2_1']; ?></a></li>
+                            <li><a href="proyectos.php"><?php echo $lang['SERVICE_SECTION_2_2']; ?></a></li>
+                            <li><a href="construction.php"><?php echo $lang['SERVICE_SECTION_2_3']; ?></a></li>
                             <li><a href=""><?php echo $lang['SERVICE_SECTION_2_4']; ?></a></li>
                             <li><a href=""><?php echo $lang['SERVICE_SECTION_2_5']; ?></a></li>
                             <li><a href=""><?php echo $lang['SERVICE_SECTION_2_6']; ?></a></li>

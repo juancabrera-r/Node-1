@@ -288,4 +288,20 @@ $lang['INMOBILIARIA_TECH_1'] = '01. Instalaciones domóticas. Contamos con disti
 $lang['INMOBILIARIA_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la instalación y emitimos la documentación necesaria (Proyecto o boletín eléctrico).';
 $lang['INMOBILIARIA_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
 $lang['INMOBILIARIA_TECH_4'] = '04. Asesoramiento y estudio para lograr un ahorro energético';
+//PROYECTOS (SERVICIOS)
+$lang['PROYECTOS_TITLE'] = 'Estudio técnico';
+$lang['PROYECTOS_PROFESION'] = 'Arquitectura Ingeniería';
+$lang['PROYECTOS_PROFESIONAL'] = 'En <strong>NODE Gestión</strong> contamos con titulados ampliamente cualificados que asesoran en cada proyecto y ofrecen una atención personalizada.';
+$lang['PROYECTOS_SERVICE_TITLE_1'] = 'Urbanismo';
+$lang['PROYECTOS_SERVICE_TITLE_2'] = 'Proyectos';
+$lang['PROYECTOS_SERVICE_TITLE_3'] = 'Diseño';
+$lang['PROYECTOS_SERVICE_TITLE_4'] = 'Asesoramiento';
+$lang['PROYECTOS_SERVICE_DESCRIPTION_1'] = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.';
+$lang['PROYECTOS_SERVICE_DESCRIPTION_2'] = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.';
+$lang['PROYECTOS_SERVICE_DESCRIPTION_3'] = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.';
+$lang['PROYECTOS_SERVICE_DESCRIPTION_4'] = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.';
+
+
+
+
 ?>
