@@ -17,8 +17,8 @@ $lang['MENU_CONTACT'] = 'Contacto';
 // Navbar
 $lang['MENU_BRAND_TEXT'] = 'CONSTRUCCIÓN, ARQUITECTURA E INGENIERÍA';
 //Address
-$lang['ADDRESS_CONTACT'] = 'Contacto: ';
-$lang['ADDRESS_CONTACT_PHONE'] = '828 908 650';
+$lang['ADDRESS_CONTACT'] = 'Contacto:';
+$lang['ADDRESS_CONTACT_PHONE'] = ' 828 908 650';
 // SECTION-1
 $lang['VERTICAL_MENU_1'] = 'Introducción';
 $lang['SUBTITLE'] = 'Bienvenido a';
@@ -26,23 +26,24 @@ $lang['LEMA_1'] = 'Su estudio y constructora de ';
 $lang['LEMA_2'] = 'confianza';
 // SECTION-2
 $lang['VERTICAL_MENU_2'] = 'Lo que hacemos';
-$lang['TITLE_SECTION_2_1'] = 'Nuestros servicios';
+$lang['TITLE_SECTION_2_1'] = '¿Qué ofrecemos?';
 $lang['SERVICE_SECTION_2_1'] = '01.  Proyectos de viviendas';
 $lang['SERVICE_SECTION_2_2'] = '02.  Proyectos de instalaciones';
 $lang['SERVICE_SECTION_2_3'] = '03.  Construcciones';
-$lang['SERVICE_SECTION_2_4'] = '04.  Reformas & Rehabilitacires';
+$lang['SERVICE_SECTION_2_4'] = '04.  Reformas & Rehabilitaciones';
 $lang['SERVICE_SECTION_2_5'] = '05.  Instalaciones eléctricas y domóticas';
 $lang['SERVICE_SECTION_2_6'] = '06.  Licencias de apertura';
-$lang['TITLE_SECTION_2_2'] = 'Servicios por categoría';
+$lang['SERVICE_SECTION_2_7'] = '07.  Asesoramiento';
+$lang['TITLE_SECTION_2_2'] = 'Nuestros servicios por categoría';
 $lang['SERVICE_CLIENTE_1'] = '01. Particulares';
-$lang['SERVICE_CLIENTE_2'] = '03. Empresas';
-$lang['SERVICE_CLIENTE_3'] = '04. Comunidades de vecinos';
-$lang['SERVICE_CLIENTE_4'] = '05. Profesionales';
-$lang['SERVICE_CLIENTE_5'] = '06. Administración pública';
-$lang['SERVICE_CLIENTE_6'] = '07. Inmobiliaria';
+$lang['SERVICE_CLIENTE_2'] = '02. Empresas';
+$lang['SERVICE_CLIENTE_3'] = '03. Comunidades de vecinos';
+$lang['SERVICE_CLIENTE_4'] = '04. Profesionales';
+$lang['SERVICE_CLIENTE_5'] = '05. Administración pública';
+$lang['SERVICE_CLIENTE_6'] = '06. Inmobiliaria';
 // SECTION-3
-$lang['VERTICAL_MENU_3'] = 'Producto especial';
-$lang['TITLE_SECTION_3_1'] = 'Tratamiento contra';
+$lang['VERTICAL_MENU_3'] = 'Instalaciones Inteligentes';
+$lang['TITLE_SECTION_3_1'] = 'Nuestros servicios inteligentes';
 $lang['TITLE_SECTION_3_2'] = ' humedades';
 $lang['TITLE_SECTION_3_3'] = ' ocasionadas por:';
 $lang['SERVICE_SECTION_3_1'] = '01.  Capilaridad';

@@ -165,6 +165,7 @@ include_once 'common.php';
                             <li><a href="construction.php"><?php echo $lang['SERVICE_SECTION_2_4']; ?></a></li>
                             <li><a href="domotica.php"><?php echo $lang['SERVICE_SECTION_2_5']; ?></a></li>
                             <li><a href="proyectos.php"><?php echo $lang['SERVICE_SECTION_2_6']; ?></a></li>
+                            <li><a href="#"><?php echo $lang['SERVICE_SECTION_2_7']; ?></a></li>
                           </ul>
                         </div>
                         <div class="col-md-4 col-lg-6 col-md-offset-1 col-lg-offset-1">
@@ -200,25 +201,44 @@ include_once 'common.php';
                   <div class="container">
                     <div class="intro">
                       <div class="row">
-                        <div class="col-md-5 col-lg-5">
-                          <!--  <p class="subtitle-top text-dark">Nuestro producto especial</p>-->
-                          <h2 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_1']; ?><br> <span class="text-primary"><?php echo $lang['TITLE_SECTION_3_2']; ?></span><?php echo $lang['TITLE_SECTION_3_3']; ?></h2>
-                          <ul class="service-list">
-                            <li><a href=""><?php echo $lang['SERVICE_SECTION_3_1']; ?></a></li>
-                            <li><a href=""><?php echo $lang['SERVICE_SECTION_3_2']; ?></a></li>
-                            <li><a href=""><?php echo $lang['SERVICE_SECTION_3_3']; ?></a></li>
-                          </ul>
-                        </div>
+                        <h2 class="title-uppercase"><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
+                          <div class="news-carousel owl-carousel">
+                            <div class="news-item">
+                              <img alt="" src="images/news/1-370x370.jpg">
+                              <div class="news-hover">
+                                <div class="hover-border"><div></div></div>
+                                <div class="content">
+                                  <h3 class="news-title">Domótica</h3>
+                                </div>
+                                <a class="read-more" href="#">Continue</a>
+                              </div>
+                            </div>
+                            <div class="news-item">
+                              <img alt="" src="images/news/2-370x370.jpg">
+                              <div class="news-hover">
+                                <div class="hover-border"><div></div></div>
+                                <div class="content">
+                                  <h3 class="news-title">Inmótica</h3>
+                                </div>
+                                <a class="read-more" href="#">Continue</a>
+                              </div>
+                            </div>
+                            <div class="news-item">
+                              <img alt="" src="images/news/3-370x370.jpg">
+                              <div class="news-hover">
+                                <div class="hover-border"><div></div></div>
+                                <div class="content">
+                                  <h3 class="news-title">Telecomunicaciones</h3>
+                                </div>
+                                <a class="read-more" href="#">Continue</a>
+                              </div>
+                            </div>
+                          </div>
                         <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
                           <div class="dots-image-2">
                             <div class="dots"></div>
-                            <div class="experience-info">
-                              <div class="number text-white">10</div>
-                              <div class="text text-white "><?php echo $lang['LEMA_SECTION_3_1']; ?><br><?php echo $lang['LEMA_SECTION_3_2']; ?><br><?php echo $lang['LEMA_SECTION_3_3']; ?></div>
-                            </div>
                           </div>
                         </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -227,7 +247,7 @@ include_once 'common.php';
           </div>
         </div>
       </div>
-
+    </div>
 <!--    LAST PROJECTS    -->
       <div class="pp-scrollable section section-1">
         <div class="scroll-wrap">
