@@ -400,7 +400,7 @@ include_once 'common.php';
                             <div class="row-contact-info row">
                               <div class="col-contact-info col-md-6 col-lg-4">
                                 <div class="row">
-                                  <h3 class="col-sm-3 col-md-4">Email</h3>
+                                  <h4 class="col-sm-3 col-md-4">Email</h4>
                                   <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
                                       <strong class="text-dark"><?php echo $lang['ADMINISTRATION_NAME']; ?></strong><br>
@@ -415,7 +415,7 @@ include_once 'common.php';
                               </div>
                               <div class="col-contact-info col-md-6 col-lg-4">
                                 <div class="row">
-                                  <h3 class="col-sm-3 col-md-4">Tlf.</h3>
+                                  <h4 class="col-sm-3 col-md-4">Tlf.</h4>
                                   <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
                                       <strong class="text-dark"><?php echo $lang['OFFICE']; ?></strong><br>
@@ -423,10 +423,8 @@ include_once 'common.php';
                                     </div>
                                   </div>
                                 </div>
-                              </div>
-                              <div class="col-contact-info col-md-6 col-lg-4">
                                 <div class="row">
-                                  <h3 class="col-sm-3 col-md-4"><?php echo $lang['ADDRESS_FOOTER']; ?></h3>
+                                  <h4 class="col-sm-3 col-md-4"><?php echo $lang['ADDRESS_FOOTER']; ?></h4>
                                   <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
                                       C./Isla la Graciosa, nº2, local izq.
@@ -435,6 +433,16 @@ include_once 'common.php';
                                       Las Palmas
                                     </div>
                                   </div>
+                                </div>
+                              </div>
+                              <div class="col-contact-info col-md-6 col-lg-4">
+                                <div class="row">
+                                    <ul class="contact-info-row">
+                                        <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
+                                        <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
+                                        <li><a href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a></li>
+                                        <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
+                                      </ul>
                                 </div>
                               </div>
                             </div>

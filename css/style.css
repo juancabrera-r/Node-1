@@ -2138,6 +2138,7 @@ a.brand:focus{
   font-weight: 300;
 }
 
+
 .service-list li{
   margin-bottom: 0.7rem;
 }
@@ -2422,8 +2423,8 @@ a.brand:focus{
 
 .col-contact-info{
   padding:0 4%;
-  margin-top: 5rem;
-  padding-top: 5rem;
+  margin-top: 2.5rem;
+  
   border-top:1px solid #cacaca;
 }
 
