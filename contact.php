@@ -37,8 +37,8 @@ include_once 'common.php';
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="index.php?lang=es">Esp</a>
-        <a href="index.php?lang=en">Eng</a>
+        <a href="contact.php?lang=es">Esp</a>
+        <a href="contact.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
@@ -204,8 +204,8 @@ include_once 'common.php';
           -->
             <div class="flex-item">
               <ul>
-                <li><a href="works.php?lang=es">Esp</a></li>
-                <li><a href="works.php?lang=en">Eng</a></li>
+                <li><a href="contact.php?lang=es">Esp</a></li>
+                <li><a href="contact.php?lang=en">Eng</a></li>
               </ul>
             </div>
             <div class="flex-item">

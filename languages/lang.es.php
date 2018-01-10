@@ -268,4 +268,24 @@ $lang['ADMINISTRATION_TECH_1'] = '01. Instalaciones domóticas. Contamos con dis
 $lang['ADMINISTRATION_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la instalación y emitimos la documentación necesaria (Proyecto o boletín eléctrico).';
 $lang['ADMINISTRATION_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
 $lang['ADMINISTRATION_TECH_4'] = '04. Asesoramiento y estudio para lograr un ahorro energético';
+//INMOBILIARIA
+$lang['INMOBILIARIA_TITLE'] = '¿Qué podemos ofrecerle?';
+$lang['INMOBILIARIA_NUEVA_OBRA'] = 'OBRA NUEVA';
+$lang['INMOBILIARIA_NUEVA_OBRA_DESCRIPTION'] = 'Si usted está buscando construir una nueva edificación, desde <strong>NODE Gestión</strong> podemos ofrecerle lo siguiente:';
+$lang['INMOBILIARIA_NUEVA_OBRA_1'] = '01. Asesoramiento urbanistico.';
+$lang['INMOBILIARIA_NUEVA_OBRA_2'] = '02. Diseño arquitectónico. Distribución y orientación de espacios para logar un mayor confort.';
+$lang['INMOBILIARIA_NUEVA_OBRA_3'] = '03. Redacción documental y tramites/burocracia administrativa';
+$lang['INMOBILIARIA_NUEVA_OBRA_4'] = '04. Asesoramiento sobre materiales constructivos e instalaciones para la redacción del presupuesto.';
+$lang['INMOBILIARIA_NUEVA_OBRA_5'] = '05. Ejecución completa de la obra.';
+$lang['INMOBILIARIA_REFORMA_TITLE'] = 'REFORMA  REHABILITACIÓN';
+$lang['INMOBILIARIA_REFORMA_DESCRIPTION'] = 'Si lo que sea es renovar su hogar o solventar algún problema constructivo o de instalaciones, podemos ofrecerle lo siguiente:';
+$lang['INMOBILIARIA_REFORMA_1'] = '01. Estudio previo y asesoramiento técnico y burocrático para la opción más óptima.';
+$lang['INMOBILIARIA_REFORMA_2'] = '02. Presupuesto.';
+$lang['INMOBILIARIA_REFORMA_3'] = '03. Ejecución de los trabajos';
+$lang['INMOBILIARIA_TECH_TITLE'] = 'INSTALACIONES  DOMÓTICA  VIDEOVIGILANCIA';
+$lang['INMOBILIARIA_TECH_DESCRIPTION'] = 'Si lo que busca es realizar instalaciones, podemos ayudarle en lo siguiente:';
+$lang['INMOBILIARIA_TECH_1'] = '01. Instalaciones domóticas. Contamos con distintos fabricantes para adaptar la instalación a cada situación contructiva y económica.';
+$lang['INMOBILIARIA_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la instalación y emitimos la documentación necesaria (Proyecto o boletín eléctrico).';
+$lang['INMOBILIARIA_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
+$lang['INMOBILIARIA_TECH_4'] = '04. Asesoramiento y estudio para lograr un ahorro energético';
 ?>
