@@ -165,7 +165,7 @@ include_once 'common.php';
                             <li><a href=""><?php echo $lang['SERVICE_SECTION_2_6']; ?></a></li>
                           </ul>
                         </div>
-                        <div class="col-md-4 col-lg-5 col-md-offset-2 col-lg-offset-2">
+                        <div class="col-md-4 col-lg-6 col-md-offset-1 col-lg-offset-1">
                           <h2 class="title-uppercase text-primary"><?php echo $lang['TITLE_SECTION_2_2']; ?></h2>
                           <ul class="service-list">
                             <li><a href="particulares.php"><?php echo $lang['SERVICE_CLIENTE_1']; ?></a></li>
