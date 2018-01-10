@@ -146,10 +146,7 @@ include_once 'common.php';
             </section>
 
         <section class="section section-mod about-info">
-          <div class="content bg-dots">
-          <div class=""></div>
           <div class="page-inner">
-            <section class="section about-info">
               <div class="container">
                 <div class="row">
                   <div class="col-md-3">
@@ -170,7 +167,7 @@ include_once 'common.php';
               </div>
         </section>
 
-        <section class="section about-info">
+        <section class="section section-mod about-info">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
@@ -189,7 +186,7 @@ include_once 'common.php';
           </div>
         </section>
 
-        <section class="section about-info">
+        <section class="section section-mod about-info">
           <div class="container">
             <div class="row">
               <div class="col-md-3">

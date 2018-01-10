@@ -140,6 +140,48 @@ include_once 'common.php';
                 <div class="col-md-3">
                   <div class="section-info">
                     <div class="title-hr"></div>
+                    <div class="info-title"><?php echo $lang['EMPRESA_NUEVA_OBRA']; ?></div>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <div class="text-display-1 text-dark"><?php echo $lang['EMPRESA_NUEVA_OBRA_DESCRIPTION']; ?> </div>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_NUEVA_OBRA_1']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_NUEVA_OBRA_2']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_NUEVA_OBRA_3']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_NUEVA_OBRA_4']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_NUEVA_OBRA_5']; ?></li>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section section-mod about-info">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="section-info">
+                    <div class="title-hr"></div>
+                    <div class="info-title"><?php echo $lang['EMPRESA_TECH_TITLE']; ?></div>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <div class="text-display-1 text-dark"><?php echo $lang['EMPRESA_TECH_DESCRIPTION']; ?> </div>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_TECH_1']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_TECH_2']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_TECH_3']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_TECH_4']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_TECH_5']; ?></li>
+                </div>
+              </div>
+            </div>
+          </section>
+
+            <section class="section  section-mod about-info">
+              <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="section-info">
+                    <div class="title-hr"></div>
                     <div class="info-title"><?php echo $lang['EMPRESA_REFORMA_TITLE']; ?></div>
                   </div>
                 </div>
@@ -148,30 +190,13 @@ include_once 'common.php';
                     <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_REFORMA_1']; ?></li>
                     <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_REFORMA_2']; ?></li>
                     <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_REFORMA_3']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_REFORMA_4']; ?></li>
                 </div>
               </div>
             </div>
           </section>
 
-                <section class="section about-info">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-3">
-                        <div class="section-info">
-                          <div class="title-hr"></div>
-                          <div class="info-title"><?php echo $lang['EMPRESA_TECH_TITLE']; ?></div>
-                        </div>
-                      </div>
-                      <div class="col-md-9">
-                        <div class="text-display-1 text-dark"><?php echo $lang['EMPRESA_TECH_DESCRIPTION']; ?> </div>
-                          <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_TECH_1']; ?></li>
-                          <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_TECH_2']; ?></li>
-                          <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_TECH_3']; ?></li>
-                          <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_TECH_4']; ?></li>
-                      </div>
-                    </div>
-                  </div>
-                </section>
+
 
 
     <!-- Footer -->
