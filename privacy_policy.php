@@ -37,8 +37,8 @@ include_once 'common.php';
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="profesionales.php?lang=es">Esp</a>
-        <a href="profesionales.php?lang=en">Eng</a>
+        <a href="privacy_policy.php?lang=es">Esp</a>
+        <a href="privacy_policy.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
@@ -90,121 +90,25 @@ include_once 'common.php';
     </header>
 
     <!-- Pageheader -->
-
-    <section class="section section-mod bg-dots">
-      <main class="page-header-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="title-hr"></div>
-            </div>
-            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['PROFESIONAL_TITLE']; ?></h1></div>
-          </div>
+    <main class="page-header-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-right col-md-8 col-lg-12"><h6><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></h6></div>
         </div>
-      </main>
+      </div>
+    </main>
+
+        <section class="section about-info">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9">
+                <div class="text-display-3 text-dark"><?php echo $lang['PRIVACITY_POLICY_TEXT']; ?> </div>
+              </div>
+            </div>
+          </div>
     </section>
 
-          <section class="section section-mod about-info">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="row-services row">
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-apartment"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_ARQ']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_ARQ']; ?></p>
-                    </div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-paint-roller"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_CONST']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_CONST']; ?></p>
-                    </div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-paint-roller"></span>
-                      <h4><?php echo $lang['All_SERVICE_TITLE_REFORMA']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REFORMA']; ?></p>
-                    </div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-paint-roller"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_REHA']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REHA']; ?></p>
-                    </div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-paint-roller"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_DOM']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_DOM']; ?></p>
-                    </div>
-                    <div class="clearfix visible-sm visible-md"></div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-pencil-ruler"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_TELEC']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_TELEC']; ?></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
 
-        <section class="section section-mod about-info">
-          <div class="page-inner">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-3">
-                    <div class="section-info">
-                      <div class="title-hr"></div>
-                      <div class="info-title"><?php echo $lang['PROFESIONAL_NUEVA_OBRA']; ?></div>
-                    </div>
-                  </div>
-                  <div class="col-md-9">
-                    <div class="text-display-1 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_DESCRIPTION']; ?> </div>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_1']; ?></li>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_2']; ?></li>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_3']; ?></li>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_4']; ?></li>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_5']; ?></li>
-                  </div>
-                </div>
-              </div>
-        </section>
-
-        <section class="section section-mod about-info">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="section-info">
-                  <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['PROFESIONAL_REFORMA_TITLE']; ?></div>
-                </div>
-              </div>
-              <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['PROFESIONAL_REFORMA_DESCRIPTION']; ?> </div>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_REFORMA_1']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_REFORMA_2']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_REFORMA_3']; ?></li>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section section-mod about-info">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="section-info">
-                  <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['PROFESIONAL_TECH_TITLE']; ?></div>
-                </div>
-              </div>
-              <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['PROFESIONAL_TECH_DESCRIPTION']; ?> </div>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_TECH_1']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_TECH_2']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_TECH_3']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_TECH_4']; ?></li>
-              </div>
-            </div>
-          </div>
-        </section>
     <!-- Footer -->
 
         <footer id="footer" class="footer section">
@@ -231,8 +135,8 @@ include_once 'common.php';
             </div>
             <div class="flex-item">
               <ul>
-                <li><a href="profesionales.php?lang=es">Esp</a></li>
-                <li><a href="profesionales.php?lang=en">Eng</a></li>
+                <li><a href="privacy_policy.php?lang=en">Eng</a></li>
+                <li><a href="privacy_policy.php?lang=es">Esp</a></li>
               </ul>
             </div>
             <div class="flex-item">

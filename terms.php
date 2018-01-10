@@ -37,8 +37,8 @@ include_once 'common.php';
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="about.php?lang=es">Esp</a>
-        <a href="about.php?lang=en">Eng</a>
+        <a href="terms.php?lang=es">Esp</a>
+        <a href="terms.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
@@ -94,11 +94,20 @@ include_once 'common.php';
     <main class="page-header-3">
       <div class="container">
         <div class="row">
-          <div class="col-right col-md-8 col-lg-12"><h6><?php echo $lang['TERMS_AND_CONDITIONS_TITLE']; ?></h6></div>
+          <div class="col-right col-md-8 col-lg-12"><h6><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></h6></div>
         </div>
       </div>
     </main>
 
+        <section class="section about-info">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9">
+                <div class="text-display-3 text-dark"><?php echo $lang['TERMS_AND_CONDITIONS_TEXT']; ?> </div>
+              </div>
+            </div>
+          </div>
+    </section>
 
     <!-- Footer -->
 
@@ -114,25 +123,20 @@ include_once 'common.php';
             </div>
             <div class="flex-item">
               <ul>
-                <li><a href="">Site Map</a></li>
-                <li><a href=""><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Help</a></li>
-                <li><a href="">Affiliatep</a></li>
+                <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
+                <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
               </ul>
             </div>
             <div class="flex-item">
               <ul>
-                <li><a href="">Our Location</a></li>
-                <li><a href="">Career</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a></li>
+                <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
               </ul>
             </div>
             <div class="flex-item">
               <ul>
-                <li><a href="about.php?lang=en">Eng</a></li>
-                <li><a href="about.php?lang=es">Esp</a></li>
+                <li><a href="terms.php?lang=en">Eng</a></li>
+                <li><a href="terms.php?lang=es">Esp</a></li>
               </ul>
             </div>
             <div class="flex-item">

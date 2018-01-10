@@ -162,25 +162,18 @@ include_once 'common.php';
             <div class="flex-item">
               <div class="inline-block"><?php echo $lang['MENU_FOOTER']; ?></div>
             </div>
-            <!--
             <div class="flex-item">
               <ul>
-                <li><a href="">Site Map</a></li>
-                <li><a href="">Term & Conditions</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Help</a></li>
-                <li><a href="">Affiliatep</a></li>
+                <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
+                <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
               </ul>
             </div>
             <div class="flex-item">
               <ul>
-                <li><a href="">Our Location</a></li>
-                <li><a href="">Career</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a></li>
+                <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
               </ul>
             </div>
-          -->
             <div class="flex-item">
               <ul>
                 <li><a href="proyectos.php?lang=es">Esp</a></li>

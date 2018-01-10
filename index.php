@@ -423,13 +423,14 @@ include_once 'common.php';
                     </div>
                   </div>
                 </div>
-              </div>
+              </div>              
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- Footer -->
 
 
 <!-- jQuery -->
