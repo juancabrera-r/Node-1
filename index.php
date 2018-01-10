@@ -3,6 +3,7 @@ include_once 'common.php';
 ?>
 
 <!DOCTYPE HTML>
+
 <html lang="es">
 <head>
 <meta charset="utf-8">
@@ -423,7 +424,7 @@ include_once 'common.php';
                     </div>
                   </div>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
         </div>
