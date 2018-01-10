@@ -94,68 +94,12 @@ include_once 'common.php';
     <main class="page-header-3">
       <div class="container">
         <div class="row">
-          <div class="col-right col-md-8 col-lg-12"><h1><?php echo $lang['ABOUT_TITLE']; ?></h1></div>
+          <div class="col-right col-md-8 col-lg-12"><h6><?php echo $lang['TERMS_AND_CONDITIONS_TITLE']; ?></h6></div>
         </div>
       </div>
     </main>
 
-    <div class="content">
-      <div class=""></div>
-      <div class="page-inner">
-        <section class="section about-info">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="section-info">
-                  <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['ABOUT_ABOUT']; ?></div>
-                </div>
-              </div>
-              <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['ABOUT_WHO_WE_ARE']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        <section class="section section-md about-info">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="section-info">
-                  <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['ABOUT_WHY']; ?></div>
-                </div>
-              </div>
-              <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['ABOUT_WHY_US']; ?>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section section-md about-info">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="section-info">
-                  <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['ABOUT_GUARANTEE_TITLE']; ?></div>
-                </div>
-              </div>
-              <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['ABOUT_GUARANTEE']; ?></div>
-                <li class="text-display-2 text-dark"><?php echo $lang['ABOUT_GUARANTEE_1']; ?></li>
-                <li class="text-display-2 text-dark"><?php echo $lang['ABOUT_GUARANTEE_2']; ?></li>
-                <li class="text-display-2 text-dark"><?php echo $lang['ABOUT_GUARANTEE_3']; ?></li>
-                <li class="text-display-2 text-dark"><?php echo $lang['ABOUT_GUARANTEE_4']; ?></li>
-
-              </div>
-            </div>
-          </div>
-        </section>
     <!-- Footer -->
 
         <footer id="footer" class="footer section">
@@ -171,7 +115,7 @@ include_once 'common.php';
             <div class="flex-item">
               <ul>
                 <li><a href="">Site Map</a></li>
-                <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
+                <li><a href=""><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
                 <li><a href="">Privacy Policy</a></li>
                 <li><a href="">Help</a></li>
                 <li><a href="">Affiliatep</a></li>
