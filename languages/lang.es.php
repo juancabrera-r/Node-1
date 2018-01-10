@@ -193,7 +193,7 @@ $lang['PARTICULARES_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la inst
 $lang['PARTICULARES_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
 $lang['PARTICULARES_TECH_4'] = '04. Asesoramiento y estudio para lograr un ahorro energético';
 //EMPRESA
-$lang['EMPRESA_TITLE'] = 'Como empresario, ¿en que podemos servirle?';
+$lang['EMPRESA_TITLE'] = 'En que podemos ayudarle con su negocio';
 $lang['EMPRESA_NUEVA_OBRA'] = 'OBRA NUEVA';
 $lang['EMPRESA_NUEVA_OBRA_DESCRIPTION'] = 'Si piensa en invertir en la construcción de un nuevo inmueble para viviendas, locales, turísticos o industrial. Le podemos ofrecer un servicio llave en mano:';
 $lang['EMPRESA_NUEVA_OBRA_1'] = '01. Asesoramiento urbanistico.';
