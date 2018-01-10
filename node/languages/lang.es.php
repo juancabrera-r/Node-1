@@ -41,9 +41,13 @@ $lang['SERVICE_SECTION_2_3'] = '03.  Construcciones';
 $lang['SERVICE_SECTION_2_4'] = '04.  Reformas & Rehabilitacires';
 $lang['SERVICE_SECTION_2_5'] = '05.  Instalaciones eléctricas y domóticas';
 $lang['SERVICE_SECTION_2_6'] = '06.  Licencias de apertura';
-$lang['LEMA_SECTION_2_1'] = 'Trabajamos ';
-$lang['LEMA_SECTION_2_2'] = 'por sus ';
-$lang['LEMA_SECTION_2_3'] = 'intereses';
+$lang['TITLE_SECTION_2_2'] = '¿Qué le podemos ofrecer? ';
+$lang['SERVICE_CLIENTE_1'] = '01. Particulares';
+$lang['SERVICE_CLIENTE_2'] = '03. Empresas';
+$lang['SERVICE_CLIENTE_3'] = '04. Comunidades de vecinos';
+$lang['SERVICE_CLIENTE_4'] = '05. Profesionales';
+$lang['SERVICE_CLIENTE_5'] = '06. Administración pública';
+$lang['SERVICE_CLIENTE_6'] = '07. Inmobiliaria';
 
 // SECTION-3
 $lang['VERTICAL_MENU_3'] = 'Producto especial';
@@ -186,5 +190,27 @@ $lang['ABOUT_GUARANTEE_2'] = 'Contratación de servicio de prevención';
 $lang['ABOUT_GUARANTEE_3'] = 'Inscripción en el registro de empresas acreditadas (REA). Nº 05/35/0010624';
 $lang['ABOUT_GUARANTEE_4'] = 'Inscripción en el registro de empresas instaladora autorizada en baja tensión';
 
+//PARTICULARES
+$lang['PARTICULARES_TITLE'] = '¿Qué podemos ofrecerle?';
+$lang['PARTICULARES_NUEVA_OBRA'] = 'OBRA NUEVA';
+$lang['PARTICULARES_NUEVA_OBRA_DESCRIPTION'] = 'Si usted está buscando construir una nueva edificación, desde <strong>NODE Gestión</strong> podemos ofrecerle lo siguiente:';
+$lang['PARTICULARES_NUEVA_OBRA_1'] = '01. Asesoramiento urbanistico.';
+$lang['PARTICULARES_NUEVA_OBRA_2'] = '02. Diseño arquitectónico. Distribución y orientación de espacios para logar un mayor confort.';
+$lang['PARTICULARES_NUEVA_OBRA_3'] = '03. Redacción documental y tramites/burocracia administrativa';
+$lang['PARTICULARES_NUEVA_OBRA_4'] = '04. Asesoramiento sobre materiales constructivos e instalaciones para la redacción del presupuesto.';
+$lang['PARTICULARES_NUEVA_OBRA_5'] = '05. Ejecución completa de la obra.';
+
+$lang['PARTICULARES_REFORMA_TITLE'] = 'REFORMA  REHABILITACIÓN';
+$lang['PARTICULARES_REFORMA_DESCRIPTION'] = 'Si lo que sea es renovar su hogar o solventar algún problema constructivo o de instalaciones, podemos ofrecerle lo siguiente:';
+$lang['PARTICULARES_REFORMA_1'] = '01. Estudio previo y asesoramiento técnico y burocrático para la opción más óptima.';
+$lang['PARTICULARES_REFORMA_2'] = '02. Presupuesto.';
+$lang['PARTICULARES_REFORMA_3'] = '03. Ejecución de los trabajos';
+
+$lang['PARTICULARES_TECH_TITLE'] = 'INSTALACIONES  DOMÓTICA  VIDEOVIGILANCIA';
+$lang['PARTICULARES_TECH_DESCRIPTION'] = 'Si lo que busca es realizar instalaciones, podemos ayudarle en lo siguiente:';
+$lang['PARTICULARES_TECH_1'] = '01. Instalaciones domóticas. Contamos con distintos fabricantes para adaptar la instalación a cada situación contructiva y económica.';
+$lang['PARTICULARES_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la instalación y emitimos la documentación necesaria (Proyecto o boletín eléctrico).';
+$lang['PARTICULARES_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
+$lang['PARTICULARES_TECH_4'] = '04. Asesoramiento y estudio para lograr un ahorro energético';
 
 ?>

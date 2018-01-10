@@ -166,14 +166,15 @@ include_once 'common.php';
                           </ul>
                         </div>
                         <div class="col-md-4 col-lg-5 col-md-offset-2 col-lg-offset-2">
-                          <div class="dots-image-2">
-                            <img alt="" class="img-responsive" src="images/1-470x490.jpg">
-                            <div class="dots"></div>
-                            <div class="experience-info">
-                              <!--<div class="number">24</div>-->
-                              <div class="text"><?php echo $lang['LEMA_SECTION_2_1']; ?><br><?php echo $lang['LEMA_SECTION_2_2']; ?><br><?php echo $lang['LEMA_SECTION_2_3']; ?></div>
-                            </div>
-                          </div>
+                          <h2 class="title-uppercase text-primary"><?php echo $lang['TITLE_SECTION_2_2']; ?></h2>
+                          <ul class="service-list">
+                            <li><a href="particulares.php"><?php echo $lang['SERVICE_CLIENTE_1']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_CLIENTE_2']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_CLIENTE_3']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_CLIENTE_4']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_CLIENTE_5']; ?></a></li>
+                            <li><a href=""><?php echo $lang['SERVICE_CLIENTE_6']; ?></a></li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -299,85 +300,6 @@ include_once 'common.php';
           </div>
         </div>
       </div>
-
-      <!--    INSTALATIONS    -->
-            <div class="pp-scrollable text-white section section-1">
-              <div class="scroll-wrap">
-                <div class="section-bg" style="background-image:url(images/bg/bg2-2-min.jpg);"></div>
-                <div class="scrollable-content ">
-                  <div class="vertical-centred">
-                    <div class="boxed boxed-inner">
-                      <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
-                      <div class="boxed">
-                        <div class="container">
-                          <div class="intro">
-                            <div class="row">
-                              <div class="col-md-5 col-lg-5">
-                                <!--  <p class="subtitle-top text-dark">Nuestro producto especial</p>-->
-                                <h2 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_1']; ?><br> <span class="text-primary"><?php echo $lang['TITLE_SECTION_3_2']; ?></span><?php echo $lang['TITLE_SECTION_3_3']; ?></h2>
-                                <ul class="service-list">
-                                  <li><a href=""><?php echo $lang['SERVICE_SECTION_3_1']; ?></a></li>
-                                  <li><a href=""><?php echo $lang['SERVICE_SECTION_3_2']; ?></a></li>
-                                  <li><a href=""><?php echo $lang['SERVICE_SECTION_3_3']; ?></a></li>
-                                </ul>
-                              </div>
-                              <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
-                                <div class="dots-image-2">
-                                  <div class="dots"></div>
-                                  <div class="experience-info">
-                                    <div class="number text-white">10</div>
-                                    <div class="text text-white "><?php echo $lang['LEMA_SECTION_3_1']; ?><br><?php echo $lang['LEMA_SECTION_3_2']; ?><br><?php echo $lang['LEMA_SECTION_3_3']; ?></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-      <!--    INSTALATIONS    -->
-            <div class="pp-scrollable section section-1">
-              <div class="scroll-wrap">
-                <div class="scrollable-content ">
-                  <div class="vertical-centred">
-                    <div class="boxed boxed-inner">
-                      <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
-                      <div class="boxed">
-                        <div class="container">
-                          <div class="intro">
-                            <div class="row">
-                              <div class="col-md-5 col-lg-5">
-                                <!--  <p class="subtitle-top text-dark">Nuestro producto especial</p>-->
-                                <h2 class="title-uppercase text-dark"><?php echo $lang['TITLE_SECTION_3_1']; ?><br> <span class="text-primary"><?php echo $lang['TITLE_SECTION_3_2']; ?></span><?php echo $lang['TITLE_SECTION_3_3']; ?></h2>
-                                <ul class="service-list">
-                                  <li><a href=""><?php echo $lang['SERVICE_SECTION_3_1']; ?></a></li>
-                                  <li><a href=""><?php echo $lang['SERVICE_SECTION_3_2']; ?></a></li>
-                                  <li><a href=""><?php echo $lang['SERVICE_SECTION_3_3']; ?></a></li>
-                                </ul>
-                              </div>
-                              <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
-                                <div class="dots-image-2">
-                                  <div class="dots"></div>
-                                  <div class="experience-info">
-                                    <div class="number text-dark">10</div>
-                                    <div class="text text-white "><?php echo $lang['LEMA_SECTION_3_1']; ?><br><?php echo $lang['LEMA_SECTION_3_2']; ?><br><?php echo $lang['LEMA_SECTION_3_3']; ?></div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
 <!--    TESTIMONIOS    -->
       <div class="pp-scrollable text-white section section-4">
