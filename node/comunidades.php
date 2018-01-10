@@ -90,41 +90,68 @@ include_once 'common.php';
     </header>
 
     <!-- Pageheader -->
-
-    <main class="page-header-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="title-hr"></div>
+    <section class="section section-mod bg-dots">
+      <main class="page-header-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="title-hr"></div>
+            </div>
+            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['COMUNIDADES_TITLE']; ?></h1></div>
           </div>
-          <div class="col-md-8 col-lg-6"><h1><?php echo $lang['PARTICULARES_TITLE']; ?></h1></div>
         </div>
-      </div>
-    </main>
+      </main>
+</section>
 
-    <div class="content bg-dots">
-      <div class=""></div>
-      <div class="page-inner">
-        <section class="section about-info">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="section-info">
-                  <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['PARTICULARES_NUEVA_OBRA']; ?></div>
+          <section class="section section-mod about-info">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row-services row">
+                    <div class="col-service col-sm-6 col-lg-3">
+                      <span class="text-dark icon-medium icon-apartment"></span>
+                      <h4><?php echo $lang['All_SERVICE_TITLE_REFORMA']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REFORMA']; ?></p>
+                    </div>
+                    <div class="col-service col-sm-6 col-lg-3">
+                      <span class="text-dark icon-medium icon-paint-roller"></span>
+                      <h4><?php echo $lang['ALL_SERVICE_TITLE_REHA']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REHA']; ?></p>
+                    </div>
+                    <div class="col-service col-sm-6 col-lg-3">
+                      <span class="text-dark icon-medium icon-paint-roller"></span>
+                      <h4><?php echo $lang['ALL_SERVICE_TITLE_DOM']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_DOM']; ?></p>
+                    </div>
+                    <div class="clearfix visible-sm visible-md"></div>
+                    <div class="col-service col-sm-6 col-lg-3">
+                      <span class="text-dark icon-medium icon-pencil-ruler"></span>
+                      <h4><?php echo $lang['ALL_SERVICE_TITLE_TELEC']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_TELEC']; ?></p>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_DESCRIPTION']; ?> </div>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_1']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_2']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_3']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_4']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_5']; ?></li>
+            </section>
+
+            <section class="section  section-mod about-info">
+              <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="section-info">
+                    <div class="title-hr"></div>
+                    <div class="info-title"><?php echo $lang['COMUNIDADES_REFORMA_TITLE']; ?></div>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <div class="text-display-1 text-dark"><?php echo $lang['COMUNIDADES_REFORMA_DESCRIPTION']; ?> </div>
+                    <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_REFORMA_1']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_REFORMA_2']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_REFORMA_3']; ?></li>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
                 <section class="section about-info">
                   <div class="container">
@@ -132,38 +159,20 @@ include_once 'common.php';
                       <div class="col-md-3">
                         <div class="section-info">
                           <div class="title-hr"></div>
-                          <div class="info-title"><?php echo $lang['PARTICULARES_TECH_TITLE']; ?></div>
+                          <div class="info-title"><?php echo $lang['COMUNIDADES_TECH_TITLE']; ?></div>
                         </div>
                       </div>
                       <div class="col-md-9">
-                        <div class="text-display-1 text-dark"><?php echo $lang['PARTICULARES_TECH_DESCRIPTION']; ?> </div>
-                          <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_TECH_1']; ?></li>
-                          <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_TECH_2']; ?></li>
-                          <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_TECH_3']; ?></li>
-                          <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_TECH_4']; ?></li>
+                        <div class="text-display-1 text-dark"><?php echo $lang['COMUNIDADES_TECH_DESCRIPTION']; ?> </div>
+                          <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_TECH_1']; ?></li>
+                          <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_TECH_2']; ?></li>
+                          <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_TECH_3']; ?></li>
+                          <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_TECH_4']; ?></li>
                       </div>
                     </div>
                   </div>
                 </section>
 
-        <section class="section about-info">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3">
-                <div class="section-info">
-                  <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['PARTICULARES_REFORMA_TITLE']; ?></div>
-                </div>
-              </div>
-              <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['PARTICULARES_REFORMA_DESCRIPTION']; ?> </div>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_REFORMA_1']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_REFORMA_2']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_REFORMA_3']; ?></li>
-              </div>
-            </div>
-          </div>
-        </section>
 
     <!-- Footer -->
 

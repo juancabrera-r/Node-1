@@ -190,6 +190,26 @@ $lang['ABOUT_GUARANTEE_2'] = 'Contratación de servicio de prevención';
 $lang['ABOUT_GUARANTEE_3'] = 'Inscripción en el registro de empresas acreditadas (REA). Nº 05/35/0010624';
 $lang['ABOUT_GUARANTEE_4'] = 'Inscripción en el registro de empresas instaladora autorizada en baja tensión';
 
+
+$lang['All_SERVICE_TITLE_REFORMA'] = 'Reformas';
+$lang['ALL_SERVICE_DESCRIPTION_REFORMA'] = 'Contamos con los distintos gremios para afrontar cualquier obra de reformas. Albañilería, electricidad, pintura, carpintería de aluminio, etc.';
+
+$lang['ALL_SERVICE_TITLE_ARQ'] = 'Arquitectura Ingeniería';
+$lang['ALL_SERVICE_DESCRIPTION_ARQ'] = 'Contamos con los distintos gremios para afrontar cualquier obra de reformas. Albañilería, electricidad, pintura, carpintería de aluminio, etc.';
+
+$lang['ALL_SERVICE_TITLE_CONST'] = 'Construcción';
+$lang['ALL_SERVICE_DESCRIPTION_CONST'] = 'Contamos con los distintos gremios para afrontar cualquier obra de reformas. Albañilería, electricidad, pintura, carpintería de aluminio, etc.';
+
+$lang['ALL_SERVICE_TITLE_REHA'] = 'Rehabilitación';
+$lang['ALL_SERVICE_DESCRIPTION_REHA'] = 'Contamos con los distintos gremios para afrontar cualquier obra de reformas. Albañilería, electricidad, pintura, carpintería de aluminio, etc.';
+
+$lang['ALL_SERVICE_TITLE_DOM'] = 'Domótica Inmótica';
+$lang['ALL_SERVICE_DESCRIPTION_DOM'] = 'Contamos con los distintos gremios para afrontar cualquier obra de reformas. Albañilería, electricidad, pintura, carpintería de aluminio, etc.';
+
+$lang['ALL_SERVICE_TITLE_TELEC'] = 'Redes y Videovigilancia';
+$lang['ALL_SERVICE_DESCRIPTION_TELEC'] = 'Contamos con los distintos gremios para afrontar cualquier obra de reformas. Albañilería, electricidad, pintura, carpintería de aluminio, etc.';
+
+
 //PARTICULARES
 $lang['PARTICULARES_TITLE'] = '¿Qué podemos ofrecerle?';
 $lang['PARTICULARES_NUEVA_OBRA'] = 'OBRA NUEVA';
@@ -239,4 +259,20 @@ $lang['EMPRESA_REFORMA_2'] = '02. Presupuesto.';
 $lang['EMPRESA_REFORMA_3'] = '03. Replanteo de las obras.';
 $lang['EMPRESA_REFORMA_4'] = '04. Ejecución de los trabajos';
 
+//COMUNIDADES
+$lang['COMUNIDADES_TITLE'] = 'El mejor servicio para su comunidad';
+
+
+$lang['COMUNIDADES_REFORMA_TITLE'] = 'REFORMA  REHABILITACIÓN';
+$lang['COMUNIDADES_REFORMA_DESCRIPTION'] = 'Si lo que busca es renovar alguna de las instalaciones nosotros le podemos ofrecer:';
+$lang['COMUNIDADES_REFORMA_1'] = '01. Estudio previo y asesoramiento técnico y burocrático para la opción más óptima.';
+$lang['COMUNIDADES_REFORMA_2'] = '02. Presupuesto.';
+$lang['COMUNIDADES_REFORMA_3'] = '03. Ejecución de los trabajos';
+
+$lang['COMUNIDADES_TECH_TITLE'] = 'INSTALACIONES  DOMÓTICA  VIDEOVIGILANCIA';
+$lang['COMUNIDADES_TECH_DESCRIPTION'] = 'Para mejorar el control y seguridad, podemos ayudarle en lo siguiente:';
+$lang['COMUNIDADES_TECH_1'] = '01. Instalaciones domóticas. Contamos con distintos fabricantes para adaptar la instalación a cada situación contructiva y económica.';
+$lang['COMUNIDADES_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la instalación y emitimos la documentación necesaria (Proyecto o boletín eléctrico).';
+$lang['COMUNIDADES_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
+$lang['COMUNIDADES_TECH_4'] = '04. Asesoramiento y estudio para lograr un ahorro energético';
 ?>

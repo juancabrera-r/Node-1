@@ -2535,7 +2535,7 @@ a.brand:focus{
 }
 
 .page-header-3 .title-hr{
-  margin-bottom:2.7rem;
+  margin-bottom:7rem;
 }
 
 .page-inner{
@@ -3903,7 +3903,7 @@ a.brand:focus{
   }
 
   .page-header-3{
-    margin:9.2rem 0 12.2rem;
+    margin:4.2rem 0 3.2rem;
   }
 
   .page-header-3 .title-hr{
@@ -4020,6 +4020,9 @@ a.brand:focus{
     padding-bottom: 8rem;
   }
 
+.section-mod{
+  padding-bottom: 2rem;
+}
   .col-contact-info{
     border-left: 1px solid #cacaca;
   }
