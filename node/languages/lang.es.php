@@ -213,4 +213,30 @@ $lang['PARTICULARES_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la inst
 $lang['PARTICULARES_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
 $lang['PARTICULARES_TECH_4'] = '04. Asesoramiento y estudio para lograr un ahorro energético';
 
+
+//EMPRESA
+$lang['EMPRESA_TITLE'] = 'Como empresario, ¿en que podemos servirle?';
+$lang['EMPRESA_NUEVA_OBRA'] = 'OBRA NUEVA';
+$lang['EMPRESA_NUEVA_OBRA_DESCRIPTION'] = 'Si piensa en invertir en la construcción de un nuevo inmueble para viviendas, locales, turísticos o industrial. Le podemos ofrecer un servicio llave en mano:';
+$lang['EMPRESA_NUEVA_OBRA_1'] = '01. Asesoramiento urbanistico.';
+$lang['EMPRESA_NUEVA_OBRA_2'] = '02. Redacción de proyectos (arquitectura/ingeniería).';
+$lang['EMPRESA_NUEVA_OBRA_3'] = '03. Asesoramiento sobre materiales constructivos e instalaciones para la redacción del presupuesto.';
+$lang['EMPRESA_NUEVA_OBRA_4'] = '04. Replanteno de la obra y analisis de las intervenciones.';
+$lang['EMPRESA_NUEVA_OBRA_5'] = '05. Ejecución de la obra.';
+
+$lang['EMPRESA_TECH_TITLE'] = 'INSTALACIONES  DOMÓTICA AUTOMATIZACIÓN VIDEOVIGILANCIA';
+$lang['EMPRESA_TECH_DESCRIPTION'] = 'Con el objetivo de mejorar el rendimiento de la empresa, le ofrecemos:';
+$lang['EMPRESA_TECH_1'] = '01. Instalaciones domóticas/inmótica para control y gestión de energía, iluminación, climatización y seguridad.';
+$lang['EMPRESA_TECH_2'] = '02. Instalaciones eléctrica. Proyecto - ejecución de la instalación - boletín eléctrico).';
+$lang['EMPRESA_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
+$lang['EMPRESA_TECH_4'] = '04. Instalaciones de redes. Ejecutamos instalaciones de redes locales wire y wireless';
+$lang['EMPRESA_TECH_5'] = '05. Asesoramiento y estudio para lograr un ahorro energético';
+
+$lang['EMPRESA_REFORMA_TITLE'] = 'REFORMA  REHABILITACIÓN';
+$lang['EMPRESA_REFORMA_DESCRIPTION'] = 'Si lo que sea es renovar su hogar o solventar algún problema constructivo o de instalaciones, podemos ofrecerle lo siguiente:';
+$lang['EMPRESA_REFORMA_1'] = '01. Estudio previo y asesoramiento técnico y burocrático para la solución más óptima.';
+$lang['EMPRESA_REFORMA_2'] = '02. Presupuesto.';
+$lang['EMPRESA_REFORMA_3'] = '03. Replanteo de las obras.';
+$lang['EMPRESA_REFORMA_4'] = '04. Ejecución de los trabajos';
+
 ?>

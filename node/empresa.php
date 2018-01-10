@@ -57,6 +57,7 @@ include_once 'common.php';
       <div class="menu-footer right-boxed">
         <div class="social-list">
           <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
+          <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
         </div>
         <div class="copy"><?php echo $lang['MENU_FOOTER']; ?></div>
       </div>
@@ -83,8 +84,11 @@ include_once 'common.php';
       <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark"><?php echo $lang['ADDRESS_CONTACT_PHONE']; ?></span></address>
       <div class="social-list hidden-xs">
         <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target=""></a>
+        <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
+
       </div>
     </header>
+
     <!-- Pageheader -->
 
     <main class="page-header-3">
@@ -93,83 +97,73 @@ include_once 'common.php';
           <div class="col-md-3">
             <div class="title-hr"></div>
           </div>
-          <div class="col-md-8 col-lg-6"><h1><?php echo $lang['CONTACT_TITLE']; ?></h1></div>
+          <div class="col-md-8 col-lg-6"><h1><?php echo $lang['PARTICULARES_TITLE']; ?></h1></div>
         </div>
       </div>
     </main>
 
-    <div class="content">
-      <div id="map" class="map"></div>
+    <div class="content bg-dots">
+      <div class=""></div>
       <div class="page-inner">
-        <section>
+        <section class="section about-info">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
                 <div class="section-info">
                   <div class="title-hr"></div>
-                  <div class="info-title">Keep in touch</div>
+                  <div class="info-title"><?php echo $lang['PARTICULARES_NUEVA_OBRA']; ?></div>
                 </div>
               </div>
               <div class="col-md-9">
-                <div class="row-contact row">
-                  <div class="col-contact col-lg-6">
-                    <h3 class="contact-title contact-top">Puerto del Rosario, <span><?php echo $lang['CONTACT_COUNTRY']; ?></span></h3>
-                    <p class="contact-address text-muted"><strong>C./ Isla la Graciosa, nº2, local izq. 35600.</strong></p>
-                    <p class="contact-row text-dark"><strong class="text-dark"><?php echo $lang['OFFICE']; ?>:</strong> info@nodegestion.es</p>
-                    <p class="contact-row text-dark"><strong class="text-dark"><?php echo $lang['OBRAS_NAME']; ?>:</strong> obras@nodegestion.es</p>
-                  </div>
-                  <div class="col-contact col-lg-6">
-                    <p class="contact-top"><strong class="text-muted"><?php echo $lang['CONTACT_CALL']; ?>:</strong></p>
-                    <p class="phone-lg text-dark">+34  828 908 650</p>
-                    <p class="text-muted"><strong class="text-dark"><?php echo $lang['CONTACT_HOURS']; ?></strong><br>
-                     <?php echo $lang['CONTACT_HOURS']; ?> 08h00 - 18h00<br>
-                    <div class="text-muted"><strong class="text-dark"><?php echo $lang['CONTACT_FOLLOW']; ?></strong><br>
-                      <div class="contact-social social-list">
-                        <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
-                        <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
+                <div class="text-display-1 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_DESCRIPTION']; ?> </div>
+                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_1']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_2']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_3']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_4']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_NUEVA_OBRA_5']; ?></li>
+              </div>
+            </div>
+          </div>
+        </section>
+
+                <section class="section about-info">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="section-info">
+                          <div class="title-hr"></div>
+                          <div class="info-title"><?php echo $lang['PARTICULARES_TECH_TITLE']; ?></div>
+                        </div>
+                      </div>
+                      <div class="col-md-9">
+                        <div class="text-display-1 text-dark"><?php echo $lang['PARTICULARES_TECH_DESCRIPTION']; ?> </div>
+                          <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_TECH_1']; ?></li>
+                          <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_TECH_2']; ?></li>
+                          <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_TECH_3']; ?></li>
+                          <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_TECH_4']; ?></li>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="section-message section">
+                </section>
+
+        <section class="section about-info">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
                 <div class="section-info">
                   <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['CONTACT_HELP']; ?></div>
+                  <div class="info-title"><?php echo $lang['PARTICULARES_REFORMA_TITLE']; ?></div>
                 </div>
               </div>
               <div class="col-md-9">
-                <form class="js-form">
-                  <div class="row">
-                    <div class="form-group col-sm-6 col-lg-4">
-                      <input class="input-gray" type="text" name="name" required placeholder=<?php echo $lang['CONTACT_EMAIL_NAME']; ?>>
-                    </div>
-                    <div class="form-group col-sm-6 col-lg-4">
-                      <input class="input-gray" type="email" name="email" required placeholder=<?php echo $lang['CONTACT_EMAIL_EMAIL']; ?>>
-                    </div>
-                    <div class="form-group col-sm-12 col-lg-4">
-                      <input class="input-gray" type="text" name="subject" placeholder=<?php echo $lang['CONTACT_EMAIL_SUBJECT']; ?>>
-                    </div>
-                    <div class="form-group col-sm-12">
-                      <textarea class="input-gray" name="message"  required  placeholder=<?php echo $lang['CONTACT_EMAIL_MESSAGE']; ?>></textarea>
-                    </div>
-                    <div class="col-sm-12"><button type="submit" class="btn-upper btn-yellow btn"><?php echo $lang['CONTACT_EMAIL_SEND']; ?></button></div>
-                  </div>
-                  <div class="success-message"><i class="fa fa-check text-primary"></i> <?php echo $lang['CONTACT_EMAIL_OK']; ?></div>
-                  <div class="error-message"><?php echo $lang['CONTACT_EMAIL_FAIL']; ?></div>
-                </form>
+                <div class="text-display-1 text-dark"><?php echo $lang['PARTICULARES_REFORMA_DESCRIPTION']; ?> </div>
+                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_REFORMA_1']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_REFORMA_2']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['PARTICULARES_REFORMA_3']; ?></li>
               </div>
             </div>
           </div>
         </section>
-      </div>
-    </div>
 
     <!-- Footer -->
 
@@ -211,7 +205,6 @@ include_once 'common.php';
             <div class="flex-item">
               <div class="social-list">
                 <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
-                <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
               </div>
             </div>
           </div>
@@ -234,8 +227,7 @@ include_once 'common.php';
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/sly.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyCEprRgdAfS753As69Wak04p2fvCzKbXQU"></script>
-<script src="js/gmap.js"></script>
+
 
 <!-- Slider revolution -->
 <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>

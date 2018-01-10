@@ -74,7 +74,7 @@ include_once 'common.php';
         <span class="icon-bar"></span>
       </button>
 
-      <a class="brand" href="#">
+      <a class="brand">
         <img id="logo-white" class="brand-img" alt="" src="images/brand.png">
         <img id="logo" class="brand-img-white" alt="" src="images/brand-white-2.png">
         <div class="brand-info">
@@ -169,7 +169,7 @@ include_once 'common.php';
                           <h2 class="title-uppercase text-primary"><?php echo $lang['TITLE_SECTION_2_2']; ?></h2>
                           <ul class="service-list">
                             <li><a href="particulares.php"><?php echo $lang['SERVICE_CLIENTE_1']; ?></a></li>
-                            <li><a href=""><?php echo $lang['SERVICE_CLIENTE_2']; ?></a></li>
+                            <li><a href="empresa.php"><?php echo $lang['SERVICE_CLIENTE_2']; ?></a></li>
                             <li><a href=""><?php echo $lang['SERVICE_CLIENTE_3']; ?></a></li>
                             <li><a href=""><?php echo $lang['SERVICE_CLIENTE_4']; ?></a></li>
                             <li><a href=""><?php echo $lang['SERVICE_CLIENTE_5']; ?></a></li>
