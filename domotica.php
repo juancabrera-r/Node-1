@@ -37,8 +37,8 @@ include_once 'common.php';
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="construction.php?lang=es">Esp</a>
-        <a href="construction.php?lang=en">Eng</a>
+        <a href="domotica.php?lang=es">Esp</a>
+        <a href="domotica.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
@@ -95,7 +95,7 @@ include_once 'common.php';
       <main class="page-header-3">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['CONSTRUCTION_TITLE']; ?></h1></div>
+            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['DOMOTICA_TITLE']; ?></h1></div>
           </div>
         </div>
       </main>
@@ -107,11 +107,11 @@ include_once 'common.php';
         <div class="col-md-3">
           <div class="section-info">
             <div class="title-hr"></div>
-            <div class="info-title"><?php echo $lang['CONSTRUCTION_PROFESION']; ?></div>
+            <div class="info-title"><?php echo $lang['DOMOTICA_PROFESION']; ?></div>
           </div>
         </div>
         <div class="col-md-9">
-          <div class="text-display-1 text-dark"><?php echo $lang['CONSTRUCTION_PROFESIONAL']; ?> </div>
+          <div class="text-display-1 text-dark"><?php echo $lang['DOMOTICA_PROFESIONAL']; ?> </div>
         </div>
       </div>
     </div>
@@ -124,24 +124,24 @@ include_once 'common.php';
                   <div class="row-services row">
                     <div class="col-service col-sm-6 col-lg-3">
                       <span class="text-dark icon-medium icon-apartment"></span>
-                      <h4><?php echo $lang['CONSTRUCTION_SERVICE_TITLE_1']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['CONSTRUCTION_SERVICE_DESCRIPTION_1']; ?></p>
+                      <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_1']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_1']; ?></p>
                     </div>
                     <div class="col-service col-sm-6 col-lg-3">
                       <span class="text-dark icon-medium icon-paint-roller"></span>
-                      <h4><?php echo $lang['CONSTRUCTION_SERVICE_TITLE_2']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['CONSTRUCTION_SERVICE_DESCRIPTION_2']; ?></p>
+                      <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_2']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_2']; ?></p>
                     </div>
                     <div class="col-service col-sm-6 col-lg-3">
                       <span class="text-dark icon-medium icon-paint-roller"></span>
-                      <h4><?php echo $lang['CONSTRUCTION_SERVICE_TITLE_3']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['CONSTRUCTION_SERVICE_DESCRIPTION_3']; ?></p>
+                      <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_3']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_3']; ?></p>
                     </div>
                     <div class="clearfix visible-sm visible-md"></div>
                     <div class="col-service col-sm-6 col-lg-3">
                       <span class="text-dark icon-medium icon-pencil-ruler"></span>
-                      <h4><?php echo $lang['CONSTRUCTION_SERVICE_TITLE_4']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['CONSTRUCTION_SERVICE_DESCRIPTION_4']; ?></p>
+                      <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_4']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_4']; ?></p>
                     </div>
                   </div>
                 </div>
@@ -163,6 +163,7 @@ include_once 'common.php';
                 </div>
               </div>
             </div>
+
 
     <!-- Footer -->
 
@@ -197,8 +198,8 @@ include_once 'common.php';
           -->
             <div class="flex-item">
               <ul>
-                <li><a href="construction.php?lang=es">Esp</a></li>
-                <li><a href="construction.php?lang=en">Eng</a></li>
+                <li><a href="domotica.php?lang=es">Esp</a></li>
+                <li><a href="domotica.php?lang=en">Eng</a></li>
               </ul>
             </div>
             <div class="flex-item">

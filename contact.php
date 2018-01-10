@@ -176,7 +176,7 @@ include_once 'common.php';
         <footer id="footer" class="footer section">
           <div class="footer-flex">
             <div class="flex-item">
-              <a class="brand pull-left" href="#">
+              <a class="brand pull-left" href="./index.php">
                 <img alt="" src="images/brand.png">
               </a>
             </div>

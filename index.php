@@ -162,7 +162,7 @@ include_once 'common.php';
                             <li><a href="proyectos.php"><?php echo $lang['SERVICE_SECTION_2_2']; ?></a></li>
                             <li><a href="construction.php"><?php echo $lang['SERVICE_SECTION_2_3']; ?></a></li>
                             <li><a href="construction.php"><?php echo $lang['SERVICE_SECTION_2_4']; ?></a></li>
-                            <li><a href=""><?php echo $lang['SERVICE_SECTION_2_5']; ?></a></li>
+                            <li><a href="domotica.php"><?php echo $lang['SERVICE_SECTION_2_5']; ?></a></li>
                             <li><a href="proyectos.php"><?php echo $lang['SERVICE_SECTION_2_6']; ?></a></li>
                           </ul>
                         </div>

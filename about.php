@@ -73,7 +73,7 @@ include_once 'common.php';
         <span class="icon-bar"></span>
       </button>
 
-      <a class="brand" href="#">
+      <a class="brand" href="./index.php">
         <img id="logo-white" class="brand-img" alt="" src="images/brand.png">
         <img id="logo" class="brand-img-white" alt="" src="images/brand.png">
         <div class="brand-info">
@@ -94,15 +94,12 @@ include_once 'common.php';
     <main class="page-header-3">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <div class="title-hr"></div>
-          </div>
-          <div class="col-md-8 col-lg-6"><h1><?php echo $lang['ABOUT_TITLE']; ?></h1></div>
+          <div class="col-right col-md-8 col-lg-12"><h1><?php echo $lang['ABOUT_TITLE']; ?></h1></div>
         </div>
       </div>
     </main>
 
-    <div class="content bg-dots">
+    <div class="content">
       <div class=""></div>
       <div class="page-inner">
         <section class="section about-info">
@@ -122,7 +119,7 @@ include_once 'common.php';
           </div>
         </section>
 
-        <section class="section about-info">
+        <section class="section section-md about-info">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
@@ -139,7 +136,7 @@ include_once 'common.php';
           </div>
         </section>
 
-        <section class="section about-info">
+        <section class="section section-md about-info">
           <div class="container">
             <div class="row">
               <div class="col-md-3">
@@ -164,7 +161,7 @@ include_once 'common.php';
         <footer id="footer" class="footer section">
           <div class="footer-flex">
             <div class="flex-item">
-              <a class="brand pull-left" href="#">
+              <a class="brand pull-left" href="./index.php">
                 <img alt="" src="images/brand.png">
               </a>
             </div>

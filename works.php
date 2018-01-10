@@ -95,6 +95,7 @@ include_once 'common.php';
       <div class="container"><h1><?php echo $lang['WORKS_MAIN_TITLE']; ?></h1></div>
     </main>
 
+<section class="section">
     <div class="content">
       <div class="projects">
         <div class="container">
@@ -225,6 +226,8 @@ include_once 'common.php';
         </div>
       </div>
     </div>
+
+    </section>
 
     <!-- Footer -->
 

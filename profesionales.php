@@ -73,7 +73,7 @@ include_once 'common.php';
         <span class="icon-bar"></span>
       </button>
 
-      <a class="brand" href="#">
+      <a class="brand" href="./index.php">
         <img id="logo-white" class="brand-img" alt="" src="images/brand.png">
         <img id="logo" class="brand-img-white" alt="" src="images/brand.png">
         <div class="brand-info">
