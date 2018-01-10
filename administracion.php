@@ -98,7 +98,7 @@ include_once 'common.php';
             <div class="col-md-3">
               <div class="title-hr"></div>
             </div>
-            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['PROFESIONAL_TITLE']; ?></h1></div>
+            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['ADMINISTRATION_TITLE']; ?></h1></div>
           </div>
         </div>
       </main>
@@ -152,16 +152,16 @@ include_once 'common.php';
                   <div class="col-md-3">
                     <div class="section-info">
                       <div class="title-hr"></div>
-                      <div class="info-title"><?php echo $lang['PROFESIONAL_NUEVA_OBRA']; ?></div>
+                      <div class="info-title"><?php echo $lang['ADMINISTRATION_NUEVA_OBRA']; ?></div>
                     </div>
                   </div>
                   <div class="col-md-9">
-                    <div class="text-display-1 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_DESCRIPTION']; ?> </div>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_1']; ?></li>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_2']; ?></li>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_3']; ?></li>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_4']; ?></li>
-                      <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_NUEVA_OBRA_5']; ?></li>
+                    <div class="text-display-1 text-dark"><?php echo $lang['ADMINISTRATION_NUEVA_OBRA_DESCRIPTION']; ?> </div>
+                      <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_NUEVA_OBRA_1']; ?></li>
+                      <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_NUEVA_OBRA_2']; ?></li>
+                      <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_NUEVA_OBRA_3']; ?></li>
+                      <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_NUEVA_OBRA_4']; ?></li>
+                      <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_NUEVA_OBRA_5']; ?></li>
                   </div>
                 </div>
               </div>
@@ -173,14 +173,14 @@ include_once 'common.php';
               <div class="col-md-3">
                 <div class="section-info">
                   <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['PROFESIONAL_REFORMA_TITLE']; ?></div>
+                  <div class="info-title"><?php echo $lang['ADMINISTRATION_REFORMA_TITLE']; ?></div>
                 </div>
               </div>
               <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['PROFESIONAL_REFORMA_DESCRIPTION']; ?> </div>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_REFORMA_1']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_REFORMA_2']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_REFORMA_3']; ?></li>
+                <div class="text-display-1 text-dark"><?php echo $lang['ADMINISTRATION_REFORMA_DESCRIPTION']; ?> </div>
+                  <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_REFORMA_1']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_REFORMA_2']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_REFORMA_3']; ?></li>
               </div>
             </div>
           </div>
@@ -192,15 +192,15 @@ include_once 'common.php';
               <div class="col-md-3">
                 <div class="section-info">
                   <div class="title-hr"></div>
-                  <div class="info-title"><?php echo $lang['PROFESIONAL_TECH_TITLE']; ?></div>
+                  <div class="info-title"><?php echo $lang['ADMINISTRATION_TECH_TITLE']; ?></div>
                 </div>
               </div>
               <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['PROFESIONAL_TECH_DESCRIPTION']; ?> </div>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_TECH_1']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_TECH_2']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_TECH_3']; ?></li>
-                  <li class="text-display-2 text-dark"><?php echo $lang['PROFESIONAL_TECH_4']; ?></li>
+                <div class="text-display-1 text-dark"><?php echo $lang['ADMINISTRATION_TECH_DESCRIPTION']; ?> </div>
+                  <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_TECH_1']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_TECH_2']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_TECH_3']; ?></li>
+                  <li class="text-display-2 text-dark"><?php echo $lang['ADMINISTRATION_TECH_4']; ?></li>
               </div>
             </div>
           </div>

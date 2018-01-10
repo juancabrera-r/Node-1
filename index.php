@@ -172,9 +172,9 @@ include_once 'common.php';
                             <li><a href="particulares.php"><?php echo $lang['SERVICE_CLIENTE_1']; ?></a></li>
                             <li><a href="empresa.php"><?php echo $lang['SERVICE_CLIENTE_2']; ?></a></li>
                             <li><a href="comunidades.php"><?php echo $lang['SERVICE_CLIENTE_3']; ?></a></li>
-                            <li><a href=""><?php echo $lang['SERVICE_CLIENTE_4']; ?></a></li>
-                            <li><a href=""><?php echo $lang['SERVICE_CLIENTE_5']; ?></a></li>
-                            <li><a href=""><?php echo $lang['SERVICE_CLIENTE_6']; ?></a></li>
+                            <li><a href="profesionales.php"><?php echo $lang['SERVICE_CLIENTE_4']; ?></a></li>
+                            <li><a href="administracion.php"><?php echo $lang['SERVICE_CLIENTE_5']; ?></a></li>
+                            <li><a href="inmobiliaria.php"><?php echo $lang['SERVICE_CLIENTE_6']; ?></a></li>
                           </ul>
                         </div>
                       </div>
