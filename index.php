@@ -147,7 +147,7 @@ include_once 'common.php';
 
 <!--    SERVICES   -->
       <div class="pp-scrollable section section-1">
-        <div class="scroll-wrap">
+        <div class="scroll-wrap ">
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">

@@ -90,7 +90,7 @@ include_once 'common.php';
     </header>
 
     <!-- Pageheader -->
-    <section class="section section-mod bg-dots">
+    <section class="section section-mod">
       <main class="page-header-3">
         <div class="container">
           <div class="row">
@@ -98,41 +98,46 @@ include_once 'common.php';
               <div class="title-hr"></div>
             </div>
             <div class="col-md-8 col-lg-8"><h1><?php echo $lang['EMPRESA_TITLE']; ?></h1></div>
+            <h6 class="text-dark"><?php echo $lang['EMPRESA_DESCRIPTION_TITLE']; ?></h6>
           </div>
         </div>
       </main>
 </section>
 
-          <section class="section section-mod about-info">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="row-services row">
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-apartment"></span>
-                      <h4><?php echo $lang['All_SERVICE_TITLE_REFORMA']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REFORMA']; ?></p>
-                    </div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-paint-roller"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_REHA']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REHA']; ?></p>
-                    </div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-paint-roller"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_DOM']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_DOM']; ?></p>
-                    </div>
-                    <div class="clearfix visible-sm visible-md"></div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-pencil-ruler"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_TELEC']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_TELEC']; ?></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+<section class="section section-mod about-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row-services row">
+          <div class="col-service col-sm-6 col-lg-3">
+            <span class="text-dark icon-medium icon-home"></span>
+            <h4><?php echo $lang['ALL_SERVICE_TITLE_ARQ']; ?></h4>
+            <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_ARQ']; ?></p>
+          </div>
+          <div class="col-service col-sm-6 col-lg-3">
+            <span class="text-dark icon-medium icon-cube"></span>
+            <h4><?php echo $lang['ALL_SERVICE_TITLE_CONST']; ?></h4>
+            <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_CONST']; ?></p>
+          </div>
+          <div class="col-service col-sm-6 col-lg-3">
+            <span class="text-dark icon-medium ion-settings"></span>
+            <h4><?php echo $lang['All_SERVICE_TITLE_REFORMA']; ?></h4>
+            <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REFORMA']; ?></p>
+          </div>
+          <div class="col-service col-sm-6 col-lg-3">
+            <span class="text-dark icon-medium icon-construction"></span>
+            <h4><?php echo $lang['ALL_SERVICE_TITLE_REHA']; ?></h4>
+            <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REHA']; ?></p>
+          </div>
+          <div class="col-service col-sm-6 col-lg-3">
+            <span class="text-dark icon-medium icon-laptop"></span>
+            <h4><?php echo $lang['ALL_SERVICE_TITLE_DOM']; ?></h4>
+            <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_DOM']; ?></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
             <section class="section  section-mod about-info">
               <div class="container">
@@ -189,7 +194,6 @@ include_once 'common.php';
                   <div class="text-display-1 text-dark"><?php echo $lang['EMPRESA_REFORMA_DESCRIPTION']; ?> </div>
                     <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_REFORMA_1']; ?></li>
                     <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_REFORMA_2']; ?></li>
-                    <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_REFORMA_3']; ?></li>
                     <li class="text-display-2 text-dark"><?php echo $lang['EMPRESA_REFORMA_4']; ?></li>
                 </div>
               </div>
