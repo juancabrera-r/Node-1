@@ -202,33 +202,25 @@ include_once 'common.php';
                     <div class="intro">
                       <div class="row">
                         <h2 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
+                        <div class="row">
+                          <h5 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_2']; ?></h5>
                           <div class="news-carousel owl-carousel">
                             <div class="news-item">
-                              <img alt="" src="images/news/1-370x370.jpg">
+                              <img alt="imagen-domotica-canarias" src="images/news/1-370x370.jpg">
                               <div class="news-hover">
                                 <div class="hover-border"><div></div></div>
-                                <div class="content">
+                                <div class="content ">
                                   <h3 class="news-title"><?php echo $lang['SERVICE_SECTION_3_1']; ?></h3>
                                 </div>
                                 <a class="read-more" href="#"><?php echo $lang['TITLE_SECTION_3_IMG']; ?></a>
                               </div>
                             </div>
                             <div class="news-item">
-                              <img alt="" src="images/news/2-370x370.jpg">
+                              <img alt="imagen-telecomunicaciones-canarias" src="images/news/2-370x370.jpg">
                               <div class="news-hover">
                                 <div class="hover-border"><div></div></div>
                                 <div class="content">
                                   <h3 class="news-title"><?php echo $lang['SERVICE_SECTION_3_2']; ?></h3>
-                                </div>
-                                <a class="read-more" href="#"><?php echo $lang['TITLE_SECTION_3_IMG']; ?></a>
-                              </div>
-                            </div>
-                            <div class="news-item">
-                              <img alt="" src="images/news/3-370x370.jpg">
-                              <div class="news-hover">
-                                <div class="hover-border"><div></div></div>
-                                <div class="content">
-                                  <h3 class="news-title"><?php echo $lang['SERVICE_SECTION_3_3']; ?></h3>
                                 </div>
                                 <a class="read-more" href="#"><?php echo $lang['TITLE_SECTION_3_IMG']; ?></a>
                               </div>
@@ -239,6 +231,7 @@ include_once 'common.php';
                             <div class="dots"></div>
                           </div>
                         </div>
+                    </div>
                     </div>
                   </div>
                 </div>

@@ -46,7 +46,7 @@ $lang['SERVICE_CLIENTE_6'] = '06. Inmobiliaria';
 // SECTION-3
 $lang['VERTICAL_MENU_3'] = 'Instalaciones Inteligentes';
 $lang['TITLE_SECTION_3_1'] = 'Integración de sistemas de control';
-//$lang['TITLE_SECTION_3_2'] = ' humedades';
+$lang['TITLE_SECTION_3_2'] = ' humedades';
 $lang['TITLE_SECTION_3_IMG'] = 'Saber más...';
 $lang['SERVICE_SECTION_3_1'] = 'Domótica';
 $lang['SERVICE_SECTION_3_2'] = 'Telecomunicaciones';
@@ -318,19 +318,21 @@ $lang['CONSTRUCTION_SERVICE_4'] = 'Realizamos cualquier tipo de instalación en 
 $lang['CONSTRUCTION_SERVICE_IMG_1'] = 'Albañilería';
 $lang['CONSTRUCTION_SERVICE_IMG_2'] = 'Pintura';
 $lang['CONSTRUCTION_SERVICE_IMG_3'] = 'Electricidad';
-//CONSTRUCTION (SERVICIOS)
-$lang['DOMOTICA_TITLE'] = 'Servicio constructora';
+//DOMOTICA (SERVICIOS)
+$lang['DOMOTICA_TITLE'] = 'Integración de sistemas de control';
 $lang['DOMOTICA_PROFESION'] = 'Servicios inteligentes';
-$lang['DOMOTICA_PROFESIONAL'] = 'En <strong>NODE Gestión</strong> con tamos con profesionales en distintos campos albañilería, pintura, electricidad, carpintería, impermeabilización, etc.';
-$lang['DOMOTICA_SERVICE_TITLE_1'] = 'Albañilería';
-$lang['DOMOTICA_SERVICE_TITLE_2'] = 'Pintura';
-$lang['DOMOTICA_SERVICE_TITLE_3'] = 'Impermeabilización';
+$lang['DOMOTICA_PROFESIONAL'] = 'En <strong>NODE Gestión</strong> ofrecemos control de vivienda, edificios e industria.';
+$lang['DOMOTICA_SERVICE_TITLE_1'] = 'Domótica';
+$lang['DOMOTICA_SERVICE_TITLE_2'] = 'Programación';
+$lang['DOMOTICA_SERVICE_TITLE_3'] = 'Cámaras IP';
 $lang['DOMOTICA_SERVICE_TITLE_4'] = 'Asesoramiento';
-$lang['DOMOTICA_SERVICE_DESCRIPTION_1'] = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.';
-$lang['DOMOTICA_SERVICE_DESCRIPTION_2'] = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.';
-$lang['DOMOTICA_SERVICE_DESCRIPTION_3'] = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.';
-$lang['DOMOTICA_SERVICE_DESCRIPTION_4'] = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.';
-
+$lang['DOMOTICA_SERVICE_DESCRIPTION_1'] = 'Ofrecemos servicios de control del viviendas, oficinas, edificios, etc.';
+$lang['DOMOTICA_SERVICE_DESCRIPTION_2'] = 'Realizamos la integración y la programación de los distintos sistemas inteligentes.';
+$lang['DOMOTICA_SERVICE_DESCRIPTION_3'] = 'Instalamos cámaras IP.';
+$lang['DOMOTICA_SERVICE_DESCRIPTION_4'] = 'Le aseraremos con cosas.';
+$lang['DOMOTICA_SERVICE_IMG_1'] = 'Albañilería';
+$lang['DOMOTICA_SERVICE_IMG_2'] = 'Pintura';
+$lang['DOMOTICA_SERVICE_IMG_3'] = 'Electricidad';
 
 
 
