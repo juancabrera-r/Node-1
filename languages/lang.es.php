@@ -9,13 +9,16 @@ Language: Spanish
 $lang = array();
 //INDEX
 // Meta
-$lang['META_DESCRIPTION'] = 'Realizamos proyectos, reformas y construcciones en Fuerteventura. Gestionamos todo el proceso para reducir los costes.';
+$lang['META_DESCRIPTION'] = 'Proyectos, reformas, construcciones y domótica en Fuerteventura. Gestionamos todo el proceso para reducir los costes.';
 // Menu
-$lang['MENU_FOOTER'] = '© COGESA S.L. 2017. Todos los derechos reservados';
+$lang['MENU_FOOTER'] = '© COGESA S.L. 2018. Todos los derechos reservados';
 $lang['MENU_INDEX'] = 'Inicio';
 $lang['MENU_ABOUT'] = 'Sobre nosotros';
 $lang['MENU_WORKS'] = 'Trabajos';
 $lang['MENU_CONTACT'] = 'Contacto';
+$lang['MENU_STUDIO'] = 'Estudio técnico';
+$lang['MENU_BULINDER'] = 'Construcción';
+$lang['MENU_DOMOTICA'] = 'Domótica';
 // Navbar
 $lang['MENU_BRAND_TEXT'] = 'CONSTRUCCIÓN, ARQUITECTURA E INGENIERÍA';
 //Address
@@ -46,10 +49,12 @@ $lang['SERVICE_CLIENTE_6'] = '06. Inmobiliaria';
 // SECTION-3
 $lang['VERTICAL_MENU_3'] = 'Instalaciones Inteligentes';
 $lang['TITLE_SECTION_3_1'] = 'Integración de sistemas de control';
-$lang['TITLE_SECTION_3_2'] = ' humedades';
+$lang['TITLE_SECTION_3_2'] = 'En <strong>NODE Gestión</strong> nos especializamos en la instalación de sistemas de control para <strong>particulares</strong> y <strong>empresas</strong>.
+<br><br>Esta tecnología permite controlar la automatización de los equipos y sistemas de una vivienda, centralizándolos y comunicandolos entre sí para una gestión inteligente.
+<br><br>Seguridad, control, confort y comunicación son los beneficios que se obtienen con este tipo de tecnología.';
 $lang['TITLE_SECTION_3_IMG'] = 'Saber más...';
-$lang['SERVICE_SECTION_3_1'] = 'Domótica';
-$lang['SERVICE_SECTION_3_2'] = 'Telecomunicaciones';
+$lang['SERVICE_SECTION_3_1'] = 'Domótica/Inmótica';
+$lang['SERVICE_SECTION_3_2'] = 'Automatización';
 $lang['SERVICE_SECTION_3_3'] = 'Asesoramiento';
 //$lang['LEMA_SECTION_3_1'] = 'Años';
 //$lang['LEMA_SECTION_3_2'] = 'de ';
@@ -321,18 +326,23 @@ $lang['CONSTRUCTION_SERVICE_IMG_3'] = 'Electricidad';
 //DOMOTICA (SERVICIOS)
 $lang['DOMOTICA_TITLE'] = 'Integración de sistemas de control';
 $lang['DOMOTICA_PROFESION'] = 'Servicios inteligentes';
-$lang['DOMOTICA_PROFESIONAL'] = 'En <strong>NODE Gestión</strong> ofrecemos control de vivienda, edificios e industria.';
-$lang['DOMOTICA_SERVICE_TITLE_1'] = 'Domótica';
-$lang['DOMOTICA_SERVICE_TITLE_2'] = 'Programación';
-$lang['DOMOTICA_SERVICE_TITLE_3'] = 'Cámaras IP';
-$lang['DOMOTICA_SERVICE_TITLE_4'] = 'Asesoramiento';
-$lang['DOMOTICA_SERVICE_DESCRIPTION_1'] = 'Ofrecemos servicios de control del viviendas, oficinas, edificios, etc.';
-$lang['DOMOTICA_SERVICE_DESCRIPTION_2'] = 'Realizamos la integración y la programación de los distintos sistemas inteligentes.';
-$lang['DOMOTICA_SERVICE_DESCRIPTION_3'] = 'Instalamos cámaras IP.';
-$lang['DOMOTICA_SERVICE_DESCRIPTION_4'] = 'Le aseraremos con cosas.';
-$lang['DOMOTICA_SERVICE_IMG_1'] = 'Albañilería';
-$lang['DOMOTICA_SERVICE_IMG_2'] = 'Pintura';
-$lang['DOMOTICA_SERVICE_IMG_3'] = 'Electricidad';
+$lang['DOMOTICA_PROFESIONAL'] = 'En <strong>NODE Gestión</strong> ofrecemos control de vivienda, edificios e industria. Entre los distintos sistemas que se pueden automatizar se distinguen los siguientes: iluminación, climatización, motorización (persianas, agua y gas) y seguridad (accesos, rotura de cristales, forzado de puertas, etc.).';
+$lang['DOMOTICA_SERVICE_TITLE_1'] = 'Iluminación';
+$lang['DOMOTICA_SERVICE_TITLE_2'] = 'Motorización';
+$lang['DOMOTICA_SERVICE_TITLE_3'] = 'Seguridad';
+$lang['DOMOTICA_SERVICE_TITLE_4'] = 'Climatización';
+$lang['DOMOTICA_SERVICE_TITLE_5'] = 'Cámaras IP';
+$lang['DOMOTICA_SERVICE_TITLE_6'] = 'Monitorización de instalaciones';
+$lang['DOMOTICA_SERVICE_DESCRIPTION_1'] = 'El <strong>control de la iluminación</strong> permite un ahorro energético al regularse en función de la luz natural. <br><br>Permite un <strong>control encendido/apagado</strong> de forma remota y automática.';
+$lang['DOMOTICA_SERVICE_DESCRIPTION_2'] = 'Con la <strong>motorización de persianas y toldos</strong> se logra un mayor ahorro energético y confort al controlar la entrada de sol a la vivienda. Además permite aumentar la seguridad al recoger los toldos en caso de fuertes vientos.
+<br><br>Con la <strong>motorización de las válvulas de agua y gas</strong>, permite cortar el suministro en caso de fuga o cuando no hay nadie en la vivienda';
+$lang['DOMOTICA_SERVICE_DESCRIPTION_3'] = 'Un sistema domótico permite <strong>aumentar la seguridad</strong> contra el robo al disponer de sensores en puertas y ventanas y sensores de movimiento y/o volumétricos. También permite reproducir escenas de iluminación y movimiento de persinas para simular la presencia de habitantes en la vivienda.';
+$lang['DOMOTICA_SERVICE_DESCRIPTION_4'] = 'El control del sistema de climatización supone el sistema más <strong>rentable</strong>. Permite un mayor confort al permitir una mayor zonificación que un sistema tradicional. <br><br>Sincronizar el sistema de motorización de persianas con la climatización permite una mayor eficiencia energética.';
+$lang['DOMOTICA_SERVICE_DESCRIPTION_5'] = 'La <strong>videovigilancia IP</strong> normalmente posee un coste menor que un sistema CCTV analógico tradicional, además permite acceder a las cámaras de forma remota.<br><br> Este tipo de sistema tiene la ventaja que permite flexibilidad a la hora de crecer en función de las necesidades.';
+$lang['DOMOTICA_SERVICE_DESCRIPTION_6'] = 'La <strong>monitorización</strong> es un sistema esencial para mejorar la gestión de edifición. Permite un acceso remoto del sistema y una reducción de costes de mantenimiento.';
+$lang['DOMOTICA_SERVICE_IMG_1'] = 'Diseño y proyecto';
+$lang['DOMOTICA_SERVICE_IMG_2'] = 'Programación';
+$lang['DOMOTICA_SERVICE_IMG_3'] = 'Puesta en marcha';
 
 
 

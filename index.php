@@ -43,17 +43,23 @@ include_once 'common.php';
         <a href="index.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
-        <li class="active">
-          <a  href="./index.php"><?php echo $lang['MENU_INDEX']; ?></a>
+        <li>
+          <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
         </li>
         <li>
-          <a  href="./about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+          <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
         </li>
         <li>
-          <a  href="./works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+          <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
         </li>
         <li>
-          <a  href="./contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
+          <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+        </li>
+        <li>
+          <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+        </li>
+        <li>
+          <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
         </li>
       </ul>
       <div class="menu-footer right-boxed">
@@ -91,7 +97,7 @@ include_once 'common.php';
 
       </div>
     </header>
-    <div class="copy-bottom white boxed">© COGESA S.L. 2017.</div>
+    <div class="copy-bottom white boxed">© COGESA S.L. 2018.</div>
     <div class="lang-bottom white boxed">
       <div class="menu-lang">
         <a href="index.php?lang=es">Esp</a>
@@ -203,7 +209,7 @@ include_once 'common.php';
                       <div class="row">
                         <h2 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
                         <div class="row">
-                          <h5 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_2']; ?></h5>
+                          <h6 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_2']; ?></h6>
                           <div class="news-carousel owl-carousel">
                             <div class="news-item">
                               <img alt="imagen-domotica-canarias" src="images/news/1-370x370.jpg">
@@ -212,7 +218,7 @@ include_once 'common.php';
                                 <div class="content ">
                                   <h3 class="news-title"><?php echo $lang['SERVICE_SECTION_3_1']; ?></h3>
                                 </div>
-                                <a class="read-more" href="#"><?php echo $lang['TITLE_SECTION_3_IMG']; ?></a>
+                                <a class="read-more" href="domotica.php"><?php echo $lang['TITLE_SECTION_3_IMG']; ?></a>
                               </div>
                             </div>
                             <div class="news-item">
@@ -222,7 +228,7 @@ include_once 'common.php';
                                 <div class="content">
                                   <h3 class="news-title"><?php echo $lang['SERVICE_SECTION_3_2']; ?></h3>
                                 </div>
-                                <a class="read-more" href="#"><?php echo $lang['TITLE_SECTION_3_IMG']; ?></a>
+                                <a class="read-more" href="domotica.php"><?php echo $lang['TITLE_SECTION_3_IMG']; ?></a>
                               </div>
                             </div>
                           </div>
@@ -433,8 +439,24 @@ include_once 'common.php';
                                     <ul class="contact-info-row">
                                         <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
                                         <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
-                                        <li><a href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a></li>
-                                        <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
+                                        <li>
+                                          <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+                                        </li>
+                                        <li>
+                                          <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+                                        </li>
+                                        <li>
+                                          <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+                                        </li>
+                                        <li>
+                                          <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+                                        </li>
+                                        <li>
+                                          <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+                                        </li>
+                                        <li>
+                                          <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
+                                        </li>
                                       </ul>
                                 </div>
                               </div>

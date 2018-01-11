@@ -3393,6 +3393,9 @@ a.brand:focus{
   text-align: justify;
 }
 
+.text-justify{
+    text-align: justify;
+}
 .col-service h4{
   margin-top: 3.3rem;
 }
