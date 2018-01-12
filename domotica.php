@@ -258,6 +258,7 @@ include_once 'common.php';
 <script src="js/animsition.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>
+<script src="js/scrolloverflow.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.stellar.min.js"></script>

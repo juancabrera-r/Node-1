@@ -23,8 +23,10 @@ include_once 'common.php';
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" media="screen">
+
+
 </head>
-<body>
+<body >
 
 <div class="animsition">
 
@@ -208,6 +210,7 @@ include_once 'common.php';
 <script src="js/animsition.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>
+<script src="js/scrolloverflow.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.stellar.min.js"></script>

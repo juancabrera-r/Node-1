@@ -210,9 +210,11 @@ include_once 'common.php';
                         <h2 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
                         <div class="row">
                           <h6 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_2']; ?></h6>
-                          <div class="news-carousel owl-carousel">
-                            <div class="news-item">
+                          <div class="grid-items news-carousel owl-carousel">
+                            <div class="grid-item news-item">
+                              <div class="project-item">
                               <img alt="imagen-domotica-canarias" src="images/news/1-370x370.jpg">
+                              </div>
                               <div class="news-hover">
                                 <div class="hover-border"><div></div></div>
                                 <div class="content ">
@@ -255,66 +257,91 @@ include_once 'common.php';
               <div class="boxed boxed-inner">
                 <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_4']; ?></span></div>
                 <div class="boxed">
-                  <div class="container">
                     <div class="intro">
                       <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-14">
                           <h2 class="title-uppercase"><?php echo $lang['TITLE_SECTION_4_1']; ?></h2>
-                          <div class="row-project-box row">
-                            <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
-                              <div class="project-item item-shadow">
-                                <img alt="" class="img-responsive" src="proyectos/reforma-duplex/muro-pergola-reparado-min.JPG">
-                                <div class="project-hover">
-                                  <div class="project-hover-content">
-                                    <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1']; ?></h3>
-                                    <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_1']; ?></p>
+                          <div class="sly">
+                            <ul class="slidee">
+                              <li>
+                                <div class="project-item item-shadow">
+                                  <img alt="" class="img-responsive" src="images/projects/1-680x680.jpg">
+                                  <div class="project-hover">
+                                    <div class="project-hover-content">
+                                      <h3 class="project-title">Triangle<br>Concrete House<br>On Lake</h3>
+                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                    </div>
                                   </div>
+                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
                                 </div>
-                                <a href="works.php" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
-                              </div>
-                            </div>
-                            <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
-                              <div class="project-item item-shadow">
-                                <img alt="" class="img-responsive" src="proyectos/fachada-piedra/fachada-piedra-min.JPG">
-                                <div class="project-hover">
-                                  <div class="project-hover-content">
-                                    <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_2']; ?></h3>
-                                    <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_2']; ?></p>
+                              </li>
+                              <li>
+                                <div class="project-item item-shadow">
+                                  <img alt="" class="img-responsive" src="images/projects/2-680x680.jpg">
+                                  <div class="project-hover">
+                                    <div class="project-hover-content">
+                                      <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
+                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                    </div>
                                   </div>
+                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
                                 </div>
-                                <a href="works.php" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
-                              </div>
-                            </div>
-                            <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
-                              <div class="project-item item-shadow">
-                                <img alt="" class="img-responsive" src="proyectos/cuarto-apero/cuarto-apero-min.JPG">
-                                <div class="project-hover">
-                                  <div class="project-hover-content">
-                                    <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_3']; ?></h3>
-                                    <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_3']; ?></p>
+                              </li>
+                              <li>
+                                <div class="project-item item-shadow">
+                                  <img alt="" class="img-responsive" src="images/projects/3-680x680.jpg">
+                                  <div class="project-hover">
+                                    <div class="project-hover-content">
+                                      <h3 class="project-title">Milko<br>Co-Working<br>Building</h3>
+                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                    </div>
                                   </div>
+                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
                                 </div>
-                                <a href="works.php" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
-                              </div>
-                            </div>
-                            <div class="grid-item col-sm-6 col-md-4 col-lg-3 exterior js-isotope-item js-grid-item">
-                              <div class="project-item item-shadow">
-                                <img alt="" class="img-responsive" src="proyectos/reforma-baño/baño-min.jpg">
-                                <div class="project-hover">
-                                  <div class="project-hover-content">
-                                    <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_4']; ?></h3>
-                                    <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_4']; ?></p>
+                              </li>
+                              <li>
+                                <div class="project-item item-shadow">
+                                  <img alt="" class="img-responsive" src="images/projects/4-680x680.jpg">
+                                  <div class="project-hover">
+                                    <div class="project-hover-content">
+                                      <h3 class="project-title">Redesign<br>Interior For<br>Villa</h3>
+                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                    </div>
                                   </div>
+                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
                                 </div>
-                                <a href="works.php" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
-                              </div>
-                            </div>
+                              </li>
+                              <li>
+                                <div class="project-item item-shadow">
+                                  <img alt="" class="img-responsive" src="images/projects/5-680x680.jpg">
+                                  <div class="project-hover">
+                                    <div class="project-hover-content">
+                                      <h3 class="project-title">Wooden<br>Hozirontal<br>Villa</h3>
+                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                    </div>
+                                  </div>
+                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="project-item item-shadow">
+                                  <img alt="" class="img-responsive" src="images/projects/6-680x680.jpg">
+                                  <div class="project-hover">
+                                    <div class="project-hover-content">
+                                      <h3 class="project-title">Small<br>House Near<br>Wroclaw</h3>
+                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                    </div>
+                                  </div>
+                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                                </div>
+                              </li>
+                            </ul>
+                            <span class="prev icon-chevron-left"></span>
+                            <span class="next icon-chevron-right"></span>
                           </div>
-                          <!--<a href="#" class="h5 link-arrow text-white">Ver todos los proyectos <i class="icon icon-chevron-right"></i></a>-->
                         </div>
                       </div>
                     </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -383,7 +410,7 @@ include_once 'common.php';
 
       <!--    CONTACT    -->
       <div class="pp-scrollable section section-1">
-        <div class="scroll-wrap bg-dots">
+        <div class="scroll-wrap">
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
@@ -483,12 +510,14 @@ include_once 'common.php';
 <script src="js/animsition.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>
+<script src="js/scrolloverflow.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.stellar.min.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.pagepiling.js"></script>
+<script src="js/sly.min.js"></script>
 
 <!-- Google Analytics -->
 <script>(function(b,l,e,g,h,f){1!==parseInt(e.msDoNotTrack||b.doNotTrack||e.doNotTrack,10)&&b.addEventListener("load",function(){var r=(new Date).getTime();b.galite=b.galite||{};var m=new XMLHttpRequest,n="https://www.google-analytics.com/collect?cid="+(l.uid=l.uid||Math.random()+"."+Math.random())+"&v=1&tid="+galite.UA+"&dl="+f(h.location.href)+"&ul=en-us&de=UTF-8",a=function(b){var d="",c;for(c in b){if(void 0===b[c])return!1;d+=f(b[c])}return d},p={dt:[h.title],sd:[g.colorDepth,"-bit"],sr:[g.availHeight,"x",g.availWidth],vp:[innerWidth,"x",innerHeight],dr:[h.referrer]},k;for(k in p){var q=k+"="+a(p[k]);q&&(n+="&"+q)}a=function(b,d){var c="",a;for(a in d)c="&"+a+"="+f(d[a]);return function(){var a=n+c+(galite.anonymizeIp?"&aip=1":"")+"&t="+f(b)+"&z="+(new Date).getTime();if(e.sendBeacon)e.sendBeacon(a);else try{m.open("GET",a,!1),m.send()}catch(t){(new Image).src=a}}};setTimeout(a("pageview",null),100);b.addEventListener("unload",a("timing",{utc:"JS Dependencies",utv:"unload",utt:(new Date).getTime()- r}))})})(window,localStorage,navigator,screen,document,encodeURIComponent);</script>

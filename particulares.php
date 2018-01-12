@@ -223,6 +223,44 @@ include_once 'common.php';
             </div>
           </div>
         </section>
+
+
+                    <section class="section section-mod about-info">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="news-carousel owl-carousel">
+                              <div class="news-item">
+                                <img alt="" src="images/news/1-370x370.jpg">
+                                <div class="news-hover">
+                                  <div class="hover-border"><div></div></div>
+                                  <div class="content">
+                                    <h3 class="news-title"><?php echo $lang['DOMOTICA_SERVICE_IMG_1']; ?></h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="news-item">
+                                <img alt="" src="images/news/2-370x370.jpg">
+                                <div class="news-hover">
+                                  <div class="hover-border"><div></div></div>
+                                  <div class="content">
+                                    <h3 class="news-title"><?php echo $lang['DOMOTICA_SERVICE_IMG_2']; ?></h3>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="news-item">
+                                <img alt="" src="images/news/3-370x370.jpg">
+                                <div class="news-hover">
+                                  <div class="hover-border"><div></div></div>
+                                  <div class="content">
+                                    <h3 class="news-title"><?php echo $lang['DOMOTICA_SERVICE_IMG_3']; ?></h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
     <!-- Footer -->
 
         <footer id="footer" class="footer section">
@@ -269,6 +307,7 @@ include_once 'common.php';
 <script src="js/animsition.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/smoothscroll.js"></script>
+<script src="js/scrolloverflow.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.stellar.min.js"></script>
