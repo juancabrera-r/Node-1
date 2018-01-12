@@ -196,52 +196,52 @@ include_once 'common.php';
       </div>
 
 <!--    INSTALATIONS    -->
-      <div class="pp-scrollable text-white section section-1">
-        <div class="scroll-wrap">
-          <div class="section-bg" style="background-image:url(images/bg/bg2-2-min.jpg);"></div>
-          <div class="scrollable-content ">
-            <div class="vertical-centred">
-              <div class="boxed boxed-inner">
-                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
-                <div class="boxed">
-                  <div class="container">
-                    <div class="intro">
-                      <div class="row">
-                        <h2 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
-                        <div class="row">
-                          <h6 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_3_2']; ?></h6>
-                          <div class="grid-items news-carousel owl-carousel">
-                            <div class="grid-item news-item">
-                              <div class="project-item">
-                              <img alt="imagen-domotica-canarias" src="images/news/1-370x370.jpg">
-                              </div>
-                              <div class="news-hover">
-                                <div class="hover-border"><div></div></div>
-                                <div class="content ">
-                                  <h3 class="news-title"><?php echo $lang['SERVICE_SECTION_3_1']; ?></h3>
-                                </div>
-                                <a class="read-more" href="domotica.php"><?php echo $lang['TITLE_SECTION_3_IMG']; ?></a>
+
+<div class="pp-scrollable section section-1">
+  <div class="scroll-wrap ">
+    <div class="scrollable-content">
+      <div class="vertical-centred">
+        <div class="boxed boxed-inner">
+          <div class="vertical-title text-dark hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
+          <div class="boxed">
+            <div class="container">
+              <div class="intro">
+                <div class="row">
+                  <div class="col-md-5 col-lg-5">
+                    <h2 class="title-uppercase text-primary"><?php echo $lang['TITLE_SECTION_2_1']; ?></h2>
+                      <h2 class="title-uppercase"><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
+                        <h6 class="text-display-2"><?php echo $lang['TITLE_SECTION_3_2']; ?></h6>
+                    </div>
+                    <div class="sly">
+                      <ul class="slidee">
+                        <li>
+                          <div class="project-item item-shadow">
+                            <img alt="" class="img-responsive" src="images/projects/1-680x680.jpg">
+                            <div class="project-hover">
+                              <div class="project-hover-content">
+                                <h3 class="project-title">Triangle<br>Concrete House<br>On Lake</h3>
+                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
                               </div>
                             </div>
-                            <div class="news-item">
-                              <img alt="imagen-telecomunicaciones-canarias" src="images/news/2-370x370.jpg">
-                              <div class="news-hover">
-                                <div class="hover-border"><div></div></div>
-                                <div class="content">
-                                  <h3 class="news-title"><?php echo $lang['SERVICE_SECTION_3_2']; ?></h3>
-                                </div>
-                                <a class="read-more" href="domotica.php"><?php echo $lang['TITLE_SECTION_3_IMG']; ?></a>
+                            <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="project-item item-shadow">
+                            <img alt="" class="img-responsive" src="images/projects/2-680x680.jpg">
+                            <div class="project-hover">
+                              <div class="project-hover-content">
+                                <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
+                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
                               </div>
                             </div>
+                            <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
                           </div>
-                        <div class="col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2">
-                          <div class="dots-image-2">
-                            <div class="dots"></div>
-                          </div>
-                        </div>
+                        </li>
+                      </ul>
+                      <span class="prev icon-chevron-left"></span>
+                      <span class="next icon-chevron-right"></span>
                     </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -249,6 +249,9 @@ include_once 'common.php';
         </div>
       </div>
     </div>
+  </div>
+</div>
+
 <!--    LAST PROJECTS    -->
       <div class="pp-scrollable section section-1">
         <div class="scroll-wrap">
@@ -289,46 +292,10 @@ include_once 'common.php';
                               </li>
                               <li>
                                 <div class="project-item item-shadow">
-                                  <img alt="" class="img-responsive" src="images/projects/3-680x680.jpg">
+                                  <img alt="" class="img-responsive" src="images/projects/2-680x680.jpg">
                                   <div class="project-hover">
                                     <div class="project-hover-content">
-                                      <h3 class="project-title">Milko<br>Co-Working<br>Building</h3>
-                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
-                                    </div>
-                                  </div>
-                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
-                                </div>
-                              </li>
-                              <li>
-                                <div class="project-item item-shadow">
-                                  <img alt="" class="img-responsive" src="images/projects/4-680x680.jpg">
-                                  <div class="project-hover">
-                                    <div class="project-hover-content">
-                                      <h3 class="project-title">Redesign<br>Interior For<br>Villa</h3>
-                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
-                                    </div>
-                                  </div>
-                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
-                                </div>
-                              </li>
-                              <li>
-                                <div class="project-item item-shadow">
-                                  <img alt="" class="img-responsive" src="images/projects/5-680x680.jpg">
-                                  <div class="project-hover">
-                                    <div class="project-hover-content">
-                                      <h3 class="project-title">Wooden<br>Hozirontal<br>Villa</h3>
-                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
-                                    </div>
-                                  </div>
-                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
-                                </div>
-                              </li>
-                              <li>
-                                <div class="project-item item-shadow">
-                                  <img alt="" class="img-responsive" src="images/projects/6-680x680.jpg">
-                                  <div class="project-hover">
-                                    <div class="project-hover-content">
-                                      <h3 class="project-title">Small<br>House Near<br>Wroclaw</h3>
+                                      <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
                                       <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
                                     </div>
                                   </div>
@@ -336,8 +303,9 @@ include_once 'common.php';
                                 </div>
                               </li>
                             </ul>
-                            <span class="prev icon-chevron-left"></span>
-                            <span class="next icon-chevron-right"></span>
+                            <div class="dots-image-2">
+                              <div class="dots"></div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -362,7 +330,6 @@ include_once 'common.php';
                     <div class="intro">
                       <div class="row">
                         <div class="col-md-6 col-lg-5">
-                          <span class="icon-quote ion-quote"></span>
                           <h2 class="title-uppercase-2"><?php echo $lang['LEMA_SECTION_5']; ?></h2>
                         </div>
                         <div class="col-md-5 col-lg-5  col-md-offset-1 col-lg-offset-2">
@@ -441,7 +408,7 @@ include_once 'common.php';
                               </div>
                               <div class="col-contact-info col-md-6 col-lg-4">
                                 <div class="row">
-                                  <h4 class="col-sm-3 col-md-4">Tlf.</h4>
+                                  <h4 class="col-sm-3 col-md-4"><?php echo $lang['PHONE']; ?></h4>
                                   <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
                                       <strong class="text-dark"><?php echo $lang['OFFICE']; ?></strong><br>

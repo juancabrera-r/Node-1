@@ -96,6 +96,7 @@ $lang['ADMINISTRATION_NAME'] = 'Administración';
 $lang['OBRAS_NAME'] = 'Obras';
 $lang['OFFICE'] = 'Oficina';
 $lang['ADDRESS_FOOTER'] = 'Dirección';
+$lang['PHONE'] = 'Tfno.';
 //WORKS
 $lang['WORKS_MAIN_TITLE'] = 'NUESTROS TRABAJOS';
 $lang['WORKS_CATEGORY_0'] = 'Todos';
