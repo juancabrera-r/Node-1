@@ -2906,7 +2906,7 @@ a.brand:focus{
 }
 
 .card:hover .card-block{
-  background: #0074d9;
+  /*background: #0074d9;*/
 }
 
 
@@ -2917,7 +2917,6 @@ a.brand:focus{
 
 .card-row{
   position: relative;
-  background: #f2f2f2;
   -webkit-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
@@ -2943,7 +2942,7 @@ a.brand:focus{
 }
 
 .card-row:hover{
-  background: #0074d9;
+/*  background: #0074d9;*/
 }
 
 .card-row .card-block{

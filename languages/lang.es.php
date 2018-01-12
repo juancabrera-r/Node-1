@@ -64,7 +64,7 @@ $lang['VERTICAL_MENU_4'] = 'Nuestros trabajos';
 $lang['LINK_ARROW'] = 'Ver todos los trabajos';
 $lang['TITLE_SECTION_4_1'] = 'Ultimos proyectos';
 $lang['PROJECT_TITLE_1'] = 'Centro de Mayores en Gran Tarajal';
-$lang['PROJECT_DESCRIPTION_SERVICE_1'] = 'Saneamiento de fachada por oxidación de estructura metálida del forjado';
+$lang['PROJECT_DESCRIPTION_SERVICE_1'] = 'Saneamiento de fachada por oxidación de estructura metálida del forjado.';
 $lang['PROJECT_TITLE_2'] = 'Revestimiento fachada';
 $lang['PROJECT_DESCRIPTION_SERVICE_2'] = 'Rehabilitación';
 $lang['PROJECT_TITLE_3'] = 'Cuatro Apero';
@@ -385,6 +385,16 @@ En cualquier momento usted puede restringir la recopilación o el uso de la info
 Esta compañía no venderá, cederá ni distribuirá la información personal que es recopilada sin su consentimiento, salvo que sea requerido por un juez con un orden judicial.
 COGESA S.L. Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
 Esta politica de privacidad se han generado en politicadeprivacidadplantilla.com.';
+
+
+//PROYECTO CENTRO MAYORES GRAN Tarajal
+$lang['PROJECT_ALBUM_1_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Centro Mayores Gran Tarajal';
+$lang['PROJECT_ALBUM_1_DATE_1'] = '3 enero 2018';
+$lang['PROJECT__ALBUM_1_TITLE_1'] = 'Saneamiento fachada';
+$lang['PROJECT_ALBUM_1_DESCRIPTION_1'] = 'Intervención: picado de fachada hasta descubrir armadura de hierro del forjado, tratamiento del hierro, tapado y pintado';
+$lang['PROJECT_ALBUM_1_DATE_2'] = '3 enero 2018';
+$lang['PROJECT__ALBUM_1_TITLE_2'] = 'Salida de emergencia';
+$lang['PROJECT_ALBUM_1_DESCRIPTION_2'] = 'Intervención: Instalación de puerta de aluminio con barra antipánico para evacuación de ocupantes del inmueble.  ';
 
 
 
