@@ -24,7 +24,7 @@
         var scrollDelay = 700;
 
         // Create some defaults, extending them with any options that were provided
-        var options = $.extend(true, {
+        var options = $.extend(false, {
             direction: 'vertical',
             menu: null,
             verticalCentered: true,
@@ -41,7 +41,7 @@
                 position: 'right',
                 tooltips: []
             },
-            normalScrollElements: null,
+            normalScrollElements: true,
             normalScrollElementTouchThreshold: 5,
             touchSensitivity: 5,
             keyboardScrolling: true,

@@ -107,27 +107,24 @@ include_once 'common.php';
     <div class="pagepiling">
       <div class="pp-scrollable text-white section section-1">
         <div class="scroll-wrap">
-          <div id="Carousel" class="section-bg carousel slide" data-ride="carousel" data-interval="3000">
+          <div id="Carousel" class="section-bg carousel slide" data-ride="carousel" data-interval="4000">
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="images/bg/bg1-min.jpg" alt="Chania" width="100%" height="100%">
+                  <img src="images/bg/fondo-ampuyenta.png" alt="Chania" width="100%" height="100%">
                 </div>
 
                 <div class="item">
-                  <img src="images/bg/bg3-min.png" alt="Chania" width="100%" height="100%">
+                  <img src="images/bg/fondo-fachada-fuerteventura.JPG" alt="Chania" width="100%" height="100%">
                 </div>
 
                 <div class="item">
-                  <img src="images/bg/bg2-6-min.JPG" alt="Flower" width="100%" height="100%">
-                </div>
-
-                <div class="item">
-                  <img src="images/bg/bg2-3-min.JPG" alt="Flower" width="100%" height="100%">
+                  <img src="images/bg/fondo-gran-tarajal.JPG" alt="Flower" width="100%" height="100%">
                 </div>
               </div>
           </div>
 
 <!--    MAIN    -->
+
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
@@ -199,18 +196,19 @@ include_once 'common.php';
 
 <div class="pp-scrollable section section-1">
   <div class="scroll-wrap ">
+    <div class="section-bg" style="background-image:url(images/bg/fondo-min.jpg);"></div>
     <div class="scrollable-content">
       <div class="vertical-centred">
         <div class="boxed boxed-inner">
-          <div class="vertical-title text-dark hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
+          <div class="vertical-title text-white hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
           <div class="boxed">
             <div class="container">
               <div class="intro">
                 <div class="row">
                   <div class="col-md-5 col-lg-5">
-                    <h2 class="title-uppercase text-primary"><?php echo $lang['TITLE_SECTION_2_1']; ?></h2>
-                      <h2 class="title-uppercase"><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
-                        <h6 class="text-display-2"><?php echo $lang['TITLE_SECTION_3_2']; ?></h6>
+                    <br><br>
+                      <h2 class="title-uppercase text-display-1 text-white"><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
+                        <h6 class="text-display-2 text-white"><?php echo $lang['TITLE_SECTION_3_2']; ?></h6>
                     </div>
                     <div class="sly">
                       <ul class="slidee">
@@ -219,28 +217,14 @@ include_once 'common.php';
                             <img alt="" class="img-responsive" src="images/projects/1-680x680.jpg">
                             <div class="project-hover">
                               <div class="project-hover-content">
-                                <h3 class="project-title">Triangle<br>Concrete House<br>On Lake</h3>
-                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                <h3 class="project-title"><?php echo $lang['SERVICE_SECTION_3_1']; ?></h3>
+                                <p class="project-description"><?php echo $lang['SERVICE_SECTION_3_2']; ?></p>
                               </div>
                             </div>
-                            <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="project-item item-shadow">
-                            <img alt="" class="img-responsive" src="images/projects/2-680x680.jpg">
-                            <div class="project-hover">
-                              <div class="project-hover-content">
-                                <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
-                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
-                              </div>
-                            </div>
-                            <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                            <a href="" class="link-arrow"><?php echo $lang['TITLE_SECTION_3_IMG']; ?><i class="icon ion-ios-arrow-right"></i></a>
                           </div>
                         </li>
                       </ul>
-                      <span class="prev icon-chevron-left"></span>
-                      <span class="next icon-chevron-right"></span>
                     </div>
                 </div>
               </div>
@@ -268,14 +252,14 @@ include_once 'common.php';
                             <ul class="slidee">
                               <li>
                                 <div class="project-item item-shadow">
-                                  <img alt="" class="img-responsive" src="images/projects/1-680x680.jpg">
+                                  <img alt="" class="img-responsive" src="images/last_projects/gran_tarajal/centro_mayores/saneamiento_fachada.JPG">
                                   <div class="project-hover">
                                     <div class="project-hover-content">
-                                      <h3 class="project-title">Triangle<br>Concrete House<br>On Lake</h3>
-                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                      <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1']; ?></h3>
+                                      <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_SERVICE_1']; ?></p>
                                     </div>
                                   </div>
-                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                                  <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                                 </div>
                               </li>
                               <li>
@@ -283,11 +267,11 @@ include_once 'common.php';
                                   <img alt="" class="img-responsive" src="images/projects/2-680x680.jpg">
                                   <div class="project-hover">
                                     <div class="project-hover-content">
-                                      <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
-                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                      <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_2']; ?></h3>
+                                      <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_SERVICE_2']; ?></p>
                                     </div>
                                   </div>
-                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                                  <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                                 </div>
                               </li>
                               <li>
@@ -295,14 +279,16 @@ include_once 'common.php';
                                   <img alt="" class="img-responsive" src="images/projects/2-680x680.jpg">
                                   <div class="project-hover">
                                     <div class="project-hover-content">
-                                      <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
-                                      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
+                                      <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_3']; ?></h3>
+                                      <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_SERVICE_3']; ?></p>
                                     </div>
                                   </div>
-                                  <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                                  <a href="" class="link-arrow"><?php echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a>
                                 </div>
                               </li>
                             </ul>
+                            <span class="prev icon-chevron-left"></span>
+                            <span class="next icon-chevron-right"></span>
                             <div class="dots-image-2">
                               <div class="dots"></div>
                             </div>

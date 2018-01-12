@@ -22,8 +22,8 @@ $lang['MENU_DOMOTICA'] = 'Domótica';
 // Navbar
 $lang['MENU_BRAND_TEXT'] = 'CONSTRUCCIÓN, ARQUITECTURA E INGENIERÍA';
 //Address
-$lang['ADDRESS_CONTACT'] = 'Contacto:';
-$lang['ADDRESS_CONTACT_PHONE'] = ' 828 908 650';
+$lang['ADDRESS_CONTACT'] = 'Contacto :  ';
+$lang['ADDRESS_CONTACT_PHONE'] = '  828 908 650';
 // SECTION-1
 $lang['VERTICAL_MENU_1'] = 'Introducción';
 $lang['SUBTITLE'] = 'Bienvenido a';
@@ -49,7 +49,7 @@ $lang['SERVICE_CLIENTE_6'] = '06. Inmobiliaria';
 // SECTION-3
 $lang['VERTICAL_MENU_3'] = 'Instalaciones Inteligentes';
 $lang['TITLE_SECTION_3_1'] = 'Integración de sistemas de control';
-$lang['TITLE_SECTION_3_2'] = 'En <strong>NODE Gestión</strong> nos especializamos en la instalación de sistemas de control para <strong>particulares</strong> y <strong>empresas</strong>.
+$lang['TITLE_SECTION_3_2'] = 'En <strong>NODE Gestión</strong> realizamos  instalación de sistemas de control para <strong>particulares</strong> y <strong>empresas</strong>.
 <br><br>Esta tecnología permite controlar la automatización de los equipos y sistemas de una vivienda, centralizándolos y comunicandolos entre sí para una gestión inteligente.
 <br><br>Seguridad, control, confort y comunicación son los beneficios que se obtienen con este tipo de tecnología.';
 $lang['TITLE_SECTION_3_IMG'] = 'Saber más...';
@@ -61,16 +61,16 @@ $lang['SERVICE_SECTION_3_3'] = 'Asesoramiento';
 //$lang['LEMA_SECTION_3_3'] = 'garantía';
 // SECTION-4
 $lang['VERTICAL_MENU_4'] = 'Nuestros trabajos';
-$lang['LINK_ARROW'] = 'Ver proyecto';
+$lang['LINK_ARROW'] = 'Ver todos los trabajos';
 $lang['TITLE_SECTION_4_1'] = 'Ultimos proyectos';
-$lang['PROJECT_TITLE_1'] = 'Reparaciones en duplex';
-$lang['PROJECT_DESCRIPTION_1'] = 'Rehabilitación';
+$lang['PROJECT_TITLE_1'] = 'Centro de Mayores en Gran Tarajal';
+$lang['PROJECT_DESCRIPTION_SERVICE_1'] = 'Saneamiento de fachada por oxidación de estructura metálida del forjado';
 $lang['PROJECT_TITLE_2'] = 'Revestimiento fachada';
-$lang['PROJECT_DESCRIPTION_2'] = 'Rehabilitación';
+$lang['PROJECT_DESCRIPTION_SERVICE_2'] = 'Rehabilitación';
 $lang['PROJECT_TITLE_3'] = 'Cuatro Apero';
-$lang['PROJECT_DESCRIPTION_3'] = 'Construcción';
+$lang['PROJECT_DESCRIPTION_SERVICE_3'] = 'Construcción';
 $lang['PROJECT_TITLE_4'] = 'Renovación de baño';
-$lang['PROJECT_DESCRIPTION_4'] = 'Reforma';
+$lang['PROJECT_DESCRIPTION_SERVICE_4'] = 'Reforma';
 // SECTION-5
 $lang['VERTICAL_MENU_5'] = 'Testimonios';
 $lang['LEMA_SECTION_5'] = 'Confianza y calidad son las palabras que nos definen ';

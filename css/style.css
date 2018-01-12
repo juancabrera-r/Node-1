@@ -1450,7 +1450,7 @@ a.brand:focus{
   opacity: 0;
   margin-top:12%;
   line-height: 1.71;
-  color:#333333;
+  color:white;
   -webkit-transform: translateX(-1rem);
   -ms-transform: translateX(-1rem);
   -o-transform: translateX(-1rem);
