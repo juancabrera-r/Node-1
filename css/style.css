@@ -123,18 +123,19 @@ body{
   letter-spacing: 0.025em;
   line-height: 2.1428;
   color: #666666;
+  overflow-x: hidden;
   -webkit-overflow-scrolling:touch;
 }
 
 
 ::-webkit-scrollbar{
-  width: 8px;
-  height: 8px;
+  width: 3px;
+  height: 1px;
 }
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #0074d9;
+  background: transparent;
 }
 
 ::selection{
@@ -4230,4 +4231,5 @@ a.brand:focus{
 .showcase-item:hover .showcase-item-info {
   -webkit-transform: translateY(-50%) scale(1);
   -ms-transform: translateY(-50%) scale(1);
-  transform: translateY(-50%) scale(1); }
+  transform: translateY(-50%) scale(1);
+}

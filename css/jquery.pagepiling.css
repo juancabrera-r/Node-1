@@ -7,7 +7,7 @@
  * Copyright (C) 2016 alvarotrigo.com - A project by Alvaro Trigo
  */
 html, body {
- 
+
     margin:0;
     padding:0;
 
@@ -118,6 +118,7 @@ html, body {
     left: 20px;
 }
 .pp-scrollable{
-    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
     height: 100%;
 }

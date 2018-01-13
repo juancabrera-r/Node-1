@@ -108,9 +108,9 @@ include_once 'common.php';
       <div class="pp-scrollable text-white section section-1">
         <div class="scroll-wrap">
           <div id="Carousel" class="section-bg carousel slide" data-ride="carousel" data-interval="3000">
-              <div class="carousel-inner" role="listbox">
+              <div class="carousel-bg" role="listbox">
                 <div class="item active">
-                  <img src="images/bg/bg1-min.jpg" alt="Chania" width="100%" height="100%">
+                  <img src="images/bg/bg1-min.jpg" alt="Chania">
                 </div>
               </div>
           </div>
@@ -127,7 +127,6 @@ include_once 'common.php';
                         <div class="col-md-8 col-lg-6">
                           <p class="subtitle-top"> <?php echo $lang['SUBTITLE']; ?><br>NODE GESTIÓN</p>
                           <h1 class="display-2 text-white"><?php echo $lang['LEMA_1']; ?><span class="text-primary"><?php echo $lang['LEMA_2']; ?></span></h1>
-                          <div class="hr-bottom"></div>
                         </div>
                       </div>
                     </div>
