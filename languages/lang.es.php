@@ -374,13 +374,6 @@ $lang['PROJECT_ALBUM_1_DESCRIPTION_3'] = 'Fachada finalizada';
 $lang['PROJECT_ALBUM_1_DESCRIPTION_4'] = 'Impermeabilización de cubierta e instalación de solado.';
 $lang['PROJECT_ALBUM_1_DESCRIPTION_5'] = 'Estado de oxidación de la armadura de hierro';
 $lang['PROJECT_ALBUM_1_DESCRIPTION_6'] = 'Instalación de puerta de aluminio con barra antipánico para evacuación de ocupantes del inmueble.  ';
-///////////////////////////////////////
-//PROYECTO CENTRO MAYORES PUERTO DEL ROSARIO
-///////////////////////////////////////
-$lang['PROJECT_ALBUM_3_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Centro Mayores Puerto del Rosario';
-$lang['PROJECT_ALBUM_3_DESCRIPTION_1'] = 'Instalación de andamio';
-$lang['PROJECT_ALBUM_3_DESCRIPTION_2'] = 'Deterioro';
-$lang['PROJECT_ALBUM_3_DESCRIPTION_3'] = 'Puerto emergencia';
 
 ///////////////////////////////////////
 //PROYECTO FOSA SEPTICA
@@ -394,9 +387,17 @@ $lang['PROJECT_ALBUM_2_DESCRIPTION_5'] = 'Estado de oxidación de la armadura de
 $lang['PROJECT_ALBUM_2_DESCRIPTION_6'] = 'Instalación de puerta de aluminio con barra antipánico para evacuación de ocupantes del inmueble.  ';
 
 ///////////////////////////////////////
+//PROYECTO CENTRO MAYORES PUERTO DEL ROSARIO
+///////////////////////////////////////
+$lang['PROJECT_ALBUM_3_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Centro Mayores Puerto del Rosario';
+$lang['PROJECT_ALBUM_3_DESCRIPTION_1'] = 'Instalación de andamio';
+$lang['PROJECT_ALBUM_3_DESCRIPTION_2'] = 'Deterioro';
+$lang['PROJECT_ALBUM_3_DESCRIPTION_3'] = 'Puerto emergencia';
+
+///////////////////////////////////////
 //PROYECTO DESALADORA
 ///////////////////////////////////////
-$lang['PROJECT_ALBUM_4_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Centro Mayores Puerto del Rosario';
+$lang['PROJECT_ALBUM_4_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Desaladora Campo de Golf';
 $lang['PROJECT_ALBUM_4_DESCRIPTION_1'] = 'Instalación de andamio';
 $lang['PROJECT_ALBUM_4_DESCRIPTION_2'] = 'Deterioro';
 $lang['PROJECT_ALBUM_4_DESCRIPTION_3'] = 'Puerto emergencia';

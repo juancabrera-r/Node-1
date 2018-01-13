@@ -142,7 +142,7 @@ include_once 'common.php';
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_2']; ?></p>
                 </div>
               </div>
-              <a href="proyectos/centro_mayores_Gran_Tarajal/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
+              <a href="proyectos/desaladora_campo_golf/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
             </div>
           </div>
 
