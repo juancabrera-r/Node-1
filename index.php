@@ -289,6 +289,18 @@ include_once 'common.php';
                                   <a href="proyectos/centro_mayores_puerto_del_rosario/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
                                 </div>
                               </li>
+                              <li>
+                                <div class="project-item item-shadow">
+                                  <img alt="" class="img-responsive" src="images/last_projects/antigua/fosa_septica/deposito_680x680.jpg">
+                                  <div class="project-hover">
+                                    <div class="project-hover-content">
+                                      <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_4']; ?></h3>
+                                      <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_4']; ?></p>
+                                    </div>
+                                  </div>
+                                  <a href="proyectos/fosa-septica/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                                </div>
+                              </li>
                             </ul>
                             <span class="prev icon-chevron-left"></span>
                             <span class="next icon-chevron-right"></span>

@@ -37,8 +37,8 @@ include_once '../../common.php';
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="proyecto.php?lang=es">Esp</a>
-        <a href="proyecto.php?lang=en">Eng</a>
+        <a href="#?lang=es">Esp</a>
+        <a href="#?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
@@ -100,7 +100,7 @@ include_once '../../common.php';
     <main class="page-header-3">
       <div class="container">
         <div class="row">
-          <div class="col-right col-md-8 col-lg-12"><h2><?php echo $lang['PROJECT_ALBUM_3_MAIN_TITLE']; ?></h2></div>
+          <div class="col-right col-md-8 col-lg-12"><h2><?php echo $lang['PROJECT_ALBUM_2_MAIN_TITLE']; ?></h2></div>
         </div>
       </div>
     </main>
@@ -112,54 +112,83 @@ include_once '../../common.php';
 
 
             <!-- PROYECTO 1 -->
-            <div class="grid-items js-isotope js-grid-items js-gallery">
+            <div class="grid-items js-isotope js-grid-items  js-gallery">
               <div class="grid-item js-isotope-item js-grid-item">
-                <div class="project-item item-shadow">
-                  <img alt="" class="img-responsive" src="../../images/last_projects/puerto_del_rosario/centro_de_mayores/andamio_426x574.jpg">
+                <div class="project-item item-shadow ">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/excavadora_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_1']; ?></p>
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_2']; ?></p>
                     </div>
                   </div>
-                  <a href="../../images/last_projects/puerto_del_rosario/centro_de_mayores/andamio_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
-
+                  <a href="../../images/last_projects/antigua/fosa_septica/excavadora_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
                 </div>
               </div>
 
               <!-- PROYECTO 2 -->
-              <div class="grid-item  js-isotope-item js-grid-item">
+              <div class="grid-item js-isotope-item js-grid-item">
                 <div class="project-item item-shadow">
-                  <img alt="" class="img-responsive" src="../../images/last_projects/puerto_del_rosario/centro_de_mayores/rehabilitacion_cornisa_426x574.jpg">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/excavando_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_2']; ?></p>
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_2']; ?></p>
                     </div>
                   </div>
-                  <a href="../../images/last_projects/puerto_del_rosario/centro_de_mayores/rehabilitacion_cornisa_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_2']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
-
+                  <a href="../../images/last_projects/antigua/fosa_septica/excavando_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_2']; ?>" class="link-arrow"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
                 </div>
               </div>
+
 
               <!-- PROYECTO 3 -->
               <div class="grid-item  js-isotope-item js-grid-item">
-              <div class="project-item item-shadow">
-                <img alt="" class="img-responsive" src="../../images/last_projects/puerto_del_rosario/centro_de_mayores/puerta_emergencia_426x574.jpg">
-                <div class="project-hover">
-                  <div class="project-hover-content">
-                    <p class="project-description"><?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_2']; ?></p>
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/losa_426x574.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_3']; ?></p>
+                    </div>
                   </div>
+                  <a href="../../images/last_projects/antigua/fosa_septica/losa_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_3']; ?>"  class="link-arrow"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
                 </div>
-                <a href="../../images/last_projects/puerto_del_rosario/centro_de_mayores/puerta_emergencia_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_3']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
-
               </div>
-            </div>
 
               <!-- PROYECTO 4 -->
-              <!-- PROYECTO 2 -->
-
+              <div class="grid-item  js-isotope-item js-grid-item">
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/peris_426x574.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_4']; ?></p>
+                    </div>
+                  </div>
+                  <a href="../../images/last_projects/antigua/fosa_septica/peris_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_4']; ?>"  class="link-arrow"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                </div>
+              </div>
+              <!-- PROYECTO 5 -->
+              <div class="grid-item js-isotope-item js-grid-item">
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/placa_alveolar_426x574.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_5']; ?></p>
+                    </div>
+                  </div>
+                  <a href="../../images/last_projects/antigua/fosa_septica/placa_alveolar_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_5']; ?>"  class="link-arrow"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                </div>
+              </div>
 
               <!-- PROYECTO 5 -->
-
+              <div class="grid-item js-isotope-item js-grid-item">
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/deposito_426x574.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_6']; ?></p>
+                    </div>
+                  </div>
+                  <a href="../../images/last_projects/antigua/fosa_septica/deposito_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_6']; ?>"  class="link-arrow"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                </div>
+              </div>
 
               <!-- PROYECTO 6 -->
 
@@ -217,8 +246,8 @@ include_once '../../common.php';
         </div>
         <div class="flex-item">
           <ul>
-            <li><a href="proyecto.php?lang=es">Esp</a></li>
-            <li><a href="proyecto.php?lang=en">Eng</a></li>
+            <li><a href="#?lang=es">Esp</a></li>
+            <li><a href="#?lang=en">Eng</a></li>
           </ul>
         </div>
         <div class="flex-item">
@@ -247,7 +276,6 @@ include_once '../../common.php';
 <script src="../../js/plugins.js"></script>
 <script src="../../js/sly.min.js"></script>
 <script src="../../js/interface.js"></script>
-
 
 <!-- Slider revolution -->
 <script src="../../js/rev-slider/jquery.themepunch.tools.min.js"></script>

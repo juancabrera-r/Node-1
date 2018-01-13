@@ -106,6 +106,7 @@ $lang['WORKS_CATEGORY_3'] = 'Reformas';
 $lang['WORKS_CATEGORY_4'] = 'Rehabilitaciones';
 $lang['WORKS_CATEGORY_5'] = 'Instalaciones/Domótica';
 //Projects
+$lang['PROJECT_ALBUM'] = 'Ampliar';
 $lang['PROJECT_LINK'] = 'Ver proyecto';
 $lang['PROJECT_TITLE_1_1'] = 'Rehabilitación <br> Centro Mayores <br> Gran Tarajal';
 $lang['PROJECT_DESCRIPTION_1'] = 'Rehabilitación de fachada, impermeabilización de cubierta, instalación de puerta de emergencias,...';
@@ -113,6 +114,8 @@ $lang['PROJECT_TITLE_1_2'] = 'Rehabilitación <br> Desaladora <br> Antigua';
 $lang['PROJECT_DESCRIPTION_2'] = 'Saneado de paramentos verticales exteriores e interiores y acabado en monocapa';
 $lang['PROJECT_TITLE_1_3'] = 'Rehabilitación <br> Centro Mayores <br> Puerto del Rosario';
 $lang['PROJECT_DESCRIPTION_3'] = 'Saneado de cornisa, instalación de puertas de emergencias, instalación de equipo de aire acondicionado y sustitución de luminarias de emergencia';
+$lang['PROJECT_TITLE_1_4'] = 'Construcción <br> Fosa séptica';
+$lang['PROJECT_DESCRIPTION_4'] = 'Ejecución de fosa séptica.';
 //PROJECT_1
 $lang['PROJECT_1_TITLE'] = 'architecture & interior';
 $lang['PROJECT_1_SUBTITLE'] = 'Small House Near Wroclaw';
@@ -379,6 +382,24 @@ $lang['PROJECT_ALBUM_3_DESCRIPTION_1'] = 'Instalación de andamio';
 $lang['PROJECT_ALBUM_3_DESCRIPTION_2'] = 'Deterioro';
 $lang['PROJECT_ALBUM_3_DESCRIPTION_3'] = 'Puerto emergencia';
 
+///////////////////////////////////////
+//PROYECTO FOSA SEPTICA
+///////////////////////////////////////
+$lang['PROJECT_ALBUM_2_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Centro Mayores Gran Tarajal';
+$lang['PROJECT_ALBUM_2_DESCRIPTION_1'] = 'Picado de fachada hasta descubrir armadura de hierro del forjado, tratamiento del hierro, tapado y pintado';
+$lang['PROJECT_ALBUM_2_DESCRIPTION_2'] = 'Saneado de fachada con uso de brazo de 18 metros.';
+$lang['PROJECT_ALBUM_2_DESCRIPTION_3'] = 'Fachada finalizada';
+$lang['PROJECT_ALBUM_2_DESCRIPTION_4'] = 'Impermeabilización de cubierta e instalación de solado.';
+$lang['PROJECT_ALBUM_2_DESCRIPTION_5'] = 'Estado de oxidación de la armadura de hierro';
+$lang['PROJECT_ALBUM_2_DESCRIPTION_6'] = 'Instalación de puerta de aluminio con barra antipánico para evacuación de ocupantes del inmueble.  ';
+
+///////////////////////////////////////
+//PROYECTO DESALADORA
+///////////////////////////////////////
+$lang['PROJECT_ALBUM_4_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Centro Mayores Puerto del Rosario';
+$lang['PROJECT_ALBUM_4_DESCRIPTION_1'] = 'Instalación de andamio';
+$lang['PROJECT_ALBUM_4_DESCRIPTION_2'] = 'Deterioro';
+$lang['PROJECT_ALBUM_4_DESCRIPTION_3'] = 'Puerto emergencia';
 
 
 

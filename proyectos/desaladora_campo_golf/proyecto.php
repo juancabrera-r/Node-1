@@ -46,7 +46,7 @@ include_once '../../common.php';
         </li>
         <li>
           <a  href="../../about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
-        </li>
+        </li>PROJECT_LINK
         <li>
           <a  href="../../works.php"><?php echo $lang['MENU_WORKS']; ?></a>
         </li>
@@ -100,7 +100,7 @@ include_once '../../common.php';
     <main class="page-header-3">
       <div class="container">
         <div class="row">
-          <div class="col-right col-md-8 col-lg-12"><h2><?php echo $lang['PROJECT_ALBUM_1_MAIN_TITLE']; ?></h2></div>
+          <div class="col-right col-md-8 col-lg-12"><h2><?php echo $lang['PROJECT_ALBUM_4_MAIN_TITLE']; ?></h2></div>
         </div>
       </div>
     </main>
@@ -112,16 +112,16 @@ include_once '../../common.php';
 
 
             <!-- PROYECTO 1 -->
-            <div class="grid-items js-isotope js-grid-items">
+            <div class="grid-items js-isotope js-grid-items js-gallery">
               <div class="grid-item proyecto js-isotope-item js-grid-item">
                 <div class="project-item item-shadow">
                   <img alt="" class="img-responsive" src="../../images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/desaladora_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_1']; ?></p>
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_1']; ?></p>
                     </div>
                   </div>
-                  <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
+                  <a href="../../images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/desaladora_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
                 </div>
               </div>
 
@@ -139,7 +139,7 @@ include_once '../../common.php';
 
 
               <!-- PROYECTO 6 -->
-              
+
 
               <!-- PROYECTO 7 -->
 
@@ -223,6 +223,7 @@ include_once '../../common.php';
 <script src="../../js/imagesloaded.pkgd.min.js"></script>
 <script src="../../js/plugins.js"></script>
 <script src="../../js/sly.min.js"></script>
+<script src="../../js/interface.js"></script>
 
 
 <!-- Slider revolution -->

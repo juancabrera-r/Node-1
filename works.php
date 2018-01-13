@@ -161,7 +161,18 @@ include_once 'common.php';
           </div>
 
           <!-- PROYECTO 4 -->
-
+          <div class="grid-item construcciones js-isotope-item js-grid-item">
+            <div class="project-item item-shadow">
+              <img alt="" class="img-responsive" src="images/last_projects/antigua/fosa_septica/deposito_426x574.jpg">
+              <div class="project-hover">
+                <div class="project-hover-content">
+                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_4']; ?></h3>
+                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_4']; ?></p>
+                </div>
+              </div>
+              <a href="proyectos/fosa-septica/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
+            </div>
+          </div>
 
           <!-- PROYECTO 5 -->
 
