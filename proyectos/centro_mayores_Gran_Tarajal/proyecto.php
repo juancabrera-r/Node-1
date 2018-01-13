@@ -115,7 +115,7 @@ include_once '../../common.php';
             <div class="grid-items js-isotope js-grid-items">
               <div class="grid-item proyecto js-isotope-item js-grid-item">
                 <div class="project-item item-shadow">
-                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_fachada.jpg">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/fachada_finalizada_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
                       <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_1']; ?></p>
@@ -128,7 +128,7 @@ include_once '../../common.php';
               <!-- PROYECTO 2 -->
               <div class="grid-item proyecto js-isotope-item js-grid-item">
                 <div class="project-item item-shadow">
-                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/brazo_fachada.jpg">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/brazo_fachada_1_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
                       <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_2']; ?></p>
@@ -140,7 +140,7 @@ include_once '../../common.php';
               <!-- PROYECTO 3 -->
               <div class="grid-item construcciones js-isotope-item js-grid-item">
                 <div class="project-item item-shadow">
-                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/fachada_centro_mayores_gran_tarajal.jpg">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/brazo_fachada_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
                       <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_3']; ?></p>
@@ -153,7 +153,7 @@ include_once '../../common.php';
               <!-- PROYECTO 2 -->
               <div class="grid-item proyecto js-isotope-item js-grid-item">
                 <div class="project-item item-shadow">
-                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/puerta_emergencia.jpg">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/puerta_emergencia_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
                       <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_4']; ?></p>
@@ -165,7 +165,7 @@ include_once '../../common.php';
               <!-- PROYECTO 5 -->
               <div class="grid-item proyecto js-isotope-item js-grid-item">
                 <div class="project-item item-shadow">
-                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/impermeabilizacion_solado_cubierta.jpg">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/impermeabilizacion-solado-426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
                       <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_5']; ?></p>
@@ -177,7 +177,7 @@ include_once '../../common.php';
               <!-- PROYECTO 6 -->
               <div class="grid-item proyecto js-isotope-item js-grid-item">
                 <div class="project-item item-shadow">
-                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_estructura.jpg">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_estructura_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
                       <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_6']; ?></p>

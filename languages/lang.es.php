@@ -106,38 +106,13 @@ $lang['WORKS_CATEGORY_3'] = 'Reformas';
 $lang['WORKS_CATEGORY_4'] = 'Rehabilitaciones';
 $lang['WORKS_CATEGORY_5'] = 'Instalaciones/Domótica';
 //Projects
-$lang['PROJECT_TITLE_1_1'] = 'Triangle';
-$lang['PROJECT_TITLE_1_2'] = 'Concrete House';
-$lang['PROJECT_TITLE_1_3'] = 'On Lake';
-$lang['PROJECT_DESCRIPTION_1'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
-$lang['PROJECT_TITLE_2_1'] = 'Triangle';
-$lang['PROJECT_TITLE_2_2'] = 'Concrete House';
-$lang['PROJECT_TITLE_2_3'] = 'On Lake';
-$lang['PROJECT_DESCRIPTION_2'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
-$lang['PROJECT_TITLE_3_1'] = 'Triangle';
-$lang['PROJECT_TITLE_3_2'] = 'Concrete House';
-$lang['PROJECT_TITLE_3_3'] = 'On Lake';
-$lang['PROJECT_DESCRIPTION_3'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
-$lang['PROJECT_TITLE_4_1'] = 'Triangle';
-$lang['PROJECT_TITLE_4_2'] = 'Concrete House';
-$lang['PROJECT_TITLE_4_3'] = 'On Lake';
-$lang['PROJECT_DESCRIPTION_4'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
-$lang['PROJECT_TITLE_5_1'] = 'Triangle';
-$lang['PROJECT_TITLE_5_2'] = 'Concrete House';
-$lang['PROJECT_TITLE_5_3'] = 'On Lake';
-$lang['PROJECT_DESCRIPTION_5'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
-$lang['PROJECT_TITLE_6_1'] = 'Triangle';
-$lang['PROJECT_TITLE_6_2'] = 'Concrete House';
-$lang['PROJECT_TITLE_6_3'] = 'On Lake';
-$lang['PROJECT_DESCRIPTION_6'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
-$lang['PROJECT_TITLE_7_1'] = 'Triangle';
-$lang['PROJECT_TITLE_7_2'] = 'Concrete House';
-$lang['PROJECT_TITLE_7_3'] = 'On Lake';
-$lang['PROJECT_DESCRIPTION_7'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
-$lang['PROJECT_TITLE_8_1'] = 'Triangle';
-$lang['PROJECT_TITLE_8_2'] = 'Concrete House';
-$lang['PROJECT_TITLE_8_3'] = 'On Lake';
-$lang['PROJECT_DESCRIPTION_8'] = 'Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...';
+$lang['PROJECT_LINK'] = 'Ver proyecto';
+$lang['PROJECT_TITLE_1_1'] = 'Rehabilitación <br> Centro Mayores <br> Gran Tarajal';
+$lang['PROJECT_DESCRIPTION_1'] = 'Rehabilitación de fachada, impermeabilización de cubierta, instalación de puerta de emergencias,...';
+$lang['PROJECT_TITLE_1_2'] = 'Rehabilitación <br> Desaladora <br> Antigua';
+$lang['PROJECT_DESCRIPTION_2'] = 'Saneado de paramentos verticales exteriores e interiores y acabado en monocapa';
+$lang['PROJECT_TITLE_1_3'] = 'Rehabilitación <br> Centro Mayores <br> Puerto del Rosario';
+$lang['PROJECT_DESCRIPTION_3'] = 'Saneado de cornisa, instalación de puertas de emergencias, instalación de equipo de aire acondicionado y sustitución de luminarias de emergencia';
 //PROJECT_1
 $lang['PROJECT_1_TITLE'] = 'architecture & interior';
 $lang['PROJECT_1_SUBTITLE'] = 'Small House Near Wroclaw';
@@ -396,6 +371,13 @@ $lang['PROJECT_ALBUM_1_DESCRIPTION_3'] = 'Fachada finalizada';
 $lang['PROJECT_ALBUM_1_DESCRIPTION_4'] = 'Impermeabilización de cubierta e instalación de solado.';
 $lang['PROJECT_ALBUM_1_DESCRIPTION_5'] = 'Estado de oxidación de la armadura de hierro';
 $lang['PROJECT_ALBUM_1_DESCRIPTION_6'] = 'Instalación de puerta de aluminio con barra antipánico para evacuación de ocupantes del inmueble.  ';
+///////////////////////////////////////
+//PROYECTO CENTRO MAYORES PUERTO DEL ROSARIO
+///////////////////////////////////////
+$lang['PROJECT_ALBUM_3_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Centro Mayores Puerto del Rosario';
+$lang['PROJECT_ALBUM_3_DESCRIPTION_1'] = 'Instalación de andamio';
+$lang['PROJECT_ALBUM_3_DESCRIPTION_2'] = 'Deterioro';
+$lang['PROJECT_ALBUM_3_DESCRIPTION_3'] = 'Puerto emergencia';
 
 
 

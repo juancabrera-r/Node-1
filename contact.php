@@ -179,42 +179,59 @@ include_once 'common.php';
 
     <!-- Footer -->
 
-        <footer id="footer" class="footer section">
-          <div class="footer-flex">
-            <div class="flex-item">
-              <a class="brand pull-left" href="./index.php">
-                <img alt="" src="images/brand.png">
-              </a>
-            </div>
-            <div class="flex-item">
-              <div class="inline-block"><?php echo $lang['MENU_FOOTER']; ?></div>
-            </div>
-            <div class="flex-item">
-              <ul>
-                <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
-                <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
-              </ul>
-            </div>
-            <div class="flex-item">
-              <ul>
-                <li><a href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a></li>
-                <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
-              </ul>
-            </div>
-            <div class="flex-item">
-              <ul>
-                <li><a href="contact.php?lang=es">Esp</a></li>
-                <li><a href="contact.php?lang=en">Eng</a></li>
-              </ul>
-            </div>
-            <div class="flex-item">
-              <div class="social-list">
-                <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
-                <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
-              </div>
-            </div>
+    <footer id="footer" class="footer section">
+      <div class="footer-flex">
+        <div class="flex-item">
+          <a class="brand pull-left" href="index.php">
+            <img alt="" src="images/brand.png">
+          </a>
+        </div>
+        <div class="flex-item">
+          <div class="inline-block"><?php echo $lang['MENU_FOOTER']; ?></div>
+        </div>
+        <div class="flex-item">
+          <ul>
+            <li>
+            <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+          </li>
+            <li>
+              <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
+            </li>
+            <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
+            <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
+          </ul>
+        </div>
+        <div class="flex-item">
+          <ul>
+
+            <li>
+              <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+            </li>
+            <li>
+              <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+            </li>
+            <li>
+              <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+            </li>
+            <li>
+              <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-item">
+          <ul>
+            <li><a href="contact.php?lang=es">Esp</a></li>
+            <li><a href="contact.php?lang=en">Eng</a></li>
+          </ul>
+        </div>
+        <div class="flex-item">
+          <div class="social-list">
+            <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
           </div>
-        </footer>
+        </div>
+      </div>
+    </footer>
       </div>
     </div>
 

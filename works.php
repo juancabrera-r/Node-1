@@ -37,8 +37,8 @@ include_once 'common.php';
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="index.php?lang=es">Esp</a>
-        <a href="index.php?lang=en">Eng</a>
+        <a href="works.php?lang=es">Esp</a>
+        <a href="works.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
@@ -79,7 +79,7 @@ include_once 'common.php';
         <span class="icon-bar"></span>
       </button>
 
-      <a class="brand" href="./index.php">
+      <a class="brand" href="index.php">
         <img id="logo-white" class="brand-img" alt="" src="images/brand.png">
         <img id="logo" class="brand-img-white" alt="" src="images/brand.png">
         <div class="brand-info">
@@ -119,116 +119,63 @@ include_once 'common.php';
 
         <!-- PROYECTO 1 -->
         <div class="grid-items js-isotope js-grid-items">
-          <div class="grid-item proyecto js-isotope-item js-grid-item">
+          <div class="grid-item reformas rehabilitaciones js-isotope-item js-grid-item">
             <div class="project-item item-shadow">
-              <img alt="" class="img-responsive" src="images/projects/1-426x574.jpg">
+              <img alt="" class="img-responsive" src="images/last_projects/gran_tarajal/centro_mayores/brazo_fachada_1_426x574.jpg">
               <div class="project-hover">
                 <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_1']; ?><br><?php echo $lang['PROJECT_TITLE_1_2']; ?><br><?php echo $lang['PROJECT_TITLE_1_3']; ?></h3>
-                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_1']; ?></p>
+                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_1']; ?><br></h3>
+                  <p class="project-description"></p>
                 </div>
               </div>
-              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
+               <a href="proyectos/centro_mayores_Gran_Tarajal/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
             </div>
           </div>
 
           <!-- PROYECTO 2 -->
-          <div class="grid-item proyecto js-isotope-item js-grid-item">
+          <div class="grid-item rehabilitaciones reformas js-isotope-item js-grid-item">
             <div class="project-item item-shadow">
-              <img alt="" class="img-responsive" src="images/projects/2-426x574.jpg">
+              <img alt="" class="img-responsive" src="images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/desaladora_426x574.jpg">
               <div class="project-hover">
                 <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_2_1']; ?><br><?php echo $lang['PROJECT_TITLE_2_2']; ?><br><?php echo $lang['PROJECT_TITLE_2_3']; ?></h3>
+                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_2']; ?></h3>
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_2']; ?></p>
                 </div>
               </div>
-            <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
+              <a href="proyectos/centro_mayores_Gran_Tarajal/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
             </div>
           </div>
 
           <!-- PROYECTO 3 -->
-          <div class="grid-item construcciones js-isotope-item js-grid-item">
+          <div class="grid-item reformas rehabilitaciones js-isotope-item js-grid-item">
             <div class="project-item item-shadow">
-              <img alt="" class="img-responsive" src="images/projects/3-426x574.jpg">
+              <img alt="" class="img-responsive" src="images/last_projects/puerto_del_rosario/centro_de_mayores/andamio_426x574.jpg">
               <div class="project-hover">
                 <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_3_1']; ?><br><?php echo $lang['PROJECT_TITLE_3_2']; ?><br><?php echo $lang['PROJECT_TITLE_3_3']; ?></h3>
+                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_3']; ?></h3>
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_3']; ?></p>
                 </div>
               </div>
-              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
+              <a href="proyectos/centro_mayores_Gran_Tarajal/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
             </div>
           </div>
 
           <!-- PROYECTO 4 -->
-          <div class="grid-item construcciones js-isotope-item js-grid-item">
-            <div class="project-item item-shadow">
-              <img alt="" class="img-responsive" src="images/projects/4-426x574.jpg">
-              <div class="project-hover">
-                <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_4_1']; ?><br><?php echo $lang['PROJECT_TITLE_4_2']; ?><br><?php echo $lang['PROJECT_TITLE_4_3']; ?></h3>
-                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_4']; ?></p>
-                </div>
-              </div>
-              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
-            </div>
-          </div>
+
 
           <!-- PROYECTO 5 -->
-          <div class="grid-item reformas js-isotope-item js-grid-item">
-            <div class="project-item item-shadow">
-              <img alt="" class="img-responsive" src="images/projects/5-426x574.jpg">
-              <div class="project-hover">
-                <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_5_1']; ?><br><?php echo $lang['PROJECT_TITLE_5_2']; ?><br><?php echo $lang['PROJECT_TITLE_5_3']; ?></h3>
-                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_5']; ?></p>
-                </div>
-              </div>
-              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
-            </div>
-          </div>
+
 
           <!-- PROYECTO 6 -->
-          <div class="grid-item reformas js-isotope-item js-grid-item">
-            <div class="project-item item-shadow">
-              <img alt="" class="img-responsive" src="images/projects/6-426x574.jpg">
-              <div class="project-hover">
-                <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_6_1']; ?><br><?php echo $lang['PROJECT_TITLE_6_2']; ?><br><?php echo $lang['PROJECT_TITLE_6_3']; ?></h3>
-                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_1']; ?></p>
-                </div>
-              </div>
-              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
-            </div>
-          </div>
+
 
           <!-- PROYECTO 7 -->
-          <div class="grid-item rehabilitaciones js-isotope-item js-grid-item">
-            <div class="project-item item-shadow">
-              <img alt="" class="img-responsive" src="images/projects/7-426x574.jpg">
-              <div class="project-hover">
-                <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_7_1']; ?><br><?php echo $lang['PROJECT_TITLE_7_2']; ?><br><?php echo $lang['PROJECT_TITLE_7_3']; ?></h3>
-                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_7']; ?></p>
-                </div>
-              </div>
-              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
-            </div>
-          </div>
+
 
           <!-- PROJECT 8 -->
-          <div class="grid-item rehabilitaciones js-isotope-item js-grid-item">
-            <div class="project-item item-shadow">
-              <img alt="" class="img-responsive" src="images/projects/8-426x574.jpg">
-              <div class="project-hover">
-                <div class="project-hover-content">
-                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_8_1']; ?><br><?php echo $lang['PROJECT_TITLE_8_2']; ?><br><?php echo $lang['PROJECT_TITLE_8_3']; ?></h3>
-                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_8']; ?></p>
-                </div>
-              </div>
-              <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
-            </div>
-          </div>
+
+          <!-- END PROJECTS -->
+
         </div>
       </div>
     </div>
@@ -240,7 +187,7 @@ include_once 'common.php';
     <footer id="footer" class="footer section">
       <div class="footer-flex">
         <div class="flex-item">
-          <a class="brand pull-left" href="./index.php">
+          <a class="brand pull-left" href="index.php">
             <img alt="" src="images/brand.png">
           </a>
         </div>
@@ -249,14 +196,31 @@ include_once 'common.php';
         </div>
         <div class="flex-item">
           <ul>
+            <li>
+            <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+          </li>
+            <li>
+              <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
+            </li>
             <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
             <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
           </ul>
         </div>
         <div class="flex-item">
           <ul>
-            <li><a href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a></li>
-            <li><a href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a></li>
+
+            <li>
+              <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+            </li>
+            <li>
+              <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+            </li>
+            <li>
+              <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+            </li>
+            <li>
+              <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+            </li>
           </ul>
         </div>
         <div class="flex-item">
@@ -268,6 +232,7 @@ include_once 'common.php';
         <div class="flex-item">
           <div class="social-list">
             <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
           </div>
         </div>
       </div>
