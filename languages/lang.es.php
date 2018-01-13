@@ -386,15 +386,16 @@ Esta compañía no venderá, cederá ni distribuirá la información personal qu
 COGESA S.L. Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
 Esta politica de privacidad se han generado en politicadeprivacidadplantilla.com.';
 
-
+///////////////////////////////////////
 //PROYECTO CENTRO MAYORES GRAN Tarajal
+///////////////////////////////////////
 $lang['PROJECT_ALBUM_1_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Centro Mayores Gran Tarajal';
-$lang['PROJECT_ALBUM_1_DATE_1'] = '3 enero 2018';
-$lang['PROJECT__ALBUM_1_TITLE_1'] = 'Saneamiento fachada';
-$lang['PROJECT_ALBUM_1_DESCRIPTION_1'] = 'Intervención: picado de fachada hasta descubrir armadura de hierro del forjado, tratamiento del hierro, tapado y pintado';
-$lang['PROJECT_ALBUM_1_DATE_2'] = '3 enero 2018';
-$lang['PROJECT__ALBUM_1_TITLE_2'] = 'Salida de emergencia';
-$lang['PROJECT_ALBUM_1_DESCRIPTION_2'] = 'Intervención: Instalación de puerta de aluminio con barra antipánico para evacuación de ocupantes del inmueble.  ';
+$lang['PROJECT_ALBUM_1_DESCRIPTION_1'] = 'Picado de fachada hasta descubrir armadura de hierro del forjado, tratamiento del hierro, tapado y pintado';
+$lang['PROJECT_ALBUM_1_DESCRIPTION_2'] = 'Saneado de fachada con uso de brazo de 18 metros.';
+$lang['PROJECT_ALBUM_1_DESCRIPTION_3'] = 'Fachada finalizada';
+$lang['PROJECT_ALBUM_1_DESCRIPTION_4'] = 'Impermeabilización de cubierta e instalación de solado.';
+$lang['PROJECT_ALBUM_1_DESCRIPTION_5'] = 'Estado de oxidación de la armadura de hierro';
+$lang['PROJECT_ALBUM_1_DESCRIPTION_6'] = 'Instalación de puerta de aluminio con barra antipánico para evacuación de ocupantes del inmueble.  ';
 
 
 

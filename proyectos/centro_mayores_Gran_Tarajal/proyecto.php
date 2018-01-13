@@ -45,12 +45,28 @@ include_once '../../common.php';
           <a  href="../../index.php"><?php echo $lang['MENU_INDEX']; ?></a>
         </li>
         <li>
+          <a  href="../../about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+        </li>
+        <li>
           <a  href="../../works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+        </li>
+        <li>
+          <a  href="../../proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+        </li>
+        <li>
+          <a  href="../../construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+        </li>
+        <li>
+          <a  href="../../domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+        </li>
+        <li>
+          <a  href="../../contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
         </li>
       </ul>
       <div class="menu-footer right-boxed">
         <div class="social-list">
           <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
+          <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
         </div>
         <div class="copy"><?php echo $lang['MENU_FOOTER']; ?></div>
       </div>
@@ -77,6 +93,7 @@ include_once '../../common.php';
       <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark"><?php echo $lang['ADDRESS_CONTACT_PHONE']; ?></span></address>
       <div class="social-list hidden-xs">
         <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target=""></a>
+        <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
       </div>
     </header>
 
@@ -88,102 +105,152 @@ include_once '../../common.php';
       </div>
     </main>
 
-    <div class="content">
-      <div class="container">
-        <div class="card js-isotope">
-          <div class="card-row">
-          <div class="js-isotope-item">
-            <div class="card-row-img card-block col-md-7 col-lg-8 hidden-sm hidden-xs" style="background-image:url(../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_fachada.JPG)"></div>
-            <img class="visible-sm visible-xs img-responsive" alt="" src="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_fachada.JPG">
-            <div class="card-block col-md-offset-7 col-lg-offset-8">
-              <div class="card-posted text-dark"><p class="text-dark"><?php echo $lang['PROJECT_ALBUM_1_DATE_1']; ?></p></div>
-              <h4 class="card-title"><?php echo $lang['PROJECT__ALBUM_1_TITLE_1']; ?></h4>
-              <div class="card-text"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_1']; ?></div>
-            </div>
-          </div>
-        </div>
-        <div class="card-row">
-        <div class="js-isotope-item">
-          <div class="card-row-img card-block col-md-7 col-lg-8 hidden-sm hidden-xs" style="background-image:url(../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_fachada.JPG)"></div>
-          <img class="visible-sm visible-xs img-responsive" alt="" src="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_fachada.JPG">
-          <div class="card-block col-md-offset-7 col-lg-offset-8">
-            <div class="card-posted text-dark"><p class="text-dark"><?php echo $lang['PROJECT_ALBUM_1_DATE_2']; ?></p></div>
-            <h4 class="card-title"><?php echo $lang['PROJECT__ALBUM_1_TITLE_2']; ?></h4>
-            <div class="card-text"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_2']; ?></div>
-          </div>
-        </div>
-      </div>
-      <div class="card-row">
-          <div class="card-row js-isotope-item ">
-            <div class="card-row-img col-md-7 col-lg-8 hidden-sm hidden-xs" style="background-image:url(images/news/3-770x555.jpg)"></div>
-            <img class="visible-sm visible-xs img-responsive" alt="" src="images/news/3-770x555.jpg">
-            <div class="card-block col-md-offset-7 col-lg-offset-8">
-              <div class="card-posted"><a href="#">Admin</a> on Dec 15th, 2016</div>
-              <h4 class="card-title">Interior Design For Apartment</h4>
-              <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus. In lectus ligula, varius quis...</div>
-              <a href="#" class="card-read-more">Continue</a>
-            </div>
-          </div>
-        </div>
-          <div class="card-row js-isotope-item">
-            <div class="card-row-img col-md-7 col-lg-8 hidden-sm hidden-xs" style="background-image:url(images/news/4-770x555.jpg)"></div>
-            <img class="visible-sm visible-xs img-responsive" alt="" src="images/news/4-770x555.jpg">
-            <div class="card-block col-md-offset-7 col-lg-offset-8">
-              <div class="card-posted"><a href="#">Admin</a> on Dec 15th, 2016</div>
-              <h4 class="card-title">Small & Minimal House On Paterson Hill</h4>
-              <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus est sed facilisis viverra. Praesent nec accumsan nibh, eu grav da metus. Curabitur quis sagittis nisl. In lectus ligula, varius quis...</div>
-              <a href="#" class="card-read-more">Continue</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <section class="section">
+        <div class="content">
+          <div class="projects">
+            <div class="container">
 
+
+            <!-- PROYECTO 1 -->
+            <div class="grid-items js-isotope js-grid-items">
+              <div class="grid-item proyecto js-isotope-item js-grid-item">
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_fachada.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_1']; ?></p>
+                    </div>
+                  </div>
+                  <!--  <a href="" class="link-arrow"><?php //echo $lang['LINK_ARROW']; ?><i class="icon ion-ios-arrow-right"></i></a> -->
+                </div>
+              </div>
+
+              <!-- PROYECTO 2 -->
+              <div class="grid-item proyecto js-isotope-item js-grid-item">
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/brazo_fachada.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_2']; ?></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- PROYECTO 3 -->
+              <div class="grid-item construcciones js-isotope-item js-grid-item">
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/fachada_centro_mayores_gran_tarajal.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_3']; ?></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- PROYECTO 4 -->
+              <!-- PROYECTO 2 -->
+              <div class="grid-item proyecto js-isotope-item js-grid-item">
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/puerta_emergencia.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_4']; ?></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- PROYECTO 5 -->
+              <div class="grid-item proyecto js-isotope-item js-grid-item">
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/impermeabilizacion_solado_cubierta.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_5']; ?></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- PROYECTO 6 -->
+              <div class="grid-item proyecto js-isotope-item js-grid-item">
+                <div class="project-item item-shadow">
+                  <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_estructura.jpg">
+                  <div class="project-hover">
+                    <div class="project-hover-content">
+                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_6']; ?></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- PROYECTO 7 -->
+
+              <!-- PROJECT 8 -->
+
+            </div>
+          </div>
+        </div>
+
+        </section>
 
     <!-- Footer -->
 
-        <footer id="footer" class="footer section">
-          <div class="footer-flex">
-            <div class="flex-item">
-              <a class="brand pull-left" href="../../index.php">
-                <img alt="" src="../../images/brand.png">
-              </a>
-            </div>
-            <div class="flex-item">
-              <div class="inline-block"><?php echo $lang['MENU_FOOTER']; ?></div>
-            </div>
-            <!--
-            <div class="flex-item">
-              <ul>
-                <li><a href="">Site Map</a></li>
-                <li><a href="">Term & Conditions</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Help</a></li>
-                <li><a href="">Affiliatep</a></li>
-              </ul>
-            </div>
-            <div class="flex-item">
-              <ul>
-                <li><a href="">Our Location</a></li>
-                <li><a href="">Career</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-              </ul>
-            </div>
-          -->
-            <div class="flex-item">
-              <ul>
-                <li><a href="proyecto.php?lang=es">Esp</a></li>
-                <li><a href="proyecto.php?lang=en">Eng</a></li>
-              </ul>
-            </div>
-            <div class="flex-item">
-              <div class="social-list">
-                <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
-              </div>
-            </div>
+    <footer id="footer" class="footer section">
+      <div class="footer-flex">
+        <div class="flex-item">
+          <a class="brand pull-left" href="../../index.php">
+            <img alt="" src="../../images/brand.png">
+          </a>
+        </div>
+        <div class="flex-item">
+          <div class="inline-block"><?php echo $lang['MENU_FOOTER']; ?></div>
+        </div>
+        <div class="flex-item">
+          <ul>
+            <li>
+            <a  href="../../about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+          </li>
+            <li>
+              <a  href="../../contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
+            </li>
+            <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
+            <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
+          </ul>
+        </div>
+        <div class="flex-item">
+          <ul>
+
+            <li>
+              <a  href="../../works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+            </li>
+            <li>
+              <a  href="../../proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+            </li>
+            <li>
+              <a  href="../../construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+            </li>
+            <li>
+              <a  href="../../domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-item">
+          <ul>
+            <li><a href="proyecto.php?lang=es">Esp</a></li>
+            <li><a href="proyecto.php?lang=en">Eng</a></li>
+          </ul>
+        </div>
+        <div class="flex-item">
+          <div class="social-list">
+            <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
+            <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
           </div>
-        </footer>
+        </div>
+      </div>
+    </footer>
       </div>
     </div>
 
