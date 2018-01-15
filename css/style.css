@@ -622,6 +622,7 @@ label.error{
   color: #000;
 }
 
+
 .text-muted{
   color: #999;
 }
@@ -1207,6 +1208,13 @@ a.brand:focus{
   .experience-box{
     margin-top: 6rem;
   }
+  .copy-bottom{
+    display: block;
+  }
+
+  .lang-bottom{
+    display: block;
+  }
 }
 
 @media (min-width: 1200px){
@@ -1457,10 +1465,13 @@ a.brand:focus{
   -o-transform: translateX(-1rem);
   transform: translateY(-1rem);
 }
-
+.project-description-dark{
+  color:black;
+}
+/*
 .project-item:hover .project-hover{
   background-color: rgba(0,116,217,0.85);
-}
+}*/
 
 .project-item:hover .project-hover .project-title{
   position: relative;
@@ -2139,6 +2150,7 @@ a.brand:focus{
   text-transform: uppercase;
   letter-spacing: -0.025rem;
   font-weight: 300;
+
 }
 
 
@@ -2151,8 +2163,8 @@ a.brand:focus{
 }
 
 .service-list li a:hover{
-  color: #000;
-  text-decoration: none;
+  color: #0074d9;
+  text-decoration: underline;
 }
 
 .dots-image-2{
@@ -3710,6 +3722,13 @@ a.brand:focus{
     font-size: 13px;
   }
 
+  .copy-bottom{
+    display: block;
+  }
+
+  .lang-bottom{
+    display: block;
+  }
   .pull-sm-left{
     float: left;
   }
@@ -4073,14 +4092,20 @@ a.brand:focus{
 
 
   /* Sidebar Menu */
+  .copy-bottom{
+    display: block;
+  }
 
+  .lang-bottom{
+    display: block;
+  }
 
   .menu .menu-lang{
     top:7rem;
   }
 
   .menu-list{
-    top:14rem;
+    top:12rem;
     bottom: 10rem;
   }
 
@@ -4108,18 +4133,6 @@ a.brand:focus{
 
 
   /* Homepage v2 */
-
-
-
-  .copy-bottom{
-    display: block;
-  }
-
-  .lang-bottom{
-    display: block;
-  }
-
-}
 
 .contact-span{
   top:14.45rem;

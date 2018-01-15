@@ -113,7 +113,7 @@ include_once 'common.php';
               <div class="col-md-3">
                 <div class="section-info">
                   <div class="title-hr"></div>
-                  <div class="info-title">Keep in touch</div>
+                  <div class="info-title"><?php echo $lang['CONTACT_SUBTITLE']; ?></div>
                 </div>
               </div>
               <div class="col-md-9">
@@ -125,10 +125,10 @@ include_once 'common.php';
                     <p class="contact-row text-dark"><strong class="text-dark"><?php echo $lang['OBRAS_NAME']; ?>:</strong> obras@nodegestion.es</p>
                   </div>
                   <div class="col-contact col-lg-6">
-                    <p class="contact-top"><strong class="text-muted"><?php echo $lang['CONTACT_CALL']; ?>:</strong></p>
+                    <p class="contact-top"><strong class="text-muted"><?php echo $lang['CONTACT_CALL']; ?></strong></p>
                     <p class="phone-lg text-dark">+34  828 908 650</p>
                     <p class="text-muted"><strong class="text-dark"><?php echo $lang['CONTACT_HOURS']; ?></strong><br>
-                     <?php echo $lang['CONTACT_HOURS']; ?> 08h00 - 18h00<br>
+                     <?php echo $lang['CONTACT_HOURS']; ?><br><?php echo $lang['CONTACT_DAYS']; ?>  08h00 - 18h00 </p>
                     <div class="text-muted"><strong class="text-dark"><?php echo $lang['CONTACT_FOLLOW']; ?></strong><br>
                       <div class="contact-social social-list">
                         <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
@@ -251,7 +251,7 @@ include_once 'common.php';
 <script src="js/imagesloaded.pkgd.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/sly.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyCEprRgdAfS753As69Wak04p2fvCzKbXQU"></script>
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyCEprRgdAfS753As69Wak04p2fvCzKbXQU"></script>
 <script src="js/gmap.js"></script>
 
 <!-- Slider revolution -->

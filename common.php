@@ -21,12 +21,12 @@ $lang = $_COOKIE['lang'];
 }
 else
 {
-$lang = 'en';
+$lang = 'es';
 }
 
 switch ($lang) {
   case 'en':
-  $lang_file = 'lang.en.php';
+  $lang_file = 'lang.es.php';
   break;
 
   case 'de':

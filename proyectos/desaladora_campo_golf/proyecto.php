@@ -118,7 +118,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/desaladora_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_1']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_1']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/desaladora_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -131,7 +131,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/interior_nave_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_2']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_2']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/nave_interior_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_2']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -144,7 +144,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/fachada_entrada_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_3']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_3']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/fachada_nave_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_4_DESCRIPTION_3']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>

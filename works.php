@@ -156,7 +156,7 @@ include_once 'common.php';
                   <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_3']; ?></p>
                 </div>
               </div>
-              <a href="proyectos/centro_mayores_Gran_Tarajal/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
+              <a href="proyectos/centro_mayores_puerto_del_rosario/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
             </div>
           </div>
 
@@ -174,16 +174,36 @@ include_once 'common.php';
             </div>
           </div>
 
-          <!-- PROYECTO 5 -->
-
-
           <!-- PROYECTO 6 -->
+          <div class="grid-item construcciones rehabilitaciones js-isotope-item js-grid-item">
+            <div class="project-item item-shadow">
+              <img alt="" class="img-responsive" src="images/last_projects/puerto_del_rosario/fachada_piedra_tesjuate/vivienda-lateral-piedra-426x574.jpg">
+              <div class="project-hover">
+                <div class="project-hover-content">
+                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_6']; ?></h3>
+                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_6']; ?></p>
+                </div>
+              </div>
+              <a href="proyectos/fachada-piedra/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
+            </div>
+          </div>
 
 
-          <!-- PROYECTO 7 -->
+          <!-- PROYECTO 5 -->
+          <div class="grid-item rehabilitaciones instalaciones js-isotope-item js-grid-item">
+            <div class="project-item item-shadow">
+              <img alt="" class="img-responsive" src="images/last_projects/puerto_del_rosario/hospederia/cuadro_electrico_hospederia_426x574.jpg">
+              <div class="project-hover">
+                <div class="project-hover-content">
+                  <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_5']; ?></h3>
+                  <p class="project-description"><?php echo $lang['PROJECT_DESCRIPTION_5']; ?></p>
+                </div>
+              </div>
+              <a href="proyectos/hospederia/proyecto.php" class="link-arrow"><?php echo $lang['PROJECT_LINK']; ?><i class="icon ion-ios-arrow-right"></i></a>
+            </div>
+          </div>
 
-
-          <!-- PROJECT 8 -->
+          <!-- PROJECT 7 -->
 
           <!-- END PROJECTS -->
 

@@ -126,18 +126,24 @@ include_once 'common.php';
                 <div class="col-md-12">
                   <div class="row-services row">
                     <div class="col-service col-sm-6 col-lg-6">
-                      <span class="text-dark icon-medium icon-apartment"></span>
-                      <h4><?php echo $lang['All_SERVICE_TITLE_REFORMA']; ?></h4>
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium icon-apartment"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['All_SERVICE_TITLE_REFORMA']; ?></h4>
                       <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REFORMA']; ?></p>
                     </div>
                     <div class="col-service col-sm-6 col-lg-6">
-                      <span class="text-dark icon-medium ion-settings"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_REHA']; ?></h4>
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium ion-settings"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['ALL_SERVICE_TITLE_REHA']; ?></h4>
                       <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REHA']; ?></p>
                     </div>
                     <div class="col-service col-sm-6 col-lg-6">
-                      <span class="text-dark icon-medium icon-laptop"></span>
-                      <h4><?php echo $lang['ALL_SERVICE_TITLE_DOM']; ?></h4>
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium icon-laptop"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['ALL_SERVICE_TITLE_DOM']; ?></h4>
                       <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_DOM']; ?></p>
                     </div>
                   </div>
@@ -191,7 +197,7 @@ include_once 'common.php';
                                   <div class="col-md-12">
                                     <div class="news-carousel owl-carousel">
                                       <div class="news-item">
-                                        <img alt="" src="images/news/1-370x370.jpg">
+                                        <!--<img alt="" src="images/news/1-370x370.jpg">-->
                                         <div class="news-hover">
                                           <div class="hover-border"><div></div></div>
                                           <div class="content">
@@ -200,7 +206,7 @@ include_once 'common.php';
                                         </div>
                                       </div>
                                       <div class="news-item">
-                                        <img alt="" src="images/news/2-370x370.jpg">
+                                        <!--<img alt="" src="images/news/1-370x370.jpg">-->
                                         <div class="news-hover">
                                           <div class="hover-border"><div></div></div>
                                           <div class="content">
@@ -209,7 +215,7 @@ include_once 'common.php';
                                         </div>
                                       </div>
                                       <div class="news-item">
-                                        <img alt="" src="images/news/3-370x370.jpg">
+                                        <!--<img alt="" src="images/news/1-370x370.jpg">-->
                                         <div class="news-hover">
                                           <div class="hover-border"><div></div></div>
                                           <div class="content">

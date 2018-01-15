@@ -117,7 +117,7 @@ include_once 'common.php';
           </div>
         </div>
         <div class="col-md-9">
-          <div class="text-display-1 text-dark"><?php echo $lang['PROYECTOS_PROFESIONAL']; ?> </div>
+          <h6><div class="text-dark text-justify"><?php echo $lang['PROYECTOS_PROFESIONAL']; ?> </div></h6>
         </div>
       </div>
     </div>
@@ -128,48 +128,53 @@ include_once 'common.php';
               <div class="row">
                 <div class="col-md-12">
                   <div class="row-services row">
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-apartment"></span>
-                      <h4><?php echo $lang['PROYECTOS_SERVICE_TITLE_1']; ?></h4>
+                    <div class="col-service col-sm-6 col-lg-4">
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium icon-apartment"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['PROYECTOS_SERVICE_TITLE_1']; ?></h4>
                       <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_1']; ?></p>
                     </div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-pencil"></span>
-                      <h4><?php echo $lang['PROYECTOS_SERVICE_TITLE_2']; ?></h4>
+                    <div class="col-service col-sm-6 col-lg-4">
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium icon-pencil"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['PROYECTOS_SERVICE_TITLE_2']; ?></h4>
                       <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_2']; ?></p>
                     </div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-pencil-ruler"></span>
-                      <h4><?php echo $lang['PROYECTOS_SERVICE_TITLE_3']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_3']; ?></p>
-                    </div>
                     <div class="clearfix visible-sm visible-md"></div>
-                    <div class="col-service col-sm-6 col-lg-3">
-                      <span class="text-dark icon-medium icon-bubble"></span>
-                      <h4><?php echo $lang['PROYECTOS_SERVICE_TITLE_4']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_4']; ?></p>
+                    <div class="col-service col-sm-6 col-lg-4">
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium icon-pencil-ruler"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['PROYECTOS_SERVICE_TITLE_3']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_3']; ?></p>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
 
+            <section class="section">
+
+            </section>
+<!--
             <section class="section section-mod about-info">
               <div class="container">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="news-carousel owl-carousel">
                       <div class="news-item">
-                        <img alt="" src="images/news/1-370x370.jpg">
+                        <img alt="" src="images/news/asesoramiento.png">
                         <div class="news-hover">
                           <div class="hover-border"><div></div></div>
                           <div class="content">
-                            <h3 class="news-title"><?php echo $lang['PROYECTOS_SERVICE_IMG_1']; ?></h3>
+                            <h3 class="news-title"><?php echo $lang['PROYECTOS_SERVICE_IMG_3']; ?></h3>
                           </div>
                         </div>
                       </div>
                       <div class="news-item">
-                        <img alt="" src="images/news/2-370x370.jpg">
+                        <img alt="" src="images/news/proyectos.jpg">
                         <div class="news-hover">
                           <div class="hover-border"><div></div></div>
                           <div class="content">
@@ -190,7 +195,7 @@ include_once 'common.php';
                   </div>
                 </div>
               </section>
-
+-->
     <!-- Footer -->
 
     <footer id="footer" class="footer section">

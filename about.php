@@ -120,7 +120,7 @@ include_once 'common.php';
                 </div>
               </div>
               <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['ABOUT_WHO_WE_ARE']; ?>
+                <div class="text-display text-dark"><?php echo $lang['ABOUT_WHO_WE_ARE']; ?>
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@ include_once 'common.php';
                 </div>
               </div>
               <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['ABOUT_WHY_US']; ?>
+                <div class="text-display text-dark"><?php echo $lang['ABOUT_WHY_US']; ?>
                 </div>
               </div>
             </div>
@@ -154,11 +154,11 @@ include_once 'common.php';
                 </div>
               </div>
               <div class="col-md-9">
-                <div class="text-display-1 text-dark"><?php echo $lang['ABOUT_GUARANTEE']; ?></div>
-                <li class="text-display-2 text-dark"><?php echo $lang['ABOUT_GUARANTEE_1']; ?></li>
-                <li class="text-display-2 text-dark"><?php echo $lang['ABOUT_GUARANTEE_2']; ?></li>
-                <li class="text-display-2 text-dark"><?php echo $lang['ABOUT_GUARANTEE_3']; ?></li>
-                <li class="text-display-2 text-dark"><?php echo $lang['ABOUT_GUARANTEE_4']; ?></li>
+                <div class="text-display text-dark"><?php echo $lang['ABOUT_GUARANTEE']; ?></div>
+                <li class="text-display text-dark"><?php echo $lang['ABOUT_GUARANTEE_1']; ?></li>
+                <li class="text-display text-dark"><?php echo $lang['ABOUT_GUARANTEE_2']; ?></li>
+                <li class="text-display text-dark"><?php echo $lang['ABOUT_GUARANTEE_3']; ?></li>
+                <li class="text-display text-dark"><?php echo $lang['ABOUT_GUARANTEE_4']; ?></li>
 
               </div>
             </div>

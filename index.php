@@ -11,6 +11,21 @@ include_once 'common.php';
 <meta name="description" content="<?php echo $lang['META_DESCRIPTION']; ?>" />
 <meta  charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="instalaciones fuerteventura, domotica canarias, knx canarias, reforma fuerteventura, reformas fuerteventura, proyectos fuerteventura, ingeniero fuernteventura, construcciones fuerteventura,
+ constructora fuerteventura, arquitecto fuerteventura, obras fuerteventura, proyectos las palmas"/>
+<meta name="author" content="Juan Manuel Cabrera Rodriguez">
+<meta name="contact" content="info@nodegestion.es" />
+<meta name="language" content="ES">
+<meta name="revisit-after" content="1">
+<meta name="location">
+<meta name="geo.region" content="ES-GC" />
+<meta name="geo.placename" content="Puerto del Rosario" />
+<meta name="geo.position" content="28.501276;-13.867047" />
+<meta name="ICBM" content="28.501276, -13.867047" />
+<meta name="geo.region" content="ES-GC" />
+<meta name="geo.placename" content="Puerto del Rosario" />
+<meta name="geo.position" content="28.501276;-13.867047" />
+<meta name="ICBM" content="28.501276, -13.867047" />
 
 <!-- Favicons -->
 
@@ -66,7 +81,6 @@ include_once 'common.php';
         <div class="social-list">
           <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
           <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
-
         </div>
         <div class="copy"><?php echo $lang['MENU_FOOTER']; ?></div>
       </div>
@@ -94,7 +108,6 @@ include_once 'common.php';
       <div class="social-list hidden-xs">
         <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
         <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
-
       </div>
     </header>
     <div class="copy-bottom white boxed">© COGESA S.L. 2018.</div>
@@ -110,7 +123,7 @@ include_once 'common.php';
           <div id="Carousel" class="section-bg carousel slide" data-ride="carousel" data-interval="3000">
               <div class="carousel-bg" role="listbox">
                 <div class="item active">
-                  <img src="images/bg/bg1-min.jpg" alt="Chania">
+                  <img src="images/bg/bg-1.png" alt="fachada de pierdras">
                 </div>
               </div>
           </div>
@@ -186,43 +199,35 @@ include_once 'common.php';
 
 <div class="pp-scrollable section section-1">
   <div class="scroll-wrap ">
+    <div class="section-bg" style="background-image:url(images/bg/wood.jpg);"></div>
     <div class="scrollable-content">
       <div class="vertical-centred">
         <div class="boxed boxed-inner">
-          <div class="vertical-title text-dark hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
+          <div class="vertical-title  text-dark hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_3']; ?></span></div>
           <div class="boxed">
             <div class="container">
               <div class="intro">
                 <div class="row">
                   <div class="col-md-5 col-lg-5">
-                    <h2 class="title-uppercase text-primary"><?php echo $lang['TITLE_SECTION_2_1']; ?></h2>
-                      <h2 class="title-uppercase"><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
-                        <h6 class="text-display-2"><?php echo $lang['TITLE_SECTION_3_2']; ?></h6>
+                    <h2 class="title-uppercase "><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
+                        <h6 class="text-display"><?php echo $lang['TITLE_SECTION_3_2']; ?><br><a href="domotica.php"><?php echo $lang['TITLE_SECTION_3_MORE']; ?></a></h6>
+
                     </div>
                     <div class="sly">
                       <ul class="slidee">
                         <li>
                           <div class="project-item item-shadow">
-                            <img alt="" class="img-responsive" src="images/projects/1-680x680.jpg">
-                            <div class="project-hover">
-                              <div class="project-hover-content">
-                                <h3 class="project-title">Triangle<br>Concrete House<br>On Lake</h3>
-                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
-                              </div>
-                            </div>
-                            <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                            <img alt="" class="img-responsive" src="images/partners/knx_logo.png">
                           </div>
                         </li>
                         <li>
                           <div class="project-item item-shadow">
-                            <img alt="" class="img-responsive" src="images/projects/2-680x680.jpg">
-                            <div class="project-hover">
-                              <div class="project-hover-content">
-                                <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
-                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...</p>
-                              </div>
-                            </div>
-                            <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                            <img alt="" class="img-responsive" src="images/partners/free-home-logo.png">
+                          </div>
+                        </li>
+                        <li>
+                          <div class="project-item item-shadow">
+                            <img alt="" class="img-responsive" src="images/partners/loxone-logo.png">
                           </div>
                         </li>
                       </ul>
@@ -244,7 +249,7 @@ include_once 'common.php';
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_4']; ?></span></div>
+                <div class="vertical-title text-dark hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_4']; ?></span></div>
                 <div class="boxed">
                     <div class="intro">
                       <div class="row">
@@ -339,30 +344,30 @@ include_once 'common.php';
                               <p><?php echo $lang['TESTIMONIO_1_TEXT_1']; ?></p>
                               <p><?php echo $lang['TESTIMONIO_1_TEXT_2']; ?></p>
                               </div>
-                              <div class="review-author">
+                            <div class="review-author">
                                 <div class="author-name"><?php echo $lang['TESTIMONIO_1_NAME']; ?></div>
                                 <i><?php echo $lang['TESTIMONIO_1_DESCRIPTION_WORK']; ?><br><?php echo $lang['TESTIMONIO_1_FUENTE']; ?></i>
                               </div>
                             </div>
-                            <div class="review-carousel-item">
+                          <!--<div class="review-carousel-item">
                               <div class="text">
-                              <p><?php echo $lang['TESTIMONIO_2_TEXT_1']; ?></p>
-                              <p><?php echo $lang['TESTIMONIO_2_TEXT_2']; ?></p>
-                              </div>
-                              <div class="review-author">
-                                <div class="author-name"><?php echo $lang['TESTIMONIO_2_NAME']; ?></div>
-                                <i><?php echo $lang['TESTIMONIO_2_DESCRIPTION_WORK']; ?><br><?php echo $lang['TESTIMONIO_2_FUENTE']; ?></i>
-                              </div>
+                              <p><?php// echo $lang['TESTIMONIO_2_TEXT_1']; ?></p>
+                              <p><?php //echo $lang['TESTIMONIO_2_TEXT_2']; ?></p>
                             </div>
-                            <div class="review-carousel-item">
+                              <div class="review-author">
+                                <div class="author-name"><?php //echo $lang['TESTIMONIO_2_NAME']; ?></div>
+                                <i><?php //echo $lang['TESTIMONIO_2_DESCRIPTION_WORK']; ?><br><?php //echo $lang['TESTIMONIO_2_FUENTE']; ?></i>
+                              </div>
+                            </div>-->
+                            <!--<div class="review-carousel-item">
                               <div class="text">
-                                <p><?php echo $lang['TESTIMONIO_3_TEXT_1']; ?></p>
-                                <p><?php echo $lang['TESTIMONIO_3_TEXT_2']; ?></p>                              </div>
+                                <p><?php //echo $lang['TESTIMONIO_3_TEXT_1']; ?></p>
+                                <p><?php// echo $lang['TESTIMONIO_3_TEXT_2']; ?></p>                              </div>
                               <div class="review-author">
-                                <div class="author-name"><?php echo $lang['TESTIMONIO_3_NAME']; ?></div>
-                                <i><?php echo $lang['TESTIMONIO_3_DESCRIPTION_WORK']; ?><br><?php echo $lang['TESTIMONIO_3_FUENTE']; ?></i>
+                                <div class="author-name"><?php //echo $lang['TESTIMONIO_3_NAME']; ?></div>
+                                <i><?php //echo $lang['TESTIMONIO_3_DESCRIPTION_WORK']; ?><br><?php //echo $lang['TESTIMONIO_3_FUENTE']; ?></i>
                               </div>
-                            </div>
+                            </div>-->
                           </div>
                         </div>
                       </div>
@@ -393,8 +398,8 @@ include_once 'common.php';
                             <div class="row-contact-info row">
                               <div class="col-contact-info col-md-6 col-lg-4">
                                 <div class="row">
-                                  <h4 class="col-sm-3 col-md-4">Email</h4>
-                                  <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
+                                  <h5 class="col-sm-3 col-md-2">Email</h5>
+                                  <div class="col-right col-sm-8 col-md-9 col-sm-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
                                       <strong class="text-dark"><?php echo $lang['ADMINISTRATION_NAME']; ?></strong><br>
                                       info@nodegestion.es
@@ -408,7 +413,7 @@ include_once 'common.php';
                               </div>
                               <div class="col-contact-info col-md-6 col-lg-4">
                                 <div class="row">
-                                  <h4 class="col-sm-3 col-md-4"><?php echo $lang['PHONE']; ?></h4>
+                                  <h5 class="col-sm-3 col-md-4"><?php echo $lang['PHONE']; ?></h5>
                                   <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
                                       <strong class="text-dark"><?php echo $lang['OFFICE']; ?></strong><br>
@@ -417,7 +422,7 @@ include_once 'common.php';
                                   </div>
                                 </div>
                                 <div class="row">
-                                  <h4 class="col-sm-3 col-md-4"><?php echo $lang['ADDRESS_FOOTER']; ?></h4>
+                                  <h5 class="col-sm-3 col-md-4"><?php echo $lang['ADDRESS_FOOTER']; ?></h5>
                                   <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
                                       C./Isla la Graciosa, nº2, local izq.

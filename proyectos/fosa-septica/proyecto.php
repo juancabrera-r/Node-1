@@ -118,7 +118,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/excavadora_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_2']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_2']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/antigua/fosa_septica/excavadora_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -131,7 +131,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/excavando_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_2']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_2']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/antigua/fosa_septica/excavando_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_2']; ?>" class="link-arrow"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -158,7 +158,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/peris_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_4']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_4']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/antigua/fosa_septica/peris_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_4']; ?>"  class="link-arrow"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -183,7 +183,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/antigua/fosa_septica/deposito_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_6']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_6']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/antigua/fosa_septica/deposito_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_6']; ?>"  class="link-arrow"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>

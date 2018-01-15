@@ -118,7 +118,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/fachada_finalizada_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_1']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_1']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/gran_tarajal/centro_mayores/fachada_finalizada_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -132,7 +132,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/brazo_fachada_1_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_2']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_2']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/gran_tarajal/centro_mayores/brazo_fachada_1_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -146,7 +146,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/brazo_fachada_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_3']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_3']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/gran_tarajal/centro_mayores/brazo_fachada_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -161,10 +161,10 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/puerta_emergencia_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_4']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_4']; ?></p>
                     </div>
                   </div>
-                  <a href="../../images/last_projects/gran_tarajal/centro_mayores/puerta_emergencia_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                  <a href="../../images/last_projects/gran_tarajal/centro_mayores/puerta_emergencia_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_4']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
 
                 </div>
               </div>
@@ -175,10 +175,10 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/impermeabilizacion-solado-426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_5']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_5']; ?></p>
                     </div>
                   </div>
-                  <a href="../../images/last_projects/gran_tarajal/centro_mayores/impermeabilizacion_solado_cubierta_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                  <a href="../../images/last_projects/gran_tarajal/centro_mayores/impermeabilizacion_solado_cubierta_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_5']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
 
                 </div>
               </div>
@@ -189,10 +189,10 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_estructura_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_6']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_6']; ?></p>
                     </div>
                   </div>
-                  <a href="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_estructura_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_2_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
+                  <a href="../../images/last_projects/gran_tarajal/centro_mayores/saneamiento_estructura_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_1_DESCRIPTION_6']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
 
                 </div>
               </div>

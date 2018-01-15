@@ -118,7 +118,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/puerto_del_rosario/centro_de_mayores/andamio_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_1']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_1']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/puerto_del_rosario/centro_de_mayores/andamio_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_1']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -132,7 +132,7 @@ include_once '../../common.php';
                   <img alt="" class="img-responsive" src="../../images/last_projects/puerto_del_rosario/centro_de_mayores/rehabilitacion_cornisa_426x574.jpg">
                   <div class="project-hover">
                     <div class="project-hover-content">
-                      <p class="project-description"><?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_2']; ?></p>
+                      <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_2']; ?></p>
                     </div>
                   </div>
                   <a href="../../images/last_projects/puerto_del_rosario/centro_de_mayores/rehabilitacion_cornisa_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_2']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>
@@ -146,7 +146,7 @@ include_once '../../common.php';
                 <img alt="" class="img-responsive" src="../../images/last_projects/puerto_del_rosario/centro_de_mayores/puerta_emergencia_426x574.jpg">
                 <div class="project-hover">
                   <div class="project-hover-content">
-                    <p class="project-description"><?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_2']; ?></p>
+                    <p class="project-description project-description-dark"><?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_3']; ?></p>
                   </div>
                 </div>
                 <a href="../../images/last_projects/puerto_del_rosario/centro_de_mayores/puerta_emergencia_original.jpg" title="<?php echo $lang['PROJECT_ALBUM_3_DESCRIPTION_3']; ?>" class="link-arrow js-gallery"><?php echo $lang['PROJECT_ALBUM']; ?><i class="icon ion-ios-arrow-right"></i></a>

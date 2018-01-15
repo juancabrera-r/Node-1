@@ -101,7 +101,7 @@ include_once 'common.php';
       <main class="page-header-3">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['DOMOTICA_TITLE']; ?></h1></div>
+            <div class="col-md-8 col-lg-10"><h1><?php echo $lang['DOMOTICA_TITLE']; ?></h1></div>
           </div>
         </div>
       </main>
@@ -123,25 +123,47 @@ include_once 'common.php';
     </div>
     </section>
 
+    <section class="section  section-mod about-info">
+      <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="section-info">
+            <div class="title-hr"></div>
+            <div class="info-title"><?php echo $lang['DOMOTICA_PROFESION_1']; ?></div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <h6><div class="text-dark text-justify"><?php echo $lang['DOMOTICA_PROFESIONAL_1']; ?> </div></h6>
+        </div>
+      </div>
+    </div>
+    </section>
+
           <section class="section section-mod about-info">
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
                   <div class="row-services row">
                     <div class="col-service col-sm-6 col-lg-4">
-                      <span class="text-dark icon-medium ion-ios-lightbulb-outline"></span>
-                      <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_1']; ?></h4>
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium ion-ios-lightbulb-outline"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['DOMOTICA_SERVICE_TITLE_1']; ?></h4>
                       <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_1']; ?></p>
                     </div>
                     <div class="col-service col-sm-6 col-lg-4">
-                      <span class="text-dark icon-medium ion-ios-gear-outline"></span>
-                      <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_2']; ?></h4>
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium ion-ios-gear-outline"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['DOMOTICA_SERVICE_TITLE_2']; ?></h4>
                       <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_2']; ?></p>
                     </div>
                     <div class="clearfix visible-sm visible-md"></div>
                     <div class="col-service col-sm-6 col-lg-4">
-                      <span class="text-dark icon-medium ion-lock-combination"></span>
-                      <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_3']; ?></h4>
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium ion-lock-combination"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['DOMOTICA_SERVICE_TITLE_3']; ?></h4>
                       <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_3']; ?></p>
                     </div>
                   </div>
@@ -155,19 +177,25 @@ include_once 'common.php';
                   <div class="col-md-12">
                     <div class="row-services row">
                       <div class="col-service col-sm-6 col-lg-4">
-                        <span class="text-dark icon-medium icon-home"></span>
-                        <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_4']; ?></h4>
+                        <div class="text-center">
+                        <span class="text-dark text-center icon-medium icon-home"></span>
+                      </div>
+                        <h4 class="text-center"><?php echo $lang['DOMOTICA_SERVICE_TITLE_4']; ?></h4>
                         <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_4']; ?></p>
                       </div>
                       <div class="col-service col-sm-6 col-lg-4">
-                        <span class="text-dark icon-medium ion-ios-videocam-outline"></span>
-                        <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_5']; ?></h4>
+                        <div class="text-center">
+                        <span class="text-dark text-center icon-medium ion-ios-videocam-outline"></span>
+                      </div>
+                        <h4 class="text-center"><?php echo $lang['DOMOTICA_SERVICE_TITLE_5']; ?></h4>
                         <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_5']; ?></p>
                       </div>
                       <div class="clearfix visible-sm visible-md"></div>
                       <div class="col-service col-sm-6 col-lg-4">
-                        <span class="text-dark icon-medium ion-monitor"></span>
-                        <h4><?php echo $lang['DOMOTICA_SERVICE_TITLE_6']; ?></h4>
+                        <div class="text-center">
+                        <span class="text-dark text-center icon-medium ion-monitor"></span>
+                      </div>
+                        <h4 class="text-center"><?php echo $lang['DOMOTICA_SERVICE_TITLE_6']; ?></h4>
                         <p class="text-dark"><?php echo $lang['DOMOTICA_SERVICE_DESCRIPTION_6']; ?></p>
                       </div>
                     </div>
@@ -181,7 +209,7 @@ include_once 'common.php';
                   <div class="col-md-12">
                     <div class="news-carousel owl-carousel">
                       <div class="news-item">
-                        <img alt="" src="images/news/1-370x370.jpg">
+                      <!--  <img alt="" src="images/news/1-370x370.jpg">-->
                         <div class="news-hover">
                           <div class="hover-border"><div></div></div>
                           <div class="content">
@@ -190,7 +218,7 @@ include_once 'common.php';
                         </div>
                       </div>
                       <div class="news-item">
-                        <img alt="" src="images/news/2-370x370.jpg">
+                        <!--  <img alt="" src="images/news/1-370x370.jpg">-->
                         <div class="news-hover">
                           <div class="hover-border"><div></div></div>
                           <div class="content">
@@ -199,7 +227,7 @@ include_once 'common.php';
                         </div>
                       </div>
                       <div class="news-item">
-                        <img alt="" src="images/news/3-370x370.jpg">
+                        <!--  <img alt="" src="images/news/1-370x370.jpg">-->
                         <div class="news-hover">
                           <div class="hover-border"><div></div></div>
                           <div class="content">

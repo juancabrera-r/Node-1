@@ -1,0 +1,14 @@
+User-agent: *
+Sitemap: https://www.nodegestion.com/sitemap.xml
+Disallow: /web/*
+Disallow: /aphome/*
+Disallow: /componentes/*
+Disallow: /ckeditor/*
+Disallow: /webhome/*
+Disallow: /ficheros/a*
+Disallow: /ficheros/e*
+Disallow: /ficheros/f*
+Disallow: /ficheros/img*
+Disallow: /ficheros/in*
+Disallow: /ficheros/u*
+Disallow: /ficheros/x*
