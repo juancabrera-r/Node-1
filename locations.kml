@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 	<Document>
-		<name>Locations for Node Gestion.</name>
+		<name>Locations for Node Gestión.</name>
 		<atom:author>
-			<atom:name>Node Gestion</atom:name>
+			<atom:name>Cogesa S.L.</atom:name>
 		</atom:author>
-		<atom:link rel="related" href="https://nodegestion.es" />
+		<atom:link rel="related" href="https://www.nodegestion.es" />
 		<Folder>
 			<Placemark>
 				<name><![CDATA[Node Gesti&oacute;n]]></name>
-				<address><![CDATA[C/ Isla de la Graciosa, 2, PUERTO DEL ROSARIO, 35600, Spain]]></address>
+				<address><![CDATA[C/ Isla de la Graciosa, 2, Puerto del Rosario, 35600, Spain]]></address>
 				<phoneNumber><![CDATA[828908650]]></phoneNumber>
-				<description><![CDATA[proyectos, reformas y construcción en Fuerteventura]]></description>
+				<description><![CDATA[Node gestión es una empresa constructora en fuerteventura, ofrecemos además servicios de domótica en canarias y proyectos. ]]></description>
 				<Point>
 					<coordinates>-13.8682578,28.5036581,0</coordinates>
 				</Point>

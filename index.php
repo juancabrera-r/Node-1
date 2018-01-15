@@ -195,11 +195,40 @@ include_once 'common.php';
         </div>
       </div>
 
+      <!--    BUILDER   -->
+      <div class="pp-scrollable section section-1">
+        <div class="scroll-wrap ">
+          <div class="section-bg" style="background-image:url(images/bg/placa_alveolar_original.jpg);"></div>
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title  text-white hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_7']; ?></span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-10 col-lg-12">
+                          <h2 class="title-uppercase text-white"><?php echo $lang['TITLE_SECTION_7_1']; ?></h2>
+                              <h6 class="text-display text-white"><?php echo $lang['SERVICE_SECTION_7_1']; ?></h6>
+                              <h6 class="text-display text-white"><?php echo $lang['SERVICE_SECTION_7_2']; ?></h6>
+                              <h6 class="text-display text-white"><?php echo $lang['SERVICE_SECTION_7_3']; ?></h6>
+                              <a class="text-white" href="construction.php"><?php echo $lang['TITLE_SECTION_3_MORE']; ?></a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
 <!--    INSTALATIONS    -->
 
 <div class="pp-scrollable section section-1">
   <div class="scroll-wrap ">
-    <div class="section-bg" style="background-image:url(images/bg/wood.jpg);"></div>
     <div class="scrollable-content">
       <div class="vertical-centred">
         <div class="boxed boxed-inner">
@@ -242,6 +271,65 @@ include_once 'common.php';
     </div>
   </div>
 </div>
+
+
+<!--    TESTIMONIOS    -->
+      <div class="pp-scrollable text-white section section-4">
+        <div class="scroll-wrap">
+          <div class="section-bg" style="background-image:url(images/bg/bg3.png);"></div>
+          <div class="scrollable-content">
+            <div class="vertical-centred">
+              <div class="boxed boxed-inner">
+                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_5']; ?></span></div>
+                <div class="boxed">
+                  <div class="container">
+                    <div class="intro">
+                      <div class="row">
+                        <div class="col-md-6 col-lg-5">
+                          <h2 class="title-uppercase-2"><?php echo $lang['LEMA_SECTION_5']; ?></h2>
+                        </div>
+                        <div class="col-md-5 col-lg-5  col-md-offset-1 col-lg-offset-2">
+                          <div class="review-carousel owl-carousel">
+                            <div class="review-carousel-item">
+                              <div class="text">
+                              <p><?php echo $lang['TESTIMONIO_1_TEXT_1']; ?></p>
+                              <p><?php echo $lang['TESTIMONIO_1_TEXT_2']; ?></p>
+                              </div>
+                            <div class="review-author">
+                                <div class="author-name"><?php echo $lang['TESTIMONIO_1_NAME']; ?></div>
+                                <i><?php echo $lang['TESTIMONIO_1_DESCRIPTION_WORK']; ?><br><?php echo $lang['TESTIMONIO_1_FUENTE']; ?></i>
+                              </div>
+                            </div>
+                          <!--<div class="review-carousel-item">
+                              <div class="text">
+                              <p><?php// echo $lang['TESTIMONIO_2_TEXT_1']; ?></p>
+                              <p><?php //echo $lang['TESTIMONIO_2_TEXT_2']; ?></p>
+                            </div>
+                              <div class="review-author">
+                                <div class="author-name"><?php //echo $lang['TESTIMONIO_2_NAME']; ?></div>
+                                <i><?php //echo $lang['TESTIMONIO_2_DESCRIPTION_WORK']; ?><br><?php //echo $lang['TESTIMONIO_2_FUENTE']; ?></i>
+                              </div>
+                            </div>-->
+                            <!--<div class="review-carousel-item">
+                              <div class="text">
+                                <p><?php //echo $lang['TESTIMONIO_3_TEXT_1']; ?></p>
+                                <p><?php// echo $lang['TESTIMONIO_3_TEXT_2']; ?></p>                              </div>
+                              <div class="review-author">
+                                <div class="author-name"><?php //echo $lang['TESTIMONIO_3_NAME']; ?></div>
+                                <i><?php //echo $lang['TESTIMONIO_3_DESCRIPTION_WORK']; ?><br><?php //echo $lang['TESTIMONIO_3_FUENTE']; ?></i>
+                              </div>
+                            </div>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 <!--    LAST PROJECTS    -->
       <div class="pp-scrollable section section-1">
@@ -315,64 +403,6 @@ include_once 'common.php';
                         </div>
                       </div>
                     </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-<!--    TESTIMONIOS    -->
-      <div class="pp-scrollable text-white section section-4">
-        <div class="scroll-wrap">
-          <div class="section-bg" style="background-image:url(images/bg/bg3.png);"></div>
-          <div class="scrollable-content">
-            <div class="vertical-centred">
-              <div class="boxed boxed-inner">
-                <div class="vertical-title hidden-xs hidden-sm"><span><?php echo $lang['VERTICAL_MENU_5']; ?></span></div>
-                <div class="boxed">
-                  <div class="container">
-                    <div class="intro">
-                      <div class="row">
-                        <div class="col-md-6 col-lg-5">
-                          <h2 class="title-uppercase-2"><?php echo $lang['LEMA_SECTION_5']; ?></h2>
-                        </div>
-                        <div class="col-md-5 col-lg-5  col-md-offset-1 col-lg-offset-2">
-                          <div class="review-carousel owl-carousel">
-                            <div class="review-carousel-item">
-                              <div class="text">
-                              <p><?php echo $lang['TESTIMONIO_1_TEXT_1']; ?></p>
-                              <p><?php echo $lang['TESTIMONIO_1_TEXT_2']; ?></p>
-                              </div>
-                            <div class="review-author">
-                                <div class="author-name"><?php echo $lang['TESTIMONIO_1_NAME']; ?></div>
-                                <i><?php echo $lang['TESTIMONIO_1_DESCRIPTION_WORK']; ?><br><?php echo $lang['TESTIMONIO_1_FUENTE']; ?></i>
-                              </div>
-                            </div>
-                          <!--<div class="review-carousel-item">
-                              <div class="text">
-                              <p><?php// echo $lang['TESTIMONIO_2_TEXT_1']; ?></p>
-                              <p><?php //echo $lang['TESTIMONIO_2_TEXT_2']; ?></p>
-                            </div>
-                              <div class="review-author">
-                                <div class="author-name"><?php //echo $lang['TESTIMONIO_2_NAME']; ?></div>
-                                <i><?php //echo $lang['TESTIMONIO_2_DESCRIPTION_WORK']; ?><br><?php //echo $lang['TESTIMONIO_2_FUENTE']; ?></i>
-                              </div>
-                            </div>-->
-                            <!--<div class="review-carousel-item">
-                              <div class="text">
-                                <p><?php //echo $lang['TESTIMONIO_3_TEXT_1']; ?></p>
-                                <p><?php// echo $lang['TESTIMONIO_3_TEXT_2']; ?></p>                              </div>
-                              <div class="review-author">
-                                <div class="author-name"><?php //echo $lang['TESTIMONIO_3_NAME']; ?></div>
-                                <i><?php //echo $lang['TESTIMONIO_3_DESCRIPTION_WORK']; ?><br><?php //echo $lang['TESTIMONIO_3_FUENTE']; ?></i>
-                              </div>
-                            </div>-->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -500,6 +530,30 @@ include_once 'common.php';
 <!-- Scripts -->
 <script src="js/scripts.js"></script>
 
+<!--Schema.org-->
+<script type="application/ld+json"> {
+"@context" : "http://schema.org",
+"@type" : "GeneralContractor",
+"address" : {
+"@type": "PostalAddress",
+"addressLocality": "Puerto del Rosario",
+"addressRegion": "Las Palmas",
+"postalCode": "35600",
+"streetAddress": "C/ Isla de la Graciosa, 2" },
+"name":"Node Gestión",
+"url":"https://www.nodegestion.es",
+"email":"info@nodegestion.es",
+"telephone":"828908650",
+"image": "https://nodegestion.es/images/brand.png",
+"openingHours": [
+"Mo-Sa 8:00-18:00"],
+"aggregateRating":{
+"@type":"AggregateRating",
+"ratingValue":"5",
+"reviewCount":"4"},
+"priceRange":"1"
+}
+</script>
 
 </body>
 </html>

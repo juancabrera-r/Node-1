@@ -1,14 +1,11 @@
 User-agent: *
-Sitemap: https://www.nodegestion.com/sitemap.xml
-Disallow: /web/*
-Disallow: /aphome/*
-Disallow: /componentes/*
-Disallow: /ckeditor/*
-Disallow: /webhome/*
-Disallow: /ficheros/a*
-Disallow: /ficheros/e*
-Disallow: /ficheros/f*
-Disallow: /ficheros/img*
-Disallow: /ficheros/in*
-Disallow: /ficheros/u*
-Disallow: /ficheros/x*
+Sitemap: https://www.nodegestion.es/sitemap.xml
+Disallow: /administrador/
+Disallow: /privacy_policy.php
+Disallow: /mail.php
+Disallow: /terms.php
+Disallow: /works.php
+Disallow: /*?
+
+User-agent: Googlebot-Image
+Allow: /works.php

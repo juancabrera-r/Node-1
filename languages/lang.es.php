@@ -49,24 +49,31 @@ $lang['SERVICE_CLIENTE_4'] = '04. Profesionales';
 $lang['SERVICE_CLIENTE_5'] = '05. Administración pública';
 $lang['SERVICE_CLIENTE_6'] = '06. Inmobiliaria';
 ////////////////////////////
-//SECTION-3 DOMOTICA
+//SECTION-3 CONSTRUCTION
+///////////////////////////
+$lang['VERTICAL_MENU_7'] = 'CONSTRUCCIÓN';
+$lang['TITLE_SECTION_7_1'] = 'Empresa constructora Fuerteventura';
+$lang['SERVICE_SECTION_7_1'] = '<strong>NODE Gestión</strong> es una empresa de construcción, rehabilitación y reformas integrales con sede en Puerto del Rosario, Fuerteventura. Especializados en el sector de <strong>reformas</strong>, <strong>edificación</strong>, <strong>rehabilitación</strong> y <strong>arquitectura</strong>. Ofrecemos una gestión integral a nuestros clientes.';
+$lang['SERVICE_SECTION_7_2'] = 'El <strong>equipo técnico</strong> de Node Gestión está formados por profesionales del sector de la <strong>edificación</strong>. La experiencia y profesionalidad de nuestro equipo, nos permite garantizar a los clientes la correcta ejecución de los <strong>proyectos</strong>.';
+$lang['SERVICE_SECTION_7_3'] = 'Nuestro objetivo es establecer relaciones profesionales a largo plazo con nuestros clientes, por lo que nos sustentamos en tres pilares: <strong>redacción de documentos técnicos</strong>, <strong>ejecución de obras</strong> y <strong>control de calidad</strong> de los trabajos.';
+////////////////////////////
+//SECTION-4 DOMOTICA
 ///////////////////////////
 $lang['VERTICAL_MENU_3'] = 'Instalaciones Inteligentes';
 $lang['TITLE_SECTION_3_1'] = 'Integración de sistemas de control';
-$lang['TITLE_SECTION_3_2'] = 'Realizamos la <strong>integración de sistemas de control</strong> en vivienda, edificios y/o industrias. Buscamos el producto adecuado que se adecue a sus necesidades.
+$lang['TITLE_SECTION_3_2'] = 'Nuestra <strong>ingeniería</strong> ofrece un servicio de<strong>integración de sistemas de control</strong> en <strong>Fuerteventura</strong>. Buscamos el producto adecuado que se adecue a sus necesidades.
 <br><br>Esta tecnología permite controlar la automatización de los equipos y sistemas; centralizándolos y comunicandolos entre sí para una gestión inteligente y más eficiente.
 <br><br><strong>Ahorro, seguridad, control, confort y comunicación</strong> son los beneficios que se obtienen con este tipo de tecnología.';
 $lang['TITLE_SECTION_3_MORE'] = '<strong>Saber más...</strong>';
 $lang['TITLE_SECTION_PARTNER_1'] = 'Estándar KNX';
 $lang['TITLE_SECTION_PARTNER_2'] = 'Fabricante ABB';
 $lang['TITLE_SECTION_PARTNER_3'] = 'Fabricante LOXONE';
-$lang['SERVICE_SECTION_3_3'] = 'Asesoramiento';
-//$lang['LEMA_SECTION_3_1'] = 'Años';
-//$lang['LEMA_SECTION_3_2'] = 'de ';
-//$lang['LEMA_SECTION_3_3'] = 'garantía';
-// SECTION-4
+///////////////////////////
+// SECTION-5 LAST WORKS
+///////////////////////////
 $lang['VERTICAL_MENU_4'] = 'Nuestros trabajos';
-$lang['LINK_ARROW'] = 'Ver todos los trabajos';
+$lang['LINK_ARROW'] = 'Ve///////////////////////////
+r todos los trabajos';
 $lang['TITLE_SECTION_4_1'] = 'Ultimos proyectos';
 $lang['PROJECT_TITLE_1'] = 'Centro de Mayores en Gran Tarajal';
 $lang['PROJECT_DESCRIPTION_SERVICE_1'] = 'Saneamiento de fachada por oxidación de estructura metálida del forjado.';
@@ -76,7 +83,9 @@ $lang['PROJECT_TITLE_3'] = 'Cuatro Apero';
 $lang['PROJECT_DESCRIPTION_SERVICE_3'] = 'Construcción';
 $lang['PROJECT_TITLE_4'] = 'Renovación de baño';
 $lang['PROJECT_DESCRIPTION_SERVICE_4'] = 'Reforma';
-// SECTION-5
+///////////////////////////
+// SECTION-6 TESTIMONIOS
+///////////////////////////
 $lang['VERTICAL_MENU_5'] = 'Testimonios';
 $lang['LEMA_SECTION_5'] = 'Confianza y calidad son las palabras que nos definen ';
 $lang['TESTIMONIO_1_TEXT_1'] = '“ Muy buen trabajo realizado por NODE GESTION. Serios, puntuales, respetuosos, rápidos, eficientes y limpios.';
@@ -94,7 +103,9 @@ $lang['TESTIMONIO_3_TEXT_2'] = ' Muy recomendables a todas aquellas personas que
 $lang['TESTIMONIO_3_NAME'] = 'Silvana';
 $lang['TESTIMONIO_3_DESCRIPTION_WORK'] = 'Reparación en duplex.';
 $lang['TESTIMONIO_3_FUENTE'] = ' Post en Facebook';
-// SECTION-6
+///////////////////////////
+// SECTION-7 CONTACT
+///////////////////////////
 $lang['VERTICAL_MENU_6'] = 'Contacto';
 $lang['WE_ARE'] = 'Donde nos encontramos';
 $lang['ADMINISTRATION_NAME'] = 'Administración';
@@ -102,7 +113,9 @@ $lang['OBRAS_NAME'] = 'Obras';
 $lang['OFFICE'] = 'Tlno. oficina';
 $lang['ADDRESS_FOOTER'] = 'Dirección';
 $lang['PHONE'] = 'Tfno.';
-//WORKS
+///////////////////////////
+//WORKS.PHP
+///////////////////////////
 $lang['WORKS_MAIN_TITLE'] = 'NUESTROS TRABAJOS';
 $lang['WORKS_CATEGORY_0'] = 'Todos';
 $lang['WORKS_CATEGORY_1'] = 'Proyectos';
@@ -119,7 +132,7 @@ $lang['PROJECT_TITLE_1_1'] = 'Rehabilitación <br> Centro Mayores <br> Gran Tara
 $lang['PROJECT_DESCRIPTION_1'] = 'Rehabilitación de fachada, impermeabilización de cubierta, instalación de puerta de emergencias,...';
 $lang['PROJECT_TITLE_1_2'] = 'Rehabilitación <br> Desaladora <br> Antigua';
 $lang['PROJECT_DESCRIPTION_2'] = 'Saneado de paramentos verticales exteriores e interiores y acabado en monocapa';
-$lang['PROJECT_TITLE_1_3'] = 'Rehabilitación <br> Centro Mayores <br> Puerto del Rosario';
+$lang['PROJProjectsECT_TITLE_1_3'] = 'Rehabilitación <br> Centro Mayores <br> Puerto del Rosario';
 $lang['PROJECT_DESCRIPTION_3'] = 'Saneado de cornisa, instalación de puertas de emergencias, instalación de equipo de aire acondicionado y sustitución de luminarias de emergencia';
 $lang['PROJECT_TITLE_1_4'] = 'Construcción <br> Fosa séptica';
 $lang['PROJECT_DESCRIPTION_4'] = 'Ejecución de fosa séptica.';
@@ -183,7 +196,9 @@ $lang['ALL_SERVICE_TITLE_DOM'] = 'Control de sistemas';
 $lang['ALL_SERVICE_DESCRIPTION_DOM'] = 'Ofrecemos distintos tipos de productos con estándar abierto (KNX) o pripietario, esto nos permite ofrecer productos adecuados para cada tipo de proyecto';
 $lang['ALL_SERVICE_TITLE_TELEC'] = 'Redes y Videovigilancia';
 $lang['ALL_SERVICE_DESCRIPTION_TELEC'] = 'Realizamos instalaciones de videovigilancia y redes locales o inalámbricas.';
+///////////////////////////
 //PARTICULARES
+///////////////////////////
 $lang['PARTICULARES_TITLE'] = '¿Qué podemos ofrecerle?';
 $lang['ALL_SERVICE_DESCRIPTION_TITLE'] = 'En <strong>NODE Gestión</strong> ofrecemos un servicio integral orientado a gestionar y ejecutar todo el proceso constructivo, reformas y/o rehabilitaciones.';
 $lang['PARTICULARES_NUEVA_OBRA'] = 'OBRA NUEVA';
@@ -204,7 +219,9 @@ $lang['PARTICULARES_TECH_1'] = '01. Instalaciones domóticas. Contamos con disti
 $lang['PARTICULARES_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la instalación y emitimos la documentación necesaria (proyecto eléctrico o boletín eléctrico).';
 $lang['PARTICULARES_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
 $lang['PARTICULARES_TECH_4'] = '03. Estudio del consumo actual y asesoramiento para lograr un ahorro energético';
+///////////////////////////
 //EMPRESA
+///////////////////////////
 $lang['EMPRESA_TITLE'] = 'En que podemos ayudarle con su negocio';
 $lang['EMPRESA_DESCRIPTION_TITLE'] = 'En <strong>NODE Gestión</strong> nuestro equipo le brinda y le garantiza un servicio en función de las necesidades de su negocio.';
 $lang['EMPRESA_NUEVA_OBRA'] = 'OBRA NUEVA';
@@ -227,8 +244,9 @@ $lang['EMPRESA_REFORMA_1'] = '01. Estudio previo y asesoramiento técnico y buro
 $lang['EMPRESA_REFORMA_2'] = '02. Presupuesto.';
 //$lang['EMPRESA_REFORMA_3'] = '03. Replanteo de las obras.';
 $lang['EMPRESA_REFORMA_4'] = '03. Ejecución de los trabajos';
-
+///////////////////////////
 //COMUNIDADES
+///////////////////////////
 $lang['COMUNIDADES_TITLE'] = 'El mejor servicio para su comunidad';
 $lang['COMUNIDADES_DESCRIPTION_TITLE'] = 'En <strong> NODE Gestión</strong> le ofrecemos un servicio completo en tareas de obras e intalaciones.';
 $lang['COMUNIDADES_REFORMA_TITLE'] = 'REFORMA  REHABILITACIÓN';
@@ -242,7 +260,9 @@ $lang['COMUNIDADES_TECH_1'] = '01. Instalaciones domóticas. Contamos con distin
 $lang['COMUNIDADES_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la instalación y emitimos la documentación necesaria (Proyecto o boletín eléctrico).';
 $lang['COMUNIDADES_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
 $lang['COMUNIDADES_TECH_4'] = '04. Asesoramiento y estudio para lograr un ahorro energético';
+///////////////////////////
 //PROFESIONALES
+///////////////////////////
 $lang['PROFESIONAL_TITLE'] = '¿Nos ayudamos?';
 $lang['PROFESIONALES_DESCRIPTION_TITLE'] = 'Si eres <strong>ARQUITECTO, INGENIERO, INSTALADOR</strong>, etc. podemos ayudarle con el control o automatización de sistemas.';
 $lang['PROFESIONAL_NUEVA_OBRA'] = 'ARQUITECTO INGENIERO';
@@ -256,7 +276,9 @@ $lang['PROFESIONAL_TECH_1'] = '01. Asesoramiento en la elección del sistema con
 $lang['PROFESIONAL_TECH_2'] = '02. Programación del hardware.';
 $lang['PROFESIONAL_TECH_3'] = '03. Colaboración en la ejecución del sistema de control';
 $lang['PROFESIONAL_TECH_4'] = '04. Puesta en marcha de la instalación';
+///////////////////////////
 //ADMINISTRACIÓN
+///////////////////////////
 $lang['ADMINISTRATION_TITLE'] = 'Servicio gestión integral';
 $lang['ADMINISTRATION_DESCRIPTION_TITLE'] = '<strong>NODE Gestión</strong> le ofrece un servicio de gestión integrar, nos encargamos de la gestión documental y ejecución de los trabajos de construcción, reforma o mantenimiento. Nos encargamos de todo el proceso de la obra: proyectos, gestión y tramites de documentación, coordinación de seguridad y salud, ejecución de los trabajos e informes de proceso de los trabajos.';
 $lang['ADMINISTRATION_NUEVA_OBRA'] = 'OBRA NUEVA';
@@ -277,7 +299,9 @@ $lang['ADMINISTRATION_TECH_1'] = '01. Instalaciones domóticas. Contamos con dis
 $lang['ADMINISTRATION_TECH_2'] = '02. Instalaciones eléctrica. Realizamos la instalación y emitimos la documentación necesaria (Proyecto o boletín eléctrico).';
 $lang['ADMINISTRATION_TECH_3'] = '03. Instalaciones de seguridad. Ejecutamos instalaciones de videovigilancia IP';
 $lang['ADMINISTRATION_TECH_4'] = '04. Asesoramiento y estudio para lograr un ahorro energético';
+///////////////////////////
 //INMOBILIARIA
+///////////////////////////
 $lang['INMOBILIARIA_TITLE'] = '¿Qué podemos ofrecerle?';
 $lang['INMOBILIARIA_DESCRIPTION_TITLE'] = 'Si usted es una INMOBILIARIA, le podemos ofrecer un servicio de gestión urbatística o legislativa en el ámbito de la construcción o instalaciones. Además puede confiar en nuestro equipo para realizar una obra que garantice la calidad demandada por su cliente.';
 $lang['INMOBILIARIA_NUEVA_OBRA'] = 'URBANISMO';
