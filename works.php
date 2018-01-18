@@ -42,19 +42,19 @@ include_once 'common.php';
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
-          <a  href="./index.php"><?php echo $lang['MENU_INDEX']; ?></a>
+          <a  href="index.php"><?php echo $lang['MENU_INDEX']; ?></a>
         </li>
         <li>
           <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
         </li>
         <li>
-          <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+          <a  href="arquitecto_fuerteventura.php"><?php echo $lang['MENU_STUDIO']; ?></a>
         </li>
         <li>
-          <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+          <a  href="constructora_fuerteventura.php"><?php echo $lang['MENU_BULINDER']; ?></a>
         </li>
         <li>
-          <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+          <a  href="domotica_fuerteventura.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
         </li>
         <li>
           <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
@@ -73,13 +73,13 @@ include_once 'common.php';
 
     <header class="navbar navbar-2  boxed">
       <div class="navbar-bg"></div>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+      <button type="button" class="navbar-toggle hidden-lg" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
 
-      <a class="brand" href="index.php">
+      <a class="brand" href="./index.php">
         <img id="logo-white" class="brand-img" alt="" src="images/brand.png">
         <img id="logo" class="brand-img-white" alt="" src="images/brand.png">
         <div class="brand-info">
@@ -87,10 +87,14 @@ include_once 'common.php';
           <div class="brand-text"><?php echo $lang['MENU_BRAND_TEXT']; ?></div>
         </div>
       </a>
-      <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark"><?php echo $lang['ADDRESS_CONTACT_PHONE']; ?></span></address>
-      <div class="social-list hidden-xs">
-        <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target=""></a>
-        <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
+      <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark">828 908 650</span></address>
+      <div class="social-list hidden-xs hidden-sm hidden-md">
+        <a  href="index.php"><?php echo $lang['MENU_INDEX']; ?></a>
+        <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+        <a  href="arquitecto_fuerteventura.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+        <a  href="constructora_fuerteventura.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+        <a  href="domotica_fuerteventura.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+        <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
 
       </div>
     </header>
@@ -235,23 +239,6 @@ include_once 'common.php';
             </li>
             <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
             <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
-          </ul>
-        </div>
-        <div class="flex-item">
-          <ul>
-
-            <li>
-              <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
-            </li>
-            <li>
-              <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
-            </li>
-            <li>
-              <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
-            </li>
-            <li>
-              <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
-            </li>
           </ul>
         </div>
         <div class="flex-item">

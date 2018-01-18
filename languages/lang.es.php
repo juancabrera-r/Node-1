@@ -27,8 +27,8 @@ $lang['ADDRESS_CONTACT_PHONE'] = '  828 908 650';
 // SECTION-1
 $lang['VERTICAL_MENU_1'] = 'Introducción';
 $lang['SUBTITLE'] = 'Bienvenido a';
-$lang['LEMA_1'] = 'Su estudio y constructora de ';
-$lang['LEMA_2'] = 'confianza';
+$lang['LEMA_1'] = 'Arquitectura,  Construcciones  y  Domótica  en  ';
+$lang['LEMA_2'] = 'Fuerteventura';
 ////////////////////////////
 //SECTION-2 NUESTROS SERVICIOS
 ///////////////////////////
@@ -41,7 +41,7 @@ $lang['SERVICE_SECTION_2_4'] = '04.  Reformas & Rehabilitaciones';
 $lang['SERVICE_SECTION_2_5'] = '05.  Instalaciones eléctricas y domóticas';
 $lang['SERVICE_SECTION_2_6'] = '06.  Licencias de apertura';
 $lang['SERVICE_SECTION_2_7'] = '07.  Asesoramiento';
-$lang['TITLE_SECTION_2_2'] = 'Nuestros servicios por categoría';
+$lang['TITLE_SECTION_2_2'] = 'Servicios por categoría';
 $lang['SERVICE_CLIENTE_1'] = '01. Particulares';
 $lang['SERVICE_CLIENTE_2'] = '02. Empresas';
 $lang['SERVICE_CLIENTE_3'] = '03. Comunidades de vecinos';

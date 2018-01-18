@@ -63,16 +63,16 @@ include_once 'common.php';
           <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
         </li>
         <li>
+          <a  href="arquitecto_fuerteventura.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+        </li>
+        <li>
+          <a  href="constructora_fuerteventura.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+        </li>
+        <li>
+          <a  href="domotica_fuerteventura.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+        </li>
+        <li>
           <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
-        </li>
-        <li>
-          <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
-        </li>
-        <li>
-          <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
-        </li>
-        <li>
-          <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
         </li>
         <li>
           <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
@@ -91,7 +91,7 @@ include_once 'common.php';
 
     <header class="navbar navbar-2 navbar-white boxed">
       <div class="navbar-bg"></div>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+      <button type="button" class="navbar-toggle hidden-lg" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -106,14 +106,21 @@ include_once 'common.php';
         </div>
       </a>
       <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark">828 908 650</span></address>
-      <div class="social-list hidden-xs">
-        <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
-        <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
+      <div class="social-list hidden-xs hidden-sm hidden-md">
+        <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+        <a  href="arquitecto_fuerteventura.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+        <a  href="constructora_fuerteventura.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+        <a  href="domotica_fuerteventura.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+        <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+        <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
+
       </div>
     </header>
     <div class="copy-bottom white boxed">© COGESA S.L. 2018.</div>
     <div class="lang-bottom white boxed">
       <div class="menu-lang">
+        <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
+        <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
         <a href="index.php?lang=es">Esp</a>
         <a href="index.php?lang=en">Eng</a>
       </div>
@@ -138,9 +145,8 @@ include_once 'common.php';
                   <div class="container">
                     <div class="intro">
                       <div class="row">
-                        <div class="col-md-8 col-lg-6">
-                          <p class="subtitle-top"> <?php echo $lang['SUBTITLE']; ?><br>NODE GESTIÓN</p>
-                          <h1 class="display-2 text-white"><?php echo $lang['LEMA_1']; ?><span class="text-primary"><?php echo $lang['LEMA_2']; ?></span></h1>
+                        <div class="col-md-8 col-lg-10">
+                          <h1 class="display-1 text-white"><?php echo $lang['LEMA_1']; ?><span class="text-primary"><?php echo $lang['LEMA_2']; ?></span></h1>
                         </div>
                       </div>
                     </div>
@@ -166,13 +172,13 @@ include_once 'common.php';
                         <div class="col-md-5 col-lg-5">
                           <h2 class="title-uppercase text-primary"><?php echo $lang['TITLE_SECTION_2_1']; ?></h2>
                           <ul class="service-list">
-                            <li><a href="proyectos.php"><?php echo $lang['SERVICE_SECTION_2_1']; ?></a></li>
-                            <li><a href="proyectos.php"><?php echo $lang['SERVICE_SECTION_2_2']; ?></a></li>
-                            <li><a href="construction.php"><?php echo $lang['SERVICE_SECTION_2_3']; ?></a></li>
-                            <li><a href="construction.php"><?php echo $lang['SERVICE_SECTION_2_4']; ?></a></li>
-                            <li><a href="domotica.php"><?php echo $lang['SERVICE_SECTION_2_5']; ?></a></li>
-                            <li><a href="proyectos.php"><?php echo $lang['SERVICE_SECTION_2_6']; ?></a></li>
-                            <li><a href="#"><?php echo $lang['SERVICE_SECTION_2_7']; ?></a></li>
+                            <li><a href="arquitecto_fuerteventura.php"><?php echo $lang['SERVICE_SECTION_2_1']; ?></a></li>
+                            <li><a href="arquitecto_fuerteventura.php"><?php echo $lang['SERVICE_SECTION_2_2']; ?></a></li>
+                            <li><a href="constructora_fuerteventura.php"><?php echo $lang['SERVICE_SECTION_2_3']; ?></a></li>
+                            <li><a href="constructora_fuerteventura.php"><?php echo $lang['SERVICE_SECTION_2_4']; ?></a></li>
+                            <li><a href="domotica_fuerteventura.php"><?php echo $lang['SERVICE_SECTION_2_5']; ?></a></li>
+                            <li><a href="arquitecto_fuerteventura.php"><?php echo $lang['SERVICE_SECTION_2_6']; ?></a></li>
+                            <li><a href="arquitecto_fuerteventura.php"><?php echo $lang['SERVICE_SECTION_2_7']; ?></a></li>
                           </ul>
                         </div>
                         <div class="col-md-4 col-lg-6 col-md-offset-1 col-lg-offset-1">
@@ -180,10 +186,10 @@ include_once 'common.php';
                           <ul class="service-list">
                             <li><a href="particulares.php"><?php echo $lang['SERVICE_CLIENTE_1']; ?></a></li>
                             <li><a href="empresa.php"><?php echo $lang['SERVICE_CLIENTE_2']; ?></a></li>
-                            <li><a href="comunidades.php"><?php echo $lang['SERVICE_CLIENTE_3']; ?></a></li>
+                            <li><a href="comunidades_fuerteventura.php"><?php echo $lang['SERVICE_CLIENTE_3']; ?></a></li>
                             <li><a href="profesionales.php"><?php echo $lang['SERVICE_CLIENTE_4']; ?></a></li>
                             <li><a href="administracion.php"><?php echo $lang['SERVICE_CLIENTE_5']; ?></a></li>
-                            <li><a href="inmobiliaria.php"><?php echo $lang['SERVICE_CLIENTE_6']; ?></a></li>
+                            <li><a href="inmobiliaria_fuerteventura.php"><?php echo $lang['SERVICE_CLIENTE_6']; ?></a></li>
                           </ul>
                         </div>
                       </div>
@@ -213,7 +219,7 @@ include_once 'common.php';
                               <h6 class="text-display text-white"><?php echo $lang['SERVICE_SECTION_7_1']; ?></h6>
                               <h6 class="text-display text-white"><?php echo $lang['SERVICE_SECTION_7_2']; ?></h6>
                               <h6 class="text-display text-white"><?php echo $lang['SERVICE_SECTION_7_3']; ?></h6>
-                              <a class="text-white" href="construction.php"><?php echo $lang['TITLE_SECTION_3_MORE']; ?></a>
+                              <a class="text-white" href="constructora_fuerteventura.php"><?php echo $lang['TITLE_SECTION_3_MORE']; ?></a>
                           </div>
                       </div>
                     </div>
@@ -240,7 +246,7 @@ include_once 'common.php';
                 <div class="row">
                   <div class="col-md-5 col-lg-5">
                     <h2 class="title-uppercase "><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
-                        <h6 class="text-display"><?php echo $lang['TITLE_SECTION_3_2']; ?><br><a href="domotica.php"><?php echo $lang['TITLE_SECTION_3_MORE']; ?></a></h6>
+                        <h6 class="text-display"><?php echo $lang['TITLE_SECTION_3_2']; ?><br><a href="domotica_fuerteventura.php"><?php echo $lang['TITLE_SECTION_3_MORE']; ?></a></h6>
 
                     </div>
                     <div class="sly">
@@ -473,16 +479,16 @@ include_once 'common.php';
                                           <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
                                         </li>
                                         <li>
+                                          <a  href="arquitecto_fuerteventura.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+                                        </li>
+                                        <li>
+                                          <a  href="constructora_fuerteventura.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+                                        </li>
+                                        <li>
+                                          <a  href="domotica_fuerteventura.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+                                        </li>
+                                        <li>
                                           <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
-                                        </li>
-                                        <li>
-                                          <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
-                                        </li>
-                                        <li>
-                                          <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
-                                        </li>
-                                        <li>
-                                          <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
                                         </li>
                                         <li>
                                           <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
@@ -508,28 +514,28 @@ include_once 'common.php';
 
 
 <!-- jQuery -->
-
 <script src="js/jquery.min.js"></script>
 <script src="js/animsition.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/smoothscroll.js"></script>
+<script src="js/smoothscroll.min.js"></script>
 <script src="js/scrolloverflow.min.js"></script>
 <script src="js/jquery.validate.min.js"></script>
+
 <script src="js/wow.min.js"></script>
 <script src="js/jquery.stellar.min.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.pagepiling.js"></script>
+<script src="js/jquery.pagepiling.min.js"></script>
 <script src="js/sly.min.js"></script>
 
 <!-- Google Analytics -->
 <script>(function(b,l,e,g,h,f){1!==parseInt(e.msDoNotTrack||b.doNotTrack||e.doNotTrack,10)&&b.addEventListener("load",function(){var r=(new Date).getTime();b.galite=b.galite||{};var m=new XMLHttpRequest,n="https://www.google-analytics.com/collect?cid="+(l.uid=l.uid||Math.random()+"."+Math.random())+"&v=1&tid="+galite.UA+"&dl="+f(h.location.href)+"&ul=en-us&de=UTF-8",a=function(b){var d="",c;for(c in b){if(void 0===b[c])return!1;d+=f(b[c])}return d},p={dt:[h.title],sd:[g.colorDepth,"-bit"],sr:[g.availHeight,"x",g.availWidth],vp:[innerWidth,"x",innerHeight],dr:[h.referrer]},k;for(k in p){var q=k+"="+a(p[k]);q&&(n+="&"+q)}a=function(b,d){var c="",a;for(a in d)c="&"+a+"="+f(d[a]);return function(){var a=n+c+(galite.anonymizeIp?"&aip=1":"")+"&t="+f(b)+"&z="+(new Date).getTime();if(e.sendBeacon)e.sendBeacon(a);else try{m.open("GET",a,!1),m.send()}catch(t){(new Image).src=a}}};setTimeout(a("pageview",null),100);b.addEventListener("unload",a("timing",{utc:"JS Dependencies",utv:"unload",utt:(new Date).getTime()- r}))})})(window,localStorage,navigator,screen,document,encodeURIComponent);</script>
 <!-- End Google Analytics -->
 <script src="https://maps.google.com/maps/api/js?key=AIzaSyCEprRgdAfS753As69Wak04p2fvCzKbXQU"></script>
-<script src="js/gmap.js"></script>
+<script src="js/gmap.min.js"></script>
 
 <!-- Scripts -->
-<script src="js/scripts.js"></script>
+<script src="js/scripts.min.js"></script>
 
 <!--Schema.org-->
 <script type="application/ld+json"> {
@@ -554,6 +560,7 @@ include_once 'common.php';
 "reviewCount":"4"},
 "priceRange":"1"
 }
+
 </script>
 
 </body>

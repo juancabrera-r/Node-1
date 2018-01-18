@@ -17,7 +17,7 @@ include_once 'common.php';
 <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-<title>Node</title>
+<title>Contacto</title>
 
 <!-- Styles -->
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
@@ -42,10 +42,7 @@ include_once 'common.php';
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
-          <a  href="./index.php"><?php echo $lang['MENU_INDEX']; ?></a>
-        </li>
-        <li>
-          <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+          <a  href="index.php"><?php echo $lang['MENU_INDEX']; ?></a>
         </li>
         <li>
           <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
@@ -63,6 +60,7 @@ include_once 'common.php';
       <div class="menu-footer right-boxed">
         <div class="social-list">
           <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>
+          <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
         </div>
         <div class="copy"><?php echo $lang['MENU_FOOTER']; ?></div>
       </div>
@@ -72,7 +70,7 @@ include_once 'common.php';
 
     <header class="navbar navbar-2  boxed">
       <div class="navbar-bg"></div>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+      <button type="button" class="navbar-toggle hidden-lg" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -86,9 +84,15 @@ include_once 'common.php';
           <div class="brand-text"><?php echo $lang['MENU_BRAND_TEXT']; ?></div>
         </div>
       </a>
-      <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark"><?php echo $lang['ADDRESS_CONTACT_PHONE']; ?></span></address>
-      <div class="social-list hidden-xs">
-        <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target=""></a>
+      <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark">828 908 650</span></address>
+      <div class="social-list hidden-xs hidden-sm hidden-md">
+        <a  href="index.php"><?php echo $lang['MENU_INDEX']; ?></a>
+        <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+        <a  href="arquitecto_fuerteventura.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+        <a  href="constructora_fuerteventura.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+        <a  href="domotica_fuerteventura.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+        <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+
       </div>
     </header>
     <!-- Pageheader -->
@@ -199,23 +203,6 @@ include_once 'common.php';
             </li>
             <li><a href="terms.php"><?php echo $lang['FOOTER_TERMS_AND_CONDITIONS']; ?></a></li>
             <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
-          </ul>
-        </div>
-        <div class="flex-item">
-          <ul>
-
-            <li>
-              <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
-            </li>
-            <li>
-              <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
-            </li>
-            <li>
-              <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
-            </li>
-            <li>
-              <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
-            </li>
           </ul>
         </div>
         <div class="flex-item">

@@ -37,27 +37,24 @@ include_once 'common.php';
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="privacy_policy.php?lang=es">Esp</a>
-        <a href="privacy_policy.php?lang=en">Eng</a>
+        <a href="arquitecto_fuerteventura.php?lang=es">Esp</a>
+        <a href="arquitecto_fuerteventura.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
-        <li class="active">
+        <li>
           <a  href="index.php"><?php echo $lang['MENU_INDEX']; ?></a>
         </li>
         <li>
           <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
         </li>
         <li>
-          <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
-        </li>
-        <li>
-          <a  href="arquitecto_fuerteventura.php"><?php echo $lang['MENU_STUDIO']; ?></a>
-        </li>
-        <li>
           <a  href="constructora_fuerteventura.php"><?php echo $lang['MENU_BULINDER']; ?></a>
         </li>
         <li>
           <a  href="domotica_fuerteventura.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+        </li>
+        <li>
+          <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
         </li>
         <li>
           <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
@@ -90,11 +87,10 @@ include_once 'common.php';
           <div class="brand-text"><?php echo $lang['MENU_BRAND_TEXT']; ?></div>
         </div>
       </a>
-      <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark">828 908 650</span></address>
+      <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark"><?php echo $lang['ADDRESS_CONTACT_PHONE']; ?></span></address>
       <div class="social-list hidden-xs hidden-sm hidden-md">
         <a  href="index.php"><?php echo $lang['MENU_INDEX']; ?></a>
         <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
-        <a  href="arquitecto_fuerteventura.php"><?php echo $lang['MENU_STUDIO']; ?></a>
         <a  href="constructora_fuerteventura.php"><?php echo $lang['MENU_BULINDER']; ?></a>
         <a  href="domotica_fuerteventura.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
         <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
@@ -104,25 +100,106 @@ include_once 'common.php';
     </header>
 
     <!-- Pageheader -->
-    <main class="page-header-3">
+
+    <section class="section section-mod">
+      <main class="page-header-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['PROYECTOS_TITLE']; ?></h1></div>
+          </div>
+        </div>
+      </main>
+</section>
+
+    <section class="section  section-mod about-info">
       <div class="container">
-        <div class="row">
-          <div class="col-right col-md-8 col-lg-12"><h6><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></h6></div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="section-info">
+            <div class="title-hr"></div>
+            <div class="info-title"><?php echo $lang['PROYECTOS_PROFESION']; ?></div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <h6><div class="text-dark text-justify"><?php echo $lang['PROYECTOS_PROFESIONAL']; ?> </div></h6>
         </div>
       </div>
-    </main>
-
-        <section class="section about-info">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-9">
-                <div class="text-display-3 text-dark"><?php echo $lang['PRIVACITY_POLICY_TEXT']; ?> </div>
-              </div>
-            </div>
-          </div>
+    </div>
     </section>
 
+          <section class="section section-mod about-info">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row-services row">
+                    <div class="col-service col-sm-6 col-lg-4">
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium icon-apartment"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['PROYECTOS_SERVICE_TITLE_1']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_1']; ?></p>
+                    </div>
+                    <div class="col-service col-sm-6 col-lg-4">
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium icon-pencil"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['PROYECTOS_SERVICE_TITLE_2']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_2']; ?></p>
+                    </div>
+                    <div class="clearfix visible-sm visible-md"></div>
+                    <div class="col-service col-sm-6 col-lg-4">
+                      <div class="text-center">
+                      <span class="text-dark text-center icon-medium icon-pencil-ruler"></span>
+                    </div>
+                      <h4 class="text-center"><?php echo $lang['PROYECTOS_SERVICE_TITLE_3']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_3']; ?></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 
+            <section class="section">
+
+            </section>
+<!--
+            <section class="section section-mod about-info">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="news-carousel owl-carousel">
+                      <div class="news-item">
+                        <img alt="" src="images/news/asesoramiento.png">
+                        <div class="news-hover">
+                          <div class="hover-border"><div></div></div>
+                          <div class="content">
+                            <h3 class="news-title"><?php echo $lang['PROYECTOS_SERVICE_IMG_3']; ?></h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="news-item">
+                        <img alt="" src="images/news/proyectos.jpg">
+                        <div class="news-hover">
+                          <div class="hover-border"><div></div></div>
+                          <div class="content">
+                            <h3 class="news-title"><?php echo $lang['PROYECTOS_SERVICE_IMG_2']; ?></h3>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="news-item">
+                        <img alt="" src="images/news/3-370x370.jpg">
+                        <div class="news-hover">
+                          <div class="hover-border"><div></div></div>
+                          <div class="content">
+                            <h3 class="news-title"><?php echo $lang['PROYECTOS_SERVICE_IMG_3']; ?></h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+-->
     <!-- Footer -->
 
     <footer id="footer" class="footer section">
@@ -147,10 +224,11 @@ include_once 'common.php';
             <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
           </ul>
         </div>
+
         <div class="flex-item">
           <ul>
-            <li><a href="privacy_policy.php?lang=es">Esp</a></li>
-            <li><a href="privacy_policy.php?lang=en">Eng</a></li>
+            <li><a href="arquitecto_fuerteventura.php?lang=es">Esp</a></li>
+            <li><a href="arquitecto_fuerteventura.php?lang=en">Eng</a></li>
           </ul>
         </div>
         <div class="flex-item">

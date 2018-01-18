@@ -37,18 +37,18 @@ include_once 'common.php';
     <div class="menu">
       <span class="close-menu icon-cross2 right-boxed"></span>
       <div class="menu-lang right-boxed">
-        <a href="proyectos.php?lang=es">Esp</a>
-        <a href="proyectos.php?lang=en">Eng</a>
+        <a href="comunidades_fuerteventura.php?lang=es">Esp</a>
+        <a href="comunidades_fuerteventura.php?lang=en">Eng</a>
       </div>
       <ul class="menu-list right-boxed">
         <li class="active">
           <a  href="./index.php"><?php echo $lang['MENU_INDEX']; ?></a>
         </li>
         <li>
-          <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+          <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
         </li>
         <li>
-          <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+          <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
         </li>
         <li>
           <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
@@ -73,7 +73,7 @@ include_once 'common.php';
 
     <header class="navbar navbar-2  boxed">
       <div class="navbar-bg"></div>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+      <button type="button" class="navbar-toggle hidden-lg" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -87,115 +87,148 @@ include_once 'common.php';
           <div class="brand-text"><?php echo $lang['MENU_BRAND_TEXT']; ?></div>
         </div>
       </a>
-      <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark"><?php echo $lang['ADDRESS_CONTACT_PHONE']; ?></span></address>
-      <div class="social-list hidden-xs">
-        <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target=""></a>
-        <a href="https://www.linkedin.com/company/11175329/" class="icon ion-social-linkedin" target="_blank"></a>
+      <address class="navbar-address visible-lg"><?php echo $lang['ADDRESS_CONTACT']; ?><span class="text-dark">828 908 650</span></address>
+      <div class="social-list hidden-xs hidden-sm hidden-md">
+        <a  href="about.php"><?php echo $lang['MENU_ABOUT']; ?></a>
+        <a  href="arquitecto_fuerteventura.php"><?php echo $lang['MENU_STUDIO']; ?></a>
+        <a  href="constructora_fuerteventura.php"><?php echo $lang['MENU_BULINDER']; ?></a>
+        <a  href="domotica_fuerteventura.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
+        <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
+        <a  href="contact.php"><?php echo $lang['MENU_CONTACT']; ?></a>
 
       </div>
     </header>
 
     <!-- Pageheader -->
-
     <section class="section section-mod">
       <main class="page-header-3">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['PROYECTOS_TITLE']; ?></h1></div>
+            <div class="col-md-3">
+              <div class="title-hr"></div>
+            </div>
+            <div class="col-md-8 col-lg-8"><h1><?php echo $lang['COMUNIDADES_TITLE']; ?></h1></div>
           </div>
         </div>
       </main>
-</section>
 
-    <section class="section  section-mod about-info">
-      <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="section-info">
-            <div class="title-hr"></div>
-            <div class="info-title"><?php echo $lang['PROYECTOS_PROFESION']; ?></div>
+      <section class="section-mod">
+        <div class="container">
+          <div class="row">
+            <div class= ""> <h6 class="text-dark"><?php echo $lang['COMUNIDADES_DESCRIPTION_TITLE']; ?></h6></div>
           </div>
         </div>
-        <div class="col-md-9">
-          <h6><div class="text-dark text-justify"><?php echo $lang['PROYECTOS_PROFESIONAL']; ?> </div></h6>
-        </div>
-      </div>
-    </div>
-    </section>
+      </section>
+
 
           <section class="section section-mod about-info">
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
                   <div class="row-services row">
-                    <div class="col-service col-sm-6 col-lg-4">
+                    <div class="col-service col-sm-6 col-lg-6">
                       <div class="text-center">
                       <span class="text-dark text-center icon-medium icon-apartment"></span>
                     </div>
-                      <h4 class="text-center"><?php echo $lang['PROYECTOS_SERVICE_TITLE_1']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_1']; ?></p>
+                      <h4 class="text-center"><?php echo $lang['All_SERVICE_TITLE_REFORMA']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REFORMA']; ?></p>
                     </div>
-                    <div class="col-service col-sm-6 col-lg-4">
+                    <div class="col-service col-sm-6 col-lg-6">
                       <div class="text-center">
-                      <span class="text-dark text-center icon-medium icon-pencil"></span>
+                      <span class="text-dark text-center icon-medium ion-settings"></span>
                     </div>
-                      <h4 class="text-center"><?php echo $lang['PROYECTOS_SERVICE_TITLE_2']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_2']; ?></p>
+                      <h4 class="text-center"><?php echo $lang['ALL_SERVICE_TITLE_REHA']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_REHA']; ?></p>
                     </div>
-                    <div class="clearfix visible-sm visible-md"></div>
-                    <div class="col-service col-sm-6 col-lg-4">
+                    <div class="col-service col-sm-6 col-lg-6">
                       <div class="text-center">
-                      <span class="text-dark text-center icon-medium icon-pencil-ruler"></span>
+                      <span class="text-dark text-center icon-medium icon-laptop"></span>
                     </div>
-                      <h4 class="text-center"><?php echo $lang['PROYECTOS_SERVICE_TITLE_3']; ?></h4>
-                      <p class="text-dark"><?php echo $lang['PROYECTOS_SERVICE_DESCRIPTION_3']; ?></p>
+                      <h4 class="text-center"><?php echo $lang['ALL_SERVICE_TITLE_DOM']; ?></h4>
+                      <p class="text-dark"><?php echo $lang['ALL_SERVICE_DESCRIPTION_DOM']; ?></p>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
 
-            <section class="section">
-
-            </section>
-<!--
-            <section class="section section-mod about-info">
+            <section class="section  section-mod about-info">
               <div class="container">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="news-carousel owl-carousel">
-                      <div class="news-item">
-                        <img alt="" src="images/news/asesoramiento.png">
-                        <div class="news-hover">
-                          <div class="hover-border"><div></div></div>
-                          <div class="content">
-                            <h3 class="news-title"><?php echo $lang['PROYECTOS_SERVICE_IMG_3']; ?></h3>
-                          </div>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="section-info">
+                    <div class="title-hr"></div>
+                    <div class="info-title"><?php echo $lang['COMUNIDADES_REFORMA_TITLE']; ?></div>
+                  </div>
+                </div>
+                <div class="col-md-9">
+                  <div class="text-display-1 text-dark"><?php echo $lang['COMUNIDADES_REFORMA_DESCRIPTION']; ?> </div>
+                    <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_REFORMA_1']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_REFORMA_2']; ?></li>
+                    <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_REFORMA_3']; ?></li>
+                </div>
+              </div>
+            </div>
+          </section>
+
+                <section class="section about-info">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="section-info">
+                          <div class="title-hr"></div>
+                          <div class="info-title"><?php echo $lang['COMUNIDADES_TECH_TITLE']; ?></div>
                         </div>
                       </div>
-                      <div class="news-item">
-                        <img alt="" src="images/news/proyectos.jpg">
-                        <div class="news-hover">
-                          <div class="hover-border"><div></div></div>
-                          <div class="content">
-                            <h3 class="news-title"><?php echo $lang['PROYECTOS_SERVICE_IMG_2']; ?></h3>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="news-item">
-                        <img alt="" src="images/news/3-370x370.jpg">
-                        <div class="news-hover">
-                          <div class="hover-border"><div></div></div>
-                          <div class="content">
-                            <h3 class="news-title"><?php echo $lang['PROYECTOS_SERVICE_IMG_3']; ?></h3>
-                          </div>
-                        </div>
+                      <div class="col-md-9">
+                        <div class="text-display-1 text-dark"><?php echo $lang['COMUNIDADES_TECH_DESCRIPTION']; ?> </div>
+                          <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_TECH_1']; ?></li>
+                          <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_TECH_2']; ?></li>
+                          <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_TECH_3']; ?></li>
+                          <li class="text-display-2 text-dark"><?php echo $lang['COMUNIDADES_TECH_4']; ?></li>
                       </div>
                     </div>
                   </div>
-                </div>
-              </section>
--->
+                </section>
+
+
+                            <section class="section section-mod about-info">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="news-carousel owl-carousel">
+                                      <div class="news-item">
+                                        <!--<img alt="" src="images/news/1-370x370.jpg">-->
+                                        <div class="news-hover">
+                                          <div class="hover-border"><div></div></div>
+                                          <div class="content">
+                                            <h3 class="news-title"><?php echo $lang['DOMOTICA_SERVICE_IMG_1']; ?></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="news-item">
+                                        <!--<img alt="" src="images/news/1-370x370.jpg">-->
+                                        <div class="news-hover">
+                                          <div class="hover-border"><div></div></div>
+                                          <div class="content">
+                                            <h3 class="news-title"><?php echo $lang['DOMOTICA_SERVICE_IMG_2']; ?></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="news-item">
+                                        <!--<img alt="" src="images/news/1-370x370.jpg">-->
+                                        <div class="news-hover">
+                                          <div class="hover-border"><div></div></div>
+                                          <div class="content">
+                                            <h3 class="news-title"><?php echo $lang['DOMOTICA_SERVICE_IMG_3']; ?></h3>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </section>
+
     <!-- Footer -->
 
     <footer id="footer" class="footer section">
@@ -220,27 +253,11 @@ include_once 'common.php';
             <li><a href="privacy_policy.php"><?php echo $lang['FOOTER_PRIVACITY_POLICY']; ?></a></li>
           </ul>
         </div>
-        <div class="flex-item">
-          <ul>
 
-            <li>
-              <a  href="works.php"><?php echo $lang['MENU_WORKS']; ?></a>
-            </li>
-            <li>
-              <a  href="proyectos.php"><?php echo $lang['MENU_STUDIO']; ?></a>
-            </li>
-            <li>
-              <a  href="construction.php"><?php echo $lang['MENU_BULINDER']; ?></a>
-            </li>
-            <li>
-              <a  href="domotica.php"><?php echo $lang['MENU_DOMOTICA']; ?></a>
-            </li>
-          </ul>
-        </div>
         <div class="flex-item">
           <ul>
-            <li><a href="proyectos.php?lang=es">Esp</a></li>
-            <li><a href="proyectos.php?lang=en">Eng</a></li>
+            <li><a href="comunidades_fuerteventura.php?lang=es">Esp</a></li>
+            <li><a href="comunidades_fuerteventura.php?lang=en">Eng</a></li>
           </ul>
         </div>
         <div class="flex-item">
