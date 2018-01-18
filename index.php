@@ -10,6 +10,7 @@ include_once 'common.php';
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo $lang['META_DESCRIPTION']; ?>" />
 <meta  charset="utf-8">
+<meta http-equiv="Expires" content="30">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="instalaciones fuerteventura, domotica canarias, knx canarias, reforma fuerteventura, reformas fuerteventura, proyectos fuerteventura, ingeniero fuernteventura, construcciones fuerteventura,
  constructora fuerteventura, arquitecto fuerteventura, obras fuerteventura, proyectos las palmas"/>
