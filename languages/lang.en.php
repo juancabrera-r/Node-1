@@ -8,51 +8,60 @@ Language: English
 $lang = array();
 //INDEX
 // Meta
-$lang['META_DESCRIPTION'] = 'Proyectos, reformas, construcciones y domótica en Fuerteventura. Gestionamos todo el proceso para reducir los costes.';
+$lang['META_DESCRIPTION'] = 'Projects, remodelling, buildings and home automation in Fuerteventura. We managed all process';
 // Menu
-$lang['MENU_FOOTER'] = '© COGESA S.L. 2018. Todos los derechos reservados';
-$lang['MENU_INDEX'] = 'Inicio';
-$lang['MENU_ABOUT'] = 'Sobre nosotros';
-$lang['MENU_WORKS'] = 'Trabajos';
-$lang['MENU_CONTACT'] = 'Contacto';
-$lang['MENU_STUDIO'] = 'Estudio técnico';
-$lang['MENU_BULINDER'] = 'Construcción';
-$lang['MENU_DOMOTICA'] = 'Domótica';
+$lang['MENU_FOOTER'] = '© COGESA S.L. 2018. All right reserved';
+$lang['MENU_INDEX'] = 'Index';
+$lang['MENU_ABOUT'] = 'About us';
+$lang['MENU_WORKS'] = 'Our works';
+$lang['MENU_CONTACT'] = 'Contact';
+$lang['MENU_STUDIO'] = 'Arquitecture';
+$lang['MENU_BULINDER'] = 'Building';
+$lang['MENU_DOMOTICA'] = 'Home automation';
 // Navbar
-$lang['MENU_BRAND_TEXT'] = 'CONSTRUCCIÓN, ARQUITECTURA E INGENIERÍA';
+$lang['MENU_BRAND_TEXT'] = 'BUILDING, ARCHITECTURE AND ENGINEERING';
 //Address
-$lang['ADDRESS_CONTACT'] = 'Contacto :  ';
+$lang['ADDRESS_CONTACT'] = 'Contact :  ';
 $lang['ADDRESS_CONTACT_PHONE'] = '  828 908 650';
 // SECTION-1
-$lang['VERTICAL_MENU_1'] = 'Introducción';
+$lang['VERTICAL_MENU_1'] = 'Introduction';
 $lang['SUBTITLE'] = 'Bienvenido a';
-$lang['LEMA_1'] = 'Su estudio y constructora de ';
-$lang['LEMA_2'] = 'confianza';
+$lang['LEMA_1'] = 'Architecture,  Building  & Home Automation in  ';
+$lang['LEMA_2'] = 'Fuerteventura';
 ////////////////////////////
 //SECTION-2 NUESTROS SERVICIOS
 ///////////////////////////
-$lang['VERTICAL_MENU_2'] = 'Lo que hacemos';
-$lang['TITLE_SECTION_2_1'] = 'Nuestros servicios';
-$lang['SERVICE_SECTION_2_1'] = '01.  Proyectos de viviendas';
-$lang['SERVICE_SECTION_2_2'] = '02.  Proyectos de instalaciones';
-$lang['SERVICE_SECTION_2_3'] = '03.  Construcciones';
-$lang['SERVICE_SECTION_2_4'] = '04.  Reformas & Rehabilitaciones';
-$lang['SERVICE_SECTION_2_5'] = '05.  Instalaciones eléctricas y domóticas';
-$lang['SERVICE_SECTION_2_6'] = '06.  Licencias de apertura';
-$lang['SERVICE_SECTION_2_7'] = '07.  Asesoramiento';
-$lang['TITLE_SECTION_2_2'] = 'Nuestros servicios por categoría';
-$lang['SERVICE_CLIENTE_1'] = '01. Particulares';
-$lang['SERVICE_CLIENTE_2'] = '02. Empresas';
-$lang['SERVICE_CLIENTE_3'] = '03. Comunidades de vecinos';
-$lang['SERVICE_CLIENTE_4'] = '04. Profesionales';
-$lang['SERVICE_CLIENTE_5'] = '05. Administración pública';
-$lang['SERVICE_CLIENTE_6'] = '06. Inmobiliaria';
+$lang['VERTICAL_MENU_2'] = 'What we do';
+$lang['TITLE_SECTION_2_1'] = 'Our services';
+$lang['SERVICE_SECTION_2_1'] = '01.  House projects';
+$lang['SERVICE_SECTION_2_2'] = '02.  Engineering projects';
+$lang['SERVICE_SECTION_2_3'] = '03.  Buildings';
+$lang['SERVICE_SECTION_2_4'] = '04.  Remodeling and restoration';
+$lang['SERVICE_SECTION_2_5'] = '05.  Electrical and home automation instalations';
+$lang['SERVICE_SECTION_2_6'] = '06.  Business projects';
+$lang['SERVICE_SECTION_2_7'] = '07.  Personal advising';
+$lang['TITLE_SECTION_2_2'] = 'Our services by categories';
+$lang['SERVICE_CLIENTE_1'] = '01. Private citizen';
+$lang['SERVICE_CLIENTE_2'] = '02. Bussiness';
+$lang['SERVICE_CLIENTE_3'] = '03. Neigbourhood association';
+$lang['SERVICE_CLIENTE_4'] = '04. Professionals';
+$lang['SERVICE_CLIENTE_5'] = '05. Administration';
+$lang['SERVICE_CLIENTE_6'] = '06. Estate agency';
+////////////////////////////
+//SECTION-3 CONSTRUCTION
+///////////////////////////
+$lang['VERTICAL_MENU_7'] = 'CONSTRUCCIÓN';
+$lang['TITLE_SECTION_7_1'] = 'Empresa constructora Fuerteventura';
+$lang['SERVICE_SECTION_7_1'] = '<strong>NODE Gestión</strong> es una empresa de construcción, rehabilitación y reformas integrales con sede en Puerto del Rosario, Fuerteventura. Especializados en el sector de <strong>reformas</strong>, <strong>edificación</strong>, <strong>rehabilitación</strong> y <strong>arquitectura</strong>. Ofrecemos una gestión integral a nuestros clientes.';
+$lang['SERVICE_SECTION_7_2'] = 'El <strong>equipo técnico</strong> de Node Gestión está formados por profesionales del sector de la <strong>edificación</strong>. La experiencia y profesionalidad de nuestro equipo, nos permite garantizar a los clientes la correcta ejecución de los <strong>proyectos</strong>.';
+$lang['SERVICE_SECTION_7_3'] = 'Nuestro objetivo es establecer relaciones profesionales a largo plazo con nuestros clientes, por lo que nos sustentamos en tres pilares: <strong>redacción de documentos técnicos</strong>, <strong>ejecución de obras</strong> y <strong>control de calidad</strong> de los trabajos.';
+
 ////////////////////////////
 //SECTION-3 DOMOTICA
 ///////////////////////////
-$lang['VERTICAL_MENU_3'] = 'Instalaciones Inteligentes';
-$lang['TITLE_SECTION_3_1'] = 'Integración de sistemas de control';
-$lang['TITLE_SECTION_3_2'] = 'Realizamos la <strong>integración de sistemas de control</strong> en vivienda, edificios y/o industrias. Buscamos el producto adecuado que se adecue a sus necesidades.
+$lang['VERTICAL_MENU_3'] = 'Smart Instalations';
+$lang['TITLE_SECTION_3_1'] = 'Systems control integration';
+$lang['TITLE_SECTION_3_2'] = 'We do <strong>smart instalations</strong>in homes, building, and industry.
 <br><br>Esta tecnología permite controlar la automatización de los equipos y sistemas; centralizándolos y comunicandolos entre sí para una gestión inteligente y más eficiente.
 <br><br><strong>Ahorro, seguridad, control, confort y comunicación</strong> son los beneficios que se obtienen con este tipo de tecnología.';
 $lang['TITLE_SECTION_3_MORE'] = '<strong>Saber más...</strong>';
