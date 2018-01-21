@@ -244,7 +244,7 @@ include_once 'common.php';
             <div class="container">
               <div class="intro">
                 <div class="row">
-                  <div class="col-md-5 col-lg-5">
+                  <div class="col-md-5 col-lg-6">
                     <h2 class="title-uppercase "><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
                         <h6 class="text-display"><?php echo $lang['TITLE_SECTION_3_2']; ?><br><a href="domotica_fuerteventura.php"><?php echo $lang['TITLE_SECTION_3_MORE']; ?></a></h6>
 
@@ -256,7 +256,7 @@ include_once 'common.php';
                             <img alt="" class="img-responsive" src="images/partners/knx_logo.png">
                           </div>
                         </li>
-                        <li>
+                       <li>
                           <div class="project-item item-shadow">
                             <img alt="" class="img-responsive" src="images/partners/free-home-logo.png">
                           </div>
@@ -366,7 +366,7 @@ include_once 'common.php';
                               </li>
                               <li>
                                 <div class="project-item item-shadow">
-                                  <img alt="" class="img-responsive" src="images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/desaladora_680x680.jpg">
+                                  <img alt="" class="img-responsive" src="images/last_projects/antigua/campo_de_golf/nave_industrial_desaladora/desaladora_680x680-min.jpg">
                                   <div class="project-hover">
                                     <div class="project-hover-content">
                                       <h3 class="project-title"><?php echo $lang['PROJECT_TITLE_1_2']; ?></h3>
@@ -420,52 +420,47 @@ include_once 'common.php';
       <!--    CONTACT    -->
       <div class="pp-scrollable section section-1">
         <div class="scroll-wrap">
+          <div class="section-bg" style="background-image:url(images/bg/wood.jpg);"></div>
           <div class="scrollable-content">
             <div class="vertical-centred">
               <div class="boxed boxed-inner">
-                <div class="vertical-title text-dark hidden-xs hidden-sm contact-span"><span><?php echo $lang['VERTICAL_MENU_6']; ?></span></div>
+                <div class="vertical-title text-dark hidden-xs hidden-sm contact-span text-white"><span><?php echo $lang['VERTICAL_MENU_6']; ?></span></div>
                 <div class="boxed">
                   <div class="container">
                     <div class="intro overflow-hidden">
                       <div class="row">
                         <div class="col-md-12">
-                          <h2 class="title-uppercase"><?php echo $lang['WE_ARE']; ?></h2>
+                          <h2 class="title-uppercase text-white"><?php echo $lang['WE_ARE']; ?></h2>
                           <div id="map" class="map-2"></div>
                           <div class="contact-info">
                             <div class="row-contact-info row">
                               <div class="col-contact-info col-md-6 col-lg-4">
                                 <div class="row">
-                                  <h5 class="col-sm-3 col-md-2">Email</h5>
                                   <div class="col-right col-sm-8 col-md-9 col-sm-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
                                       <strong class="text-dark"><?php echo $lang['ADMINISTRATION_NAME']; ?></strong><br>
-                                      info@nodegestion.es
+                                      <span class="text-dark">info@nodegestion.es</span>
                                     </div>
                                     <div class="contact-info-row col-sm-6 col-md-12 ">
                                       <strong class="text-dark"><?php echo $lang['OBRAS_NAME']; ?></strong><br>
-                                      obras@nodegestion.es
+                                      <span class="text-dark">obras@nodegestion.es</span>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                               <div class="col-contact-info col-md-6 col-lg-4">
                                 <div class="row">
-                                  <h5 class="col-sm-3 col-md-4"><?php echo $lang['PHONE']; ?></h5>
-                                  <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
+                                  <div class="col-right col-sm-8 col-md-7 col-lg-10 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
                                       <strong class="text-dark"><?php echo $lang['OFFICE']; ?></strong><br>
-                                      828 908 650
+                                      <span class="text-dark">828 908 650</span>
                                     </div>
-                                  </div>
-                                </div>
-                                <div class="row">
-                                  <h5 class="col-sm-3 col-md-4"><?php echo $lang['ADDRESS_FOOTER']; ?></h5>
-                                  <div class="col-right col-sm-8 col-md-7 col-sm-offset-1 col-md-offset-1">
                                     <div class="contact-info-row col-sm-6 col-md-12">
-                                      C./Isla la Graciosa, nº2, local izq.
-                                      Puerto del Rosario
-                                      Fuerteventura
-                                      Las Palmas
+                                      <strong class="text-dark"><?php echo $lang['ADDRESS_FOOTER']; ?></strong><br>
+                                      <span class="text-dark">C./Isla la Graciosa, nº2, local izq.</span>
+                                      <span class="text-dark">Puerto del Rosario</span>
+                                      <span class="text-dark">Fuerteventura</span>
+                                      <span class="text-dark">Las Palmas</span>
                                     </div>
                                   </div>
                                 </div>

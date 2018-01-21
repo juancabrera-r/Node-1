@@ -9,7 +9,7 @@ Language: Spanish
 $lang = array();
 //INDEX
 // Meta
-$lang['META_DESCRIPTION'] = 'Proyectos, reformas, construcciones y domótica en Fuerteventura. Gestionamos todo el proceso para reducir los costes.';
+$lang['META_DESCRIPTION'] = 'Proyectos, reformas, construcciones e instalaciones en Fuerteventura. Gestionamos todo el proceso para reducir los costes.';
 // Menu
 $lang['MENU_FOOTER'] = '© COGESA S.L. 2018. Todos los derechos reservados';
 $lang['MENU_INDEX'] = 'Inicio';
@@ -18,16 +18,16 @@ $lang['MENU_WORKS'] = 'Trabajos';
 $lang['MENU_CONTACT'] = 'Contacto';
 $lang['MENU_STUDIO'] = 'Estudio técnico';
 $lang['MENU_BULINDER'] = 'Construcción';
-$lang['MENU_DOMOTICA'] = 'Domótica';
+$lang['MENU_DOMOTICA'] = 'Instalaciones';
 // Navbar
-$lang['MENU_BRAND_TEXT'] = 'CONSTRUCCIÓN, ARQUITECTURA E INGENIERÍA';
+$lang['MENU_BRAND_TEXT'] = 'ARQUITECTURA, CONSTRUCCIÓN  E INGENIERÍA';
 //Address
 $lang['ADDRESS_CONTACT'] = 'Contacto :  ';
 $lang['ADDRESS_CONTACT_PHONE'] = '  828 908 650';
 // SECTION-1
 $lang['VERTICAL_MENU_1'] = 'Introducción';
 $lang['SUBTITLE'] = 'Bienvenido a';
-$lang['LEMA_1'] = 'Arquitectura,  Construcciones  y  Domótica  en  ';
+$lang['LEMA_1'] = 'Arquitectura,  Construcciones  e Instalaciones  en  ';
 $lang['LEMA_2'] = 'Fuerteventura';
 ////////////////////////////
 //SECTION-2 NUESTROS SERVICIOS
@@ -38,7 +38,7 @@ $lang['SERVICE_SECTION_2_1'] = '01.  Proyectos de viviendas';
 $lang['SERVICE_SECTION_2_2'] = '02.  Proyectos de instalaciones';
 $lang['SERVICE_SECTION_2_3'] = '03.  Construcciones';
 $lang['SERVICE_SECTION_2_4'] = '04.  Reformas & Rehabilitaciones';
-$lang['SERVICE_SECTION_2_5'] = '05.  Instalaciones eléctricas y domóticas';
+$lang['SERVICE_SECTION_2_5'] = '05.  Instalaciones eléctricas, domóticas y telecomunicaciones';
 $lang['SERVICE_SECTION_2_6'] = '06.  Licencias de apertura';
 $lang['SERVICE_SECTION_2_7'] = '07.  Asesoramiento';
 $lang['TITLE_SECTION_2_2'] = 'Servicios por categoría';
@@ -52,16 +52,16 @@ $lang['SERVICE_CLIENTE_6'] = '06. Inmobiliaria';
 //SECTION-3 CONSTRUCTION
 ///////////////////////////
 $lang['VERTICAL_MENU_7'] = 'CONSTRUCCIÓN';
-$lang['TITLE_SECTION_7_1'] = 'Empresa constructora Fuerteventura';
-$lang['SERVICE_SECTION_7_1'] = '<strong>NODE Gestión</strong> es una empresa de construcción, rehabilitación y reformas integrales con sede en Puerto del Rosario, Fuerteventura. Especializados en el sector de <strong>reformas</strong>, <strong>edificación</strong>, <strong>rehabilitación</strong> y <strong>arquitectura</strong>. Ofrecemos una gestión integral a nuestros clientes.';
+$lang['TITLE_SECTION_7_1'] = 'Empresa constructora en Fuerteventura';
+$lang['SERVICE_SECTION_7_1'] = '<strong>NODE Gestión</strong> es una empresa de <strong>construcción</strong>, <strong>rehabilitaciones</strong> y <strong>reformas</strong> sede en <strong>Fuerteventura </strong>. Ofrecemos una <strong>gestión integral</strong> a nuestros clientes.';
 $lang['SERVICE_SECTION_7_2'] = 'El <strong>equipo técnico</strong> de Node Gestión está formados por profesionales del sector de la <strong>edificación</strong>. La experiencia y profesionalidad de nuestro equipo, nos permite garantizar a los clientes la correcta ejecución de los <strong>proyectos</strong>.';
 $lang['SERVICE_SECTION_7_3'] = 'Nuestro objetivo es establecer relaciones profesionales a largo plazo con nuestros clientes, por lo que nos sustentamos en tres pilares: <strong>redacción de documentos técnicos</strong>, <strong>ejecución de obras</strong> y <strong>control de calidad</strong> de los trabajos.';
 ////////////////////////////
 //SECTION-4 DOMOTICA
 ///////////////////////////
-$lang['VERTICAL_MENU_3'] = 'Instalaciones Inteligentes';
-$lang['TITLE_SECTION_3_1'] = 'Integración de sistemas de control';
-$lang['TITLE_SECTION_3_2'] = 'Nuestra <strong>ingeniería</strong> ofrece un servicio de<strong>integración de sistemas de control</strong> en <strong>Fuerteventura</strong>. Buscamos el producto adecuado que se adecue a sus necesidades.
+$lang['VERTICAL_MENU_3'] = 'Instalaciones';
+$lang['TITLE_SECTION_3_1'] = 'Sistemas de control';
+$lang['TITLE_SECTION_3_2'] = 'Nuestro servicio de <strong>ingeniería</strong> ofrece un servicio de <strong>integración de sistemas de control</strong> (<strong>climatización</strong>, <strong>control de acceso</strong>, <strong>videovigilancia</strong>, <strong> control remoto</strong>, etc.) en <strong>Fuerteventura</strong>. Buscamos el producto correspondiente que se adecue a sus necesidades técnicas y económicas.
 <br><br>Esta tecnología permite controlar la automatización de los equipos y sistemas; centralizándolos y comunicandolos entre sí para una gestión inteligente y más eficiente.
 <br><br><strong>Ahorro, seguridad, control, confort y comunicación</strong> son los beneficios que se obtienen con este tipo de tecnología.';
 $lang['TITLE_SECTION_3_MORE'] = '<strong>Saber más...</strong>';
@@ -354,10 +354,12 @@ $lang['CONSTRUCTION_SERVICE_IMG_1'] = 'Albañilería';
 $lang['CONSTRUCTION_SERVICE_IMG_2'] = 'Pintura';
 $lang['CONSTRUCTION_SERVICE_IMG_3'] = 'Electricidad';
 //DOMOTICA (SERVICIOS)
-$lang['DOMOTICA_TITLE'] = 'Integración de sistemas de control';
+$lang['DOMOTICA_TITLE'] = 'Instalaciones y domótica';
 $lang['DOMOTICA_PROFESION'] = 'Servicios inteligentes';
 $lang['DOMOTICA_PROFESIONAL'] = 'En <strong>NODE Gestión</strong> ofrecemos un servicio de <strong>diseño</strong>, <strong>programación</strong>, <strong>instalación</strong> y <strong>puesta en marcha</strong> del control de vivienda, edificios e industria.
 <br><br>Entre los distintos sistemas que se pueden automatizar se distinguen los siguientes: iluminación, climatización, alarmas, motorización (persianas, agua y gas) y seguridad (accesos, rotura de cristales, forzado de puertas, etc.).';
+$lang['INSTALACIONES_PROFESION'] = 'Instalaciones';
+$lang['INSTALACIONES_PROFESIONAL'] = 'Realizamos <strong>instalaciones eléctricas</strong>, <strong>estudio de consumo energético</strong>, <strong>instalaciones de videovigilancia</strong> e <strong>instalaciones d redes</strong>';
 $lang['DOMOTICA_PROFESION_1'] = 'Beneficios';
 $lang['DOMOTICA_PROFESIONAL_1'] = 'Ventajas de las viviendas inteligentes:';
 $lang['DOMOTICA_SERVICE_TITLE_1'] = 'Iluminación';
@@ -418,10 +420,14 @@ Esta compañía no venderá, cederá ni distribuirá la información personal qu
 COGESA S.L. Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
 Esta politica de privacidad se han generado en politicadeprivacidadplantilla.com.';
 
+
+$lang['IMAGE_FOOTER_NODE'] = 'Node Gestión. Arquitectura, construciones e instalciones';
 ///////////////////////////////////////
 //PROYECTO CENTRO MAYORES GRAN Tarajal
 ///////////////////////////////////////
 $lang['PROJECT_ALBUM_1_MAIN_TITLE'] = 'Rehabilitaciones y mejoras <br> Centro Mayores Gran Tarajal';
+$lang['PROJECT_ALBUM_1_MAIN_SUBTITLE'] = '<strong>Intervenciones.</strong><br> <strong>Fachada:</strong>saneamiento de armadura y tratamiento antióxido y acabado con pintura plástico liso.<br> <strong>Puerta emergencia:</strong> instalación de puerta con barra antipánico para evacuación de ocupantes. <br><strong>Cubierta:</strong> levantado de solado, impermeabilziación de cubierta e instalación de un nuevo solado.';
+
 $lang['PROJECT_ALBUM_1_DESCRIPTION_1'] = 'Rehabilitación de fachada finalizada';
 $lang['PROJECT_ALBUM_1_DESCRIPTION_2'] = 'Saneado de fachada con uso de brazo de 18 metros.';
 $lang['PROJECT_ALBUM_1_DESCRIPTION_3'] = 'Proceso de saneado de fachada';

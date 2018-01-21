@@ -130,11 +130,11 @@ include_once 'common.php';
         <div class="col-md-3">
           <div class="section-info">
             <div class="title-hr"></div>
-            <div class="info-title"><?php echo $lang['DOMOTICA_PROFESION_1']; ?></div>
+            <div class="info-title"><?php echo $lang['INSTALACIONES_PROFESION']; ?></div>
           </div>
         </div>
         <div class="col-md-9">
-          <h6><div class="text-dark text-justify"><?php echo $lang['DOMOTICA_PROFESIONAL_1']; ?> </div></h6>
+          <h6><div class="text-dark text-justify"><?php echo $lang['INSTALACIONES_PROFESIONAL']; ?> </div></h6>
         </div>
       </div>
     </div>
