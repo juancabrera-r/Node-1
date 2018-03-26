@@ -132,7 +132,7 @@ include_once 'common.php';
                     <p class="contact-top"><strong class="text-muted"><?php echo $lang['CONTACT_CALL']; ?></strong></p>
                     <p class="phone-lg text-dark">+34  828 908 650</p>
                     <p class="text-muted"><strong class="text-dark"><?php echo $lang['CONTACT_HOURS']; ?></strong><br>
-                     <?php echo $lang['CONTACT_HOURS']; ?><br><?php echo $lang['CONTACT_DAYS']; ?>  08h00 - 18h00 </p>
+                     <?php echo $lang['CONTACT_HOURS']; ?><br><?php echo $lang['CONTACT_DAYS']; ?>  8:00h - 18:00h </p>
                     <div class="text-muted"><strong class="text-dark"><?php echo $lang['CONTACT_FOLLOW']; ?></strong><br>
                       <div class="contact-social social-list">
                         <a href="https://www.facebook.com/NODEGestion/" class="icon ion-social-facebook" target="_blank"></a>

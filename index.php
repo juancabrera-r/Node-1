@@ -236,6 +236,7 @@ include_once 'common.php';
 
 <div class="pp-scrollable section section-1">
   <div class="scroll-wrap ">
+    <div class="section-bg" style="background-image:url(images/bg/loxone.jpg);"></div>
     <div class="scrollable-content">
       <div class="vertical-centred">
         <div class="boxed boxed-inner">
@@ -244,31 +245,40 @@ include_once 'common.php';
             <div class="container">
               <div class="intro">
                 <div class="row">
-                  <div class="col-md-5 col-lg-6">
+                  <div class="col-md-10 col-lg-12 bg-text">
                     <h2 class="title-uppercase "><?php echo $lang['TITLE_SECTION_3_1']; ?></h2>
-                        <h6 class="text-display"><?php echo $lang['TITLE_SECTION_3_2']; ?><br><a href="domotica_fuerteventura.php"><?php echo $lang['TITLE_SECTION_3_MORE']; ?></a></h6>
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-md-12">
+                                <div class="row-services row">
+                                  <div class="col-service col-sm-6 col-lg-4">
+                                    <div class="text-center">
+                                    <span class="text-dark text-center icon-medium ion-ios-lightbulb-outline"></span>
+                                  </div>
+                                    <h4 class="text-center"><?php echo $lang['INSTALATION_SERVICE_TITLE_1']; ?></h4>
+                                    <p class="text-dark"><?php echo $lang['INSTALATION_SERVICE_DESCRIPTION_1']; ?></p>
+                                  </div>
+                                  <div class="col-service col-sm-6 col-lg-4">
+                                    <div class="text-center">
+                                    <span class="text-dark text-center icon-medium icon-home"></span>
+                                  </div>
+                                    <h4 class="text-center"><?php echo $lang['INSTALATION_SERVICE_TITLE_2']; ?></h4>
+                                    <p class="text-dark"><?php echo $lang['INSTALATION_SERVICE_DESCRIPTION_2']; ?></p>
+                                  </div>
+                                  <div class="clearfix visible-sm visible-md"></div>
+                                  <div class="col-service col-sm-6 col-lg-4">
+                                    <div class="text-center">
+                                    <span class="text-dark text-center icon-medium ion-ios-videocam-outline"></span>
+                                  </div>
+                                    <h4 class="text-center"><?php echo $lang['INSTALATION_SERVICE_TITLE_3']; ?></h4>
+                                    <p class="text-dark"><?php echo $lang['INSTALATION_SERVICE_DESCRIPTION_3']; ?></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    <a class="text-dark" href="domotica_fuerteventura.php"><?php echo $lang['TITLE_SECTION_3_MORE']; ?></a>
 
-                    </div>
-                    <div class="sly">
-                      <ul class="slidee">
-                        <li>
-                          <div class="project-item item-shadow">
-                            <img alt="" class="img-responsive" src="images/partners/knx_logo.png">
-                          </div>
-                        </li>
-                       <li>
-                          <div class="project-item item-shadow">
-                            <img alt="" class="img-responsive" src="images/partners/free-home-logo.png">
-                          </div>
-                        </li>
-                        <li>
-                          <div class="project-item item-shadow">
-                            <img alt="" class="img-responsive" src="images/partners/loxone-logo.png">
-                          </div>
-                        </li>
-                      </ul>
-
-                    </div>
                 </div>
               </div>
             </div>
@@ -277,6 +287,7 @@ include_once 'common.php';
       </div>
     </div>
   </div>
+</div>
 </div>
 
 

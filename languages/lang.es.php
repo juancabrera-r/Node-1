@@ -60,14 +60,18 @@ $lang['SERVICE_SECTION_7_3'] = 'Nuestro objetivo es establecer relaciones profes
 //SECTION-4 DOMOTICA
 ///////////////////////////
 $lang['VERTICAL_MENU_3'] = 'Instalaciones';
-$lang['TITLE_SECTION_3_1'] = 'Sistemas de control';
-$lang['TITLE_SECTION_3_2'] = 'Nuestro servicio de <strong>ingeniería</strong> ofrece un servicio de <strong>integración de sistemas de control</strong> (<strong>climatización</strong>, <strong>control de acceso</strong>, <strong>videovigilancia</strong>, <strong> control remoto</strong>, etc.) en <strong>Fuerteventura</strong>. Buscamos el producto correspondiente que se adecue a sus necesidades técnicas y económicas.
-<br><br>Esta tecnología permite controlar la automatización de los equipos y sistemas; centralizándolos y comunicandolos entre sí para una gestión inteligente y más eficiente.
-<br><br><strong>Ahorro, seguridad, control, confort y comunicación</strong> son los beneficios que se obtienen con este tipo de tecnología.';
+$lang['TITLE_SECTION_3_1'] = 'Electricidad y telecomunicaciones';
+$lang['TITLE_SECTION_3_2'] = 'Ofrecemos servicios de <strong>instalaciones eléctricas</strong>, <strong> videovigilancia</strong>, <strong> automatización</strong> y <strong> seguridad</strong> .</p>
+<strong>Node Gestión</strong> es partners de </p>';
 $lang['TITLE_SECTION_3_MORE'] = '<strong>Saber más...</strong>';
-$lang['TITLE_SECTION_PARTNER_1'] = 'Estándar KNX';
-$lang['TITLE_SECTION_PARTNER_2'] = 'Fabricante ABB';
-$lang['TITLE_SECTION_PARTNER_3'] = 'Fabricante LOXONE';
+$lang['INSTALATION_SERVICE_TITLE_1'] = 'Electricidad';
+$lang['INSTALATION_SERVICE_DESCRIPTION_1'] = 'Instalaciones de electricidad </p> Boletines eléctricos </p> Legalizaciones';
+$lang['INSTALATION_SERVICE_TITLE_2'] = 'Hogar inteligente';
+$lang['INSTALATION_SERVICE_DESCRIPTION_2'] = 'Somos partner de <strong>Loxone</strong> quienes ofrecen un producto para el <strong>control inteligente</strong> con infinidad de posibilidades';
+$lang['INSTALATION_SERVICE_TITLE_3'] = 'Telecomunicaciones';
+$lang['INSTALATION_SERVICE_DESCRIPTION_3'] = 'Videovigilancia </p> Redes Wifi, </p> Antenas';
+
+
 ///////////////////////////
 // SECTION-5 LAST WORKS
 ///////////////////////////
@@ -110,7 +114,7 @@ $lang['VERTICAL_MENU_6'] = 'Contacto';
 $lang['WE_ARE'] = 'Donde nos encontramos';
 $lang['ADMINISTRATION_NAME'] = 'Administración';
 $lang['OBRAS_NAME'] = 'Obras';
-$lang['OFFICE'] = 'Tlno. oficina';
+$lang['OFFICE'] = 'Tfno. oficina';
 $lang['ADDRESS_FOOTER'] = 'Dirección';
 $lang['PHONE'] = 'Tfno.';
 ///////////////////////////
@@ -156,7 +160,7 @@ $lang['CONTACT_COUNTRY'] = 'España';
 $lang['CONTACT_CALL'] = 'Llamada directa:';
 $lang['CONTACT_HOURS'] = 'Horario  atención al público:';
 $lang['CONTACT_DAYS'] = 'Lunes - Viernes:';
-$lang['CONTACT_FOLLOW'] = 'Siganos:';
+$lang['CONTACT_FOLLOW'] = 'Síganos:';
 $lang['CONTACT_HELP'] = '¿Necesitas ayuda?:';
 $lang['CONTACT_EMAIL_NAME'] = 'Nombre*';
 $lang['CONTACT_EMAIL_EMAIL'] = 'Email*';

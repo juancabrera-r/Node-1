@@ -1079,6 +1079,10 @@ a.brand:focus{
   right:1.7rem;
 }
 
+.section1{
+  padding: 0.1rem 0;
+}
+
 .section{
   padding:3.28rem 0;
 }
@@ -4252,4 +4256,8 @@ a.brand:focus{
   -webkit-transform: translateY(-50%) scale(1);
   -ms-transform: translateY(-50%) scale(1);
   transform: translateY(-50%) scale(1);
+}
+
+.bg-text{
+  background-color: rgba(250,250,250,0.8);
 }
